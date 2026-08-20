@@ -5,6 +5,357 @@
 	(uuid "460f454b-8b33-4285-89f9-8183a0ea99a2")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x06_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Socket"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -1036,207 +1387,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3054,6 +3204,12 @@
 		(uuid "0ba87964-ed9b-4740-a45c-c16aab46f98b")
 	)
 	(junction
+		(at 69.85 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f4a96ed-f95f-457b-8886-c8c07107e9fb")
+	)
+	(junction
 		(at 248.92 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3064,12 +3220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c9e328-8308-40a0-91fc-420ed5d22294")
-	)
-	(junction
-		(at 69.85 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22e9debe-bc1b-46c6-8a21-890a85a45ed0")
 	)
 	(junction
 		(at 245.11 67.31)
@@ -3195,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 48.26 39.37)
+			(xy 45.72 39.37) (xy 52.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3275,26 +3425,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 173.99 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff61181-cf0f-4498-8aa4-adbf101d636c")
-	)
-	(wire
-		(pts
-			(xy 190.5 83.82) (xy 181.61 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2337dee3-2517-4e2f-bb8d-03371e416874")
-	)
-	(wire
-		(pts
 			(xy 242.57 49.53) (xy 255.27 49.53)
 		)
 		(stroke
@@ -3302,16 +3432,6 @@
 			(type default)
 		)
 		(uuid "31ff8e0b-e725-45f9-941f-72415ed08771")
-	)
-	(wire
-		(pts
-			(xy 168.91 86.36) (xy 173.99 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361cc697-0fc8-4db1-9432-b15a0da0f360")
 	)
 	(wire
 		(pts
@@ -3332,6 +3452,26 @@
 			(type default)
 		)
 		(uuid "3c0ca87c-5a10-492e-b7ea-08ef3cf89b4f")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6c3eae-19b8-4142-91ec-c24477d3d101")
+	)
+	(wire
+		(pts
+			(xy 186.69 35.56) (xy 186.69 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb00043-876e-4a35-a609-e933144ba589")
 	)
 	(wire
 		(pts
@@ -3362,6 +3502,16 @@
 			(type default)
 		)
 		(uuid "4da6095f-dce7-4b6e-9cf0-0cb4736f46d8")
+	)
+	(wire
+		(pts
+			(xy 176.53 35.56) (xy 176.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dabeb5b-d437-41f5-8d78-8d0b00af3fdb")
 	)
 	(wire
 		(pts
@@ -3445,26 +3595,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 83.82) (xy 173.99 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6aef0a56-a7ef-41b0-b176-334cfd9372bf")
-	)
-	(wire
-		(pts
-			(xy 168.91 81.28) (xy 173.99 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d05e279-ca55-4c55-a958-4d44457d8637")
-	)
-	(wire
-		(pts
 			(xy 199.39 96.52) (xy 199.39 123.19)
 		)
 		(stroke
@@ -3492,6 +3622,16 @@
 			(type default)
 		)
 		(uuid "73a2abed-b659-4763-90eb-5ecf26f43ec6")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73fa703e-e38d-4fa9-9de6-70000ce9eea7")
 	)
 	(wire
 		(pts
@@ -3525,6 +3665,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 35.56) (xy 179.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84bb79e4-b338-4f16-8278-06e33080bf16")
+	)
+	(wire
+		(pts
 			(xy 248.92 137.16) (xy 255.27 137.16)
 		)
 		(stroke
@@ -3532,6 +3682,16 @@
 			(type default)
 		)
 		(uuid "86354f59-13b9-40f8-9381-d30c2eed2edb")
+	)
+	(wire
+		(pts
+			(xy 184.15 35.56) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a7b84e7-7269-4f56-96df-524072a29f15")
 	)
 	(wire
 		(pts
@@ -3595,23 +3755,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 81.28) (xy 181.61 81.28)
+			(xy 168.91 83.82) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "974c679f-7579-429f-908b-15d24fc8b3d0")
-	)
-	(wire
-		(pts
-			(xy 190.5 88.9) (xy 181.61 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d725522-3da7-4195-a953-e0213e6e29f3")
+		(uuid "97f09ec8-34da-489f-8e46-494c17c3942b")
 	)
 	(wire
 		(pts
@@ -3755,16 +3905,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 78.74) (xy 181.61 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc451794-48b1-4f31-84c1-2604c20af392")
-	)
-	(wire
-		(pts
 			(xy 73.66 106.68) (xy 78.74 106.68)
 		)
 		(stroke
@@ -3795,7 +3935,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 69.85 39.37)
+			(xy 59.69 39.37) (xy 69.85 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3815,23 +3955,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 86.36) (xy 181.61 86.36)
+			(xy 168.91 81.28) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4a64355-68f2-4933-a9d7-19914517023d")
+		(uuid "df5c3aa1-1b50-4304-a38c-ea4398309985")
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 173.99 78.74)
+			(xy 168.91 78.74) (xy 176.53 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6a5b46b-8339-4173-ba95-cf2d48d5ae1a")
+		(uuid "e4dc28a3-caf1-4e22-ac5a-bc1340562fcc")
 	)
 	(wire
 		(pts
@@ -3875,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 35.56) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f974ea1a-cea7-49b1-9509-f586e4ebc8b0")
+	)
+	(wire
+		(pts
 			(xy 33.02 30.48) (xy 33.02 31.75)
 		)
 		(stroke
@@ -3892,6 +4042,16 @@
 			(justify left bottom)
 		)
 		(uuid "05d06c8a-0006-410d-8f26-655a1cefbf5b")
+	)
+	(label "+12V_IN"
+		(at 33.02 39.37 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "08a775c1-9a1f-4fd5-972d-bda30e6d4f35")
 	)
 	(label "FAN1_TACH"
 		(at 233.68 67.31 0)
@@ -3933,6 +4093,16 @@
 		)
 		(uuid "1ffbc4ca-4ce5-4e4f-9f7e-aca0068114ee")
 	)
+	(label "+12V_FUSED"
+		(at 45.72 39.37 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+			(justify left bottom)
+		)
+		(uuid "245ba754-36b8-4b76-9949-dca12b33dd1e")
+	)
 	(label "TH2_SENSE"
 		(at 162.56 76.2 0)
 		(effects
@@ -3953,6 +4123,16 @@
 		)
 		(uuid "30379499-13a3-4456-a41d-c12305cde9f4")
 	)
+	(label "LED_TH1_FAULT"
+		(at 179.07 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46c45496-7bf6-4bed-a732-13ec1336b13b")
+	)
 	(label "TH1_SENSE"
 		(at 77.47 74.93 0)
 		(effects
@@ -3962,6 +4142,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a10da54-3e36-4074-ba45-3b07aeb7aa66")
+	)
+	(label "LED_FAN1_FAULT"
+		(at 181.61 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5debb907-a228-4581-a303-570eb097c431")
 	)
 	(label "+12V_PROTECTED"
 		(at 220.98 118.11 0)
@@ -3977,11 +4167,21 @@
 		(at 62.23 39.37 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.8 0.8)
 			)
 			(justify left bottom)
 		)
 		(uuid "724d9cae-4ee8-47a0-9ca1-6bb5ceb474de")
+	)
+	(label "LED_FAN2_FAULT"
+		(at 186.69 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78733811-51ef-4966-ad36-e61fc2b3bcf0")
 	)
 	(label "UPDI"
 		(at 63.5 157.48 0)
@@ -4013,6 +4213,16 @@
 		)
 		(uuid "b1cab2e0-f784-44d8-a9c7-68d58365be55")
 	)
+	(label "LED_OK"
+		(at 176.53 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cca9d6c8-36a2-4666-92df-85aab502d302")
+	)
 	(label "FAN1_TACH"
 		(at 107.95 93.98 0)
 		(effects
@@ -4032,6 +4242,16 @@
 			(justify left bottom)
 		)
 		(uuid "e837350b-f158-4820-aee5-7983bd1e6a41")
+	)
+	(label "LED_TH2_FAULT"
+		(at 184.15 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcaed67c-9c02-4d33-8c98-36b279bf6f8e")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4351,85 +4571,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 190.5 88.9 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b75569a-9069-4cc1-84b2-235fb9f2b5d3")
-		(property "Reference" "#PWR032"
-			(at 196.85 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 88.8999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8f733ddc-7f2f-459a-b66f-d5a82cd494f8")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 165.1 86.36 90)
 		(unit 1)
@@ -4596,7 +4737,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1571e348-eee9-40dd-a1ed-7f82937ce9a3")
 		(property "Reference" "#FLG01"
 			(at 60.96 37.465 0)
@@ -4610,7 +4750,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 34.29 0)
+			(at 63.754 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5073,96 +5213,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 78.74 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "36ffeddf-6ced-4101-9456-f1352721debf")
-		(property "Reference" "D3"
-			(at 175.26 77.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "GREEN OK"
-			(at 184.912 77.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb5836a1-2cc1-4185-a1bf-daf0340c2e5f")
-		)
-		(pin "2"
-			(uuid "1fca7d73-1ec6-4344-b33c-3121cb3a21b9")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 248.92 144.78 180)
 		(unit 1)
@@ -5480,85 +5530,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 86.36 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "41e0d7ea-c653-415c-ad8a-ae2bb63725d5")
-		(property "Reference" "#PWR031"
-			(at 196.85 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 86.3599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2df642f8-824c-49b0-ae04-ac9d803700e8")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 255.27 46.99 270)
 		(unit 1)
 		(body_style 1)
@@ -5630,85 +5601,6 @@
 			(project "Dual_PWM_Fan_Controller"
 				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ff9c578-f32c-4e24-98b1-a36fbdba6f2a")
-		(property "Reference" "#PWR028"
-			(at 196.85 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 78.7399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ed0bff9-ce2a-44da-a15b-c63c6a31c72b")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5958,96 +5850,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 83.82 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56d2607a-9a25-4d4b-8dc7-ee8982ff36cc")
-		(property "Reference" "D5"
-			(at 175.26 83.058 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "RED FAN1 FAULT"
-			(at 186.69 83.058 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7bd6b61-15dd-4b6a-9d92-9396e247fdb2")
-		)
-		(pin "2"
-			(uuid "3f30e321-e7ed-451c-9baf-a34e5749b1d3")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 52.07 157.48 90)
 		(unit 1)
@@ -6286,96 +6088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 86.36 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65b0e65d-00e6-4f98-934c-398b5dd83abd")
-		(property "Reference" "D6"
-			(at 175.26 85.598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "RED TH2 FAULT"
-			(at 186.436 85.598 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3087a20a-83e4-4be7-838d-9f3b3f7244cf")
-		)
-		(pin "2"
-			(uuid "2f7417f1-3704-4e15-9352-27583e4d74fe")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 44.45 109.22 270)
 		(unit 1)
@@ -6456,7 +6168,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 52.07 39.37 180)
+		(at 55.88 39.37 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6467,7 +6179,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a50ee77-d427-4528-80c0-9565059a64dd")
 		(property "Reference" "D1"
-			(at 52.3875 33.02 0)
+			(at 56.1975 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6477,7 +6189,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 52.3875 35.56 0)
+			(at 56.1975 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6487,7 +6199,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
-			(at 52.07 39.37 0)
+			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 39.37 0)
+			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6509,7 +6221,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 52.07 39.37 0)
+			(at 55.88 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,96 +6808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 81.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79675596-fef7-4524-96ec-6b729fef459c")
-		(property "Reference" "D4"
-			(at 175.26 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "RED TH1 FAULT"
-			(at 186.182 80.518 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f242bf72-8ff2-49d0-8342-21bfde9b822a")
-		)
-		(pin "2"
-			(uuid "e3ec2d38-3361-44ab-96a6-8ca4b81ace8c")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 199.39 127 0)
 		(unit 1)
@@ -7262,85 +6884,6 @@
 			(project "Dual_PWM_Fan_Controller"
 				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 81.28 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85303f58-a6de-4aac-ad4a-416acc44fe4b")
-		(property "Reference" "#PWR029"
-			(at 196.85 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9431b367-b3ba-42e0-a88f-220ee55a01ea")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7577,96 +7120,6 @@
 			(project "Dual_PWM_Fan_Controller"
 				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 177.8 88.9 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f7a9016-3c8e-4446-ba54-33d5dee3de9b")
-		(property "Reference" "D7"
-			(at 175.26 88.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "RED FAN2 FAULT"
-			(at 186.69 88.138 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97aba2e7-5900-40d0-8885-42df4a7033fe")
-		)
-		(pin "2"
-			(uuid "cf0159ad-a814-4521-b4b4-737b4f976157")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8414,6 +7867,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Socket")
+		(at 181.61 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b40f82d8-368c-4388-93c0-15238e20cb64")
+		(property "Reference" "J7"
+			(at 182.88 25.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED Panel"
+			(at 182.88 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 181.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 181.61 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "27d19d5e-d6af-4d0a-b801-a044ca077e9d")
+		)
+		(pin "4"
+			(uuid "ad787502-ff74-45e0-bdfd-ca42e253d119")
+		)
+		(pin "3"
+			(uuid "fdf5522e-744c-4b3e-a4e0-bd482876a040")
+		)
+		(pin "2"
+			(uuid "388d4cb7-3b3e-497c-99d1-e6d889d1026e")
+		)
+		(pin "1"
+			(uuid "0025aecf-9d1d-4d52-a0e6-525bcd1c734d")
+		)
+		(pin "6"
+			(uuid "3e6df714-e4a9-479a-be7b-fee7996ec9e3")
+		)
+		(instances
+			(project "Dual_PWM_Fan_Controller"
+				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 33.02 30.48 180)
 		(unit 1)
@@ -8972,6 +8517,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 189.23 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dac18036-ff63-4a88-84a1-d1ed85b972a8")
+		(property "Reference" "#PWR01"
+			(at 189.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 189.23 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 189.23 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e913cbc-d7e5-482c-87ef-f75da2e72f70")
+		)
+		(instances
+			(project "Dual_PWM_Fan_Controller"
+				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 208.28 66.04 0)
 		(unit 1)
@@ -9048,85 +8671,6 @@
 			(project "Dual_PWM_Fan_Controller"
 				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 83.82 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2b5359d-d6e0-429b-b6bd-62bd1a7b250a")
-		(property "Reference" "#PWR030"
-			(at 196.85 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31c36065-10d6-4147-a719-6ead14e5a860")
-		)
-		(instances
-			(project "Dual_PWM_Fan_Controller"
-				(path "/460f454b-8b33-4285-89f9-8183a0ea99a2"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
