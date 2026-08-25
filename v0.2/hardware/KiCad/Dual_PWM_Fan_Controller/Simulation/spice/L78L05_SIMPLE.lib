@@ -1,0 +1,9 @@
+.SUBCKT L78L05_SIMPLE OUT GND2 GND3 NC4 NC5 GND6 GND7 IN
+
+* Functional model for L78L05
+* 5 V regulated output above ~7 V input
+* Approx. 2 V dropout below regulation
+
+BREG OUT GND2 V = { max(0, min(5, V(IN,GND2)-2)) }
+
+.ENDS L78L05_SIMPLE
