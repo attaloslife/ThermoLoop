@@ -2778,7 +2778,7 @@
 		(uuid "3339c851-1805-4d77-8ec9-92ccfdfd9fc0")
 	)
 	(label "GREEN_LED"
-		(at 113.03 95.25 0)
+		(at 113.03 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2788,7 +2788,7 @@
 		(uuid "8529fe90-0b68-4c25-9562-b334a55d2dc0")
 	)
 	(label "RED_LED"
-		(at 113.03 97.79 0)
+		(at 113.03 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
