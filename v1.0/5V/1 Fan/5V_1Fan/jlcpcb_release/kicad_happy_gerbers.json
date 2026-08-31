@@ -1,0 +1,824 @@
+{
+  "analyzer_type": "gerber",
+  "schema_version": "1.4.0",
+  "directory": "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers",
+  "generator": "Pcbnew 10.0.5",
+  "layer_count": 2,
+  "board_dimensions": {
+    "width_mm": 40.05,
+    "height_mm": 35.05,
+    "area_mm2": 1403.8,
+    "source": "gbrjob"
+  },
+  "statistics": {
+    "gerber_files": 7,
+    "drill_files": 2,
+    "total_holes": 22,
+    "total_flashes": 144,
+    "total_draws": 5832
+  },
+  "completeness": {
+    "found_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.SilkS"
+    ],
+    "expected_layers": [
+      "B.Cu",
+      "B.Mask",
+      "B.SilkS",
+      "Edge.Cuts",
+      "F.Cu",
+      "F.Mask",
+      "F.SilkS"
+    ],
+    "missing": [],
+    "extra": [],
+    "has_pth_drill": true,
+    "has_npth_drill": true,
+    "complete": true,
+    "source": "gbrjob"
+  },
+  "alignment": {
+    "aligned": false,
+    "issues": [
+      "Width varies by 6.4mm across copper/edge layers",
+      "Height varies by 6.1mm across copper/edge layers"
+    ],
+    "layer_extents": {
+      "B.Cu": {
+        "width": 38.999,
+        "height": 33.999
+      },
+      "B.Mask": {
+        "width": 30.801,
+        "height": 25.677
+      },
+      "B.SilkS": {
+        "width": 14.601,
+        "height": 16.275
+      },
+      "Edge.Cuts": {
+        "width": 40.0,
+        "height": 35.0
+      },
+      "F.Cu": {
+        "width": 33.56,
+        "height": 28.886
+      },
+      "F.Mask": {
+        "width": 30.801,
+        "height": 25.677
+      },
+      "F.SilkS": {
+        "width": 36.974,
+        "height": 32.391
+      },
+      "drill_NPTH": {
+        "width": 30.801,
+        "height": 25.677
+      },
+      "drill_PTH": {
+        "width": 29.089,
+        "height": 23.517
+      }
+    }
+  },
+  "drill_classification": {
+    "vias": {
+      "count": 5,
+      "tools": [
+        {
+          "diameter_mm": 0.3,
+          "count": 5
+        }
+      ]
+    },
+    "component_holes": {
+      "count": 15,
+      "tools": [
+        {
+          "diameter_mm": 0.75,
+          "count": 5
+        },
+        {
+          "diameter_mm": 1.0,
+          "count": 5
+        },
+        {
+          "diameter_mm": 1.02,
+          "count": 4
+        },
+        {
+          "diameter_mm": 1.1,
+          "count": 1,
+          "type": "NPTH"
+        }
+      ]
+    },
+    "mounting_holes": {
+      "count": 2,
+      "tools": [
+        {
+          "diameter_mm": 3.2,
+          "count": 2,
+          "type": "NPTH"
+        }
+      ]
+    },
+    "classification_method": "x2_attributes"
+  },
+  "pad_summary": {
+    "smd_apertures": 36,
+    "via_apertures": 10,
+    "heatsink_apertures": 0,
+    "tht_holes": 15,
+    "smd_source": "x2_aperture_function",
+    "smd_ratio": 0.71
+  },
+  "trace_widths": {
+    "unique_widths_mm": [
+      0.2,
+      0.3,
+      0.5,
+      0.8
+    ],
+    "min_trace_mm": 0.2,
+    "max_trace_mm": 0.8,
+    "width_count": 4,
+    "min_feature_mm": 0.2
+  },
+  "component_analysis": {
+    "total_unique": 21,
+    "front_side": 21,
+    "back_side": 0,
+    "component_refs": [
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "F1",
+      "H1",
+      "H2",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "Q1",
+      "Q2",
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5",
+      "R6",
+      "U1"
+    ],
+    "has_x2_data": true,
+    "pads_per_component": {
+      "C1": 2,
+      "C2": 2,
+      "C3": 2,
+      "C4": 2,
+      "F1": 2,
+      "H1": 1,
+      "H2": 1,
+      "J1": 3,
+      "J2": 2,
+      "J3": 5,
+      "J4": 2,
+      "J5": 3,
+      "Q1": 3,
+      "Q2": 3,
+      "R1": 2,
+      "R2": 2,
+      "R3": 2,
+      "R4": 2,
+      "R5": 2,
+      "R6": 2,
+      "U1": 8
+    },
+    "total_pads": 53
+  },
+  "net_analysis": {
+    "total_unique": 14,
+    "named_nets": 8,
+    "unnamed_nets": 6,
+    "power_nets": [
+      "+5V",
+      "+5V_INPUT",
+      "GND"
+    ],
+    "signal_nets": [
+      "/FAN_PWM",
+      "/FAN_TACH",
+      "/GREEN_LED",
+      "/RED_LED",
+      "/TEMP_SENSE"
+    ],
+    "total_pins": 50
+  },
+  "gerbers": [
+    {
+      "filename": "5V_1Fan-B_Cu.gbl",
+      "layer_type": "B.Cu",
+      "units": "mm",
+      "aperture_count": 9,
+      "flash_count": 19,
+      "draw_count": 1114,
+      "region_count": 1,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L2,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "ViaPad": 1
+        },
+        "by_function_flashes": {
+          "ComponentPad": 14,
+          "ViaPad": 5
+        },
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 9,
+      "x2_pin_count": 14
+    },
+    {
+      "filename": "5V_1Fan-B_Mask.gbs",
+      "layer_type": "B.Mask",
+      "units": "mm",
+      "aperture_count": 10,
+      "flash_count": 17,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Bot",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.5
+      },
+      "x2_component_count": 7,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "5V_1Fan-B_Silkscreen.gbo",
+      "layer_type": "B.SilkS",
+      "units": "mm",
+      "aperture_count": 3,
+      "flash_count": 0,
+      "draw_count": 3396,
+      "region_count": 8,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Bot",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.0031
+      }
+    },
+    {
+      "filename": "5V_1Fan-Edge_Cuts.gm1",
+      "layer_type": "Edge.Cuts",
+      "units": "mm",
+      "aperture_count": 1,
+      "flash_count": 0,
+      "draw_count": 9,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Profile,NP"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "Profile": 1
+        },
+        "by_function_flashes": {
+          "Profile": 0
+        },
+        "min_feature_mm": 0.05
+      }
+    },
+    {
+      "filename": "5V_1Fan-F_Cu.gtl",
+      "layer_type": "F.Cu",
+      "units": "mm",
+      "aperture_count": 24,
+      "flash_count": 55,
+      "draw_count": 109,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Copper,L1,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "by_function": {
+          "ComponentPad": 8,
+          "SMDPad": 11,
+          "ViaPad": 1,
+          "Conductor": 4
+        },
+        "by_function_flashes": {
+          "ComponentPad": 14,
+          "SMDPad": 36,
+          "ViaPad": 5,
+          "Conductor": 0
+        },
+        "conductor_widths_mm": [
+          0.2,
+          0.3,
+          0.5,
+          0.8
+        ],
+        "min_feature_mm": 0.2
+      },
+      "x2_component_count": 0,
+      "x2_net_count": 14,
+      "x2_pin_count": 50
+    },
+    {
+      "filename": "5V_1Fan-F_Mask.gts",
+      "layer_type": "F.Mask",
+      "units": "mm",
+      "aperture_count": 21,
+      "flash_count": 53,
+      "draw_count": 0,
+      "region_count": 0,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Soldermask,Top",
+        "FilePolarity": "Negative"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.3
+      },
+      "x2_component_count": 21,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    },
+    {
+      "filename": "5V_1Fan-F_Silkscreen.gto",
+      "layer_type": "F.SilkS",
+      "units": "mm",
+      "aperture_count": 5,
+      "flash_count": 0,
+      "draw_count": 1204,
+      "region_count": 3,
+      "x2_attributes": {
+        "GenerationSoftware": "KiCad,Pcbnew,10.0.5",
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "ProjectId": "5V_1Fan,35565f31-4661-46e2-9e6b-696361645f70,rev?",
+        "SameCoordinates": "Original",
+        "FileFunction": "Legend,Top",
+        "FilePolarity": "Positive"
+      },
+      "aperture_analysis": {
+        "min_feature_mm": 0.1
+      },
+      "x2_component_count": 19,
+      "x2_net_count": 0,
+      "x2_pin_count": 0
+    }
+  ],
+  "drills": [
+    {
+      "filename": "5V_1Fan-NPTH.drl",
+      "type": "NPTH",
+      "units": "mm",
+      "hole_count": 3,
+      "tools": {
+        "T1": {
+          "diameter_mm": 1.1,
+          "hole_count": 1,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        },
+        "T2": {
+          "diameter_mm": 3.2,
+          "hole_count": 2,
+          "aper_function": "NonPlated,NPTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.5",
+        "FileFunction": "NonPlated,1,2,NPTH"
+      }
+    },
+    {
+      "filename": "5V_1Fan-PTH.drl",
+      "type": "PTH",
+      "units": "mm",
+      "hole_count": 19,
+      "tools": {
+        "T1": {
+          "diameter_mm": 0.3,
+          "hole_count": 5,
+          "aper_function": "Plated,PTH,ViaDrill"
+        },
+        "T2": {
+          "diameter_mm": 0.75,
+          "hole_count": 5,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T3": {
+          "diameter_mm": 1.0,
+          "hole_count": 5,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        },
+        "T4": {
+          "diameter_mm": 1.02,
+          "hole_count": 4,
+          "aper_function": "Plated,PTH,ComponentDrill"
+        }
+      },
+      "layer_span": [
+        1,
+        2
+      ],
+      "x2_attributes": {
+        "CreationDate": "2026-08-27T09:41:58+03:00",
+        "GenerationSoftware": "Kicad,Pcbnew,10.0.5",
+        "FileFunction": "Plated,1,2,PTH"
+      }
+    }
+  ],
+  "drill_tools": {
+    "1.1mm": {
+      "diameter_mm": 1.1,
+      "count": 1,
+      "type": "NPTH"
+    },
+    "3.2mm": {
+      "diameter_mm": 3.2,
+      "count": 2,
+      "type": "NPTH"
+    },
+    "0.3mm": {
+      "diameter_mm": 0.3,
+      "count": 5,
+      "type": "PTH"
+    },
+    "0.75mm": {
+      "diameter_mm": 0.75,
+      "count": 5,
+      "type": "PTH"
+    },
+    "1.0mm": {
+      "diameter_mm": 1.0,
+      "count": 5,
+      "type": "PTH"
+    },
+    "1.02mm": {
+      "diameter_mm": 1.02,
+      "count": 4,
+      "type": "PTH"
+    }
+  },
+  "job_file": {
+    "generator": "Pcbnew 10.0.5",
+    "vendor": "KiCad",
+    "creation_date": "2026-08-27T09:41:58+03:00",
+    "board_width_mm": 40.05,
+    "board_height_mm": 35.05,
+    "layer_count": 2,
+    "board_thickness_mm": 1.6,
+    "finish": "None",
+    "project_name": "5V_1Fan",
+    "design_rules": [
+      {
+        "layers": "Outer",
+        "PadToPad": 0.2,
+        "PadToTrack": 0.2,
+        "TrackToTrack": 0.2,
+        "MinLineWidth": 0.2,
+        "TrackToRegion": 0.5,
+        "RegionToRegion": 0.5
+      }
+    ],
+    "expected_files": [
+      {
+        "path": "5V_1Fan-F_Cu.gtl",
+        "function": "Copper,L1,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "5V_1Fan-B_Cu.gbl",
+        "function": "Copper,L2,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "5V_1Fan-F_Silkscreen.gto",
+        "function": "Legend,Top",
+        "polarity": "Positive"
+      },
+      {
+        "path": "5V_1Fan-B_Silkscreen.gbo",
+        "function": "Legend,Bot",
+        "polarity": "Positive"
+      },
+      {
+        "path": "5V_1Fan-F_Mask.gts",
+        "function": "SolderMask,Top",
+        "polarity": "Negative"
+      },
+      {
+        "path": "5V_1Fan-B_Mask.gbs",
+        "function": "SolderMask,Bot",
+        "polarity": "Negative"
+      },
+      {
+        "path": "5V_1Fan-Edge_Cuts.gm1",
+        "function": "Profile",
+        "polarity": "Positive"
+      }
+    ],
+    "stackup": [
+      {
+        "type": "Legend",
+        "name": "Top Silk Screen"
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Top Solder Paste"
+      },
+      {
+        "type": "SolderMask",
+        "name": "Top Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "Copper",
+        "name": "F.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "Dielectric",
+        "name": "F.Cu/B.Cu",
+        "thickness_mm": 1.51,
+        "material": "FR4"
+      },
+      {
+        "type": "Copper",
+        "name": "B.Cu",
+        "thickness_mm": 0.035
+      },
+      {
+        "type": "SolderMask",
+        "name": "Bottom Solder Mask",
+        "thickness_mm": 0.01
+      },
+      {
+        "type": "SolderPaste",
+        "name": "Bottom Solder Paste"
+      },
+      {
+        "type": "Legend",
+        "name": "Bottom Silk Screen"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "detector": "analyze_gerbers",
+      "rule_id": "GR-002",
+      "category": "gerber_alignment",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Alignment: Width varies by 6.4mm across copper/edge layers",
+      "description": "Layer alignment issue: Width varies by 6.4mm across copper/edge layers",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+      "report_context": {
+        "section": "Gerber Alignment",
+        "impact": "Layer misregistration",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "gerber:GR-002:ddf786b3b04a"
+    },
+    {
+      "detector": "analyze_gerbers",
+      "rule_id": "GR-002",
+      "category": "gerber_alignment",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Alignment: Height varies by 6.1mm across copper/edge layers",
+      "description": "Layer alignment issue: Height varies by 6.1mm across copper/edge layers",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+      "report_context": {
+        "section": "Gerber Alignment",
+        "impact": "Layer misregistration",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "gerber:GR-002:0160ebcd0174"
+    }
+  ],
+  "assessments": [],
+  "summary": {
+    "total_findings": 2,
+    "by_severity": {
+      "error": 0,
+      "warning": 2,
+      "info": 0
+    }
+  },
+  "trust_summary": {
+    "total_findings": 2,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 2,
+      "heuristic": 0,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 2,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 0,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "inputs": {
+    "source_files": [
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Cu.gbl",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Mask.gbs",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Silkscreen.gbo",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-Edge_Cuts.gm1",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Cu.gtl",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Mask.gts",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Silkscreen.gto",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-job.gbrjob",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-NPTH.drl",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-PTH.drl"
+    ],
+    "source_hashes": {
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Cu.gbl": "b8668401a5b7268fbda74b38997d01adff20ce91f31f1491632352272383ef5a",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Mask.gbs": "0a571f481ab1176419cfae05f94e24477a1b4f7c0e04cf62823defaecfc086e1",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-B_Silkscreen.gbo": "81d21f27a4620cde46e4787fef178df34c7e20044316f1e59e23e7274618863b",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-Edge_Cuts.gm1": "718aa53fccbfec190b5c43835ff38a7d4cb85ec8d98be669998a074e280c3dba",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Cu.gtl": "bf03300f8421873b57901043aed68e7f87d963083088564e58f704f76b46fca0",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Mask.gts": "6a6881258db088d18d27bd9b4f8a19b7fe06a8a01ef989dc7a466b33d1241abd",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-F_Silkscreen.gto": "be861bd62aedcda086672b392f58cbb7dca156a5c6c379783358a03c0e9c5e56",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-job.gbrjob": "bd0720693d384479ea0e9c75654fc914c78d2dedc5a2151deb575eae886d99b0",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-NPTH.drl": "253cde8fb72abbe08686dffccf7b60111e5f26fd6f9fcac8fa7515ca104e2ebb",
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\jlcpcb_release\\gerbers\\5V_1Fan-PTH.drl": "a816dbface8d994e088c530803911c4d721f066f5520b8c74366da8fe8604302"
+    },
+    "run_id": "20260827T064229Z-977e6e",
+    "config_hash": null,
+    "upstream_artifacts": {}
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 2,
+      "by_severity": {
+        "error": 0,
+        "warning": 2,
+        "info": 0
+      },
+      "by_category": {
+        "gerber_alignment": 2
+      },
+      "top_issues": [
+        {
+          "detector": "analyze_gerbers",
+          "rule_id": "GR-002",
+          "category": "gerber_alignment",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "Alignment: Width varies by 6.4mm across copper/edge layers",
+          "description": "Layer alignment issue: Width varies by 6.4mm across copper/edge layers",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "report_context": {
+            "section": "Gerber Alignment",
+            "impact": "Layer misregistration",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ],
+          "finding_id": "gerber:GR-002:ddf786b3b04a"
+        },
+        {
+          "detector": "analyze_gerbers",
+          "rule_id": "GR-002",
+          "category": "gerber_alignment",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "Alignment: Height varies by 6.1mm across copper/edge layers",
+          "description": "Layer alignment issue: Height varies by 6.1mm across copper/edge layers",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "report_context": {
+            "section": "Gerber Alignment",
+            "impact": "Layer misregistration",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ],
+          "finding_id": "gerber:GR-002:0160ebcd0174"
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 2,
+      "by_category": {
+        "gerber_alignment": 2
+      },
+      "top_issues": [
+        {
+          "rule_id": "GR-002",
+          "severity": "warning",
+          "summary": "Alignment: Width varies by 6.4mm across copper/edge layers",
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "category": "gerber_alignment"
+        },
+        {
+          "rule_id": "GR-002",
+          "severity": "warning",
+          "summary": "Alignment: Height varies by 6.1mm across copper/edge layers",
+          "recommendation": "Re-export gerbers to ensure consistent layer alignment.",
+          "category": "gerber_alignment"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 2,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "needs_review",
+        "bring_up": "pass"
+      },
+      "one_liner": "2 warnings across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20260827T064229Z-977e6e"
+  }
+}

@@ -1,0 +1,41 @@
+============================================================
+FABRICATION RELEASE GATE � FAIL � Issues must be resolved
+============================================================
+
+  8 pass  1 warn  1 fail  2 skip
+
+  Trust: HIGH � 92% deterministic, 8% heuristic (26 findings)
+  Provenance: 41.6% of findings carry detector provenance
+
+--- ROUTING ---
+  [PASS] All nets routed (14/14)
+
+--- BOM ---
+  [PASS] All components have MPNs (19/19)
+  [PASS] All components have footprints assigned
+
+--- DFM ---
+  [PASS] Design within standard fab capability
+
+--- DOCUMENTATION ---
+  [PASS] Revision marking found
+  [PASS] Board name found on silkscreen
+
+--- CONSISTENCY ---
+  [WARN] Small component count gap: schematic 19 vs PCB 21 (diff 2)
+         schematic_placeable: 19
+         pcb_footprints: 21
+         difference: 2
+  [PASS] Net counts match (14)
+
+--- GERBERS ---
+  [PASS] All expected layers present
+  [FAIL] Layer alignment issue detected � coordinate ranges inconsistent
+         alignment: {'aligned': False, 'issues': ['Width varies by 6.4mm across copper/edge layers', 'Height varies by 6.1mm across copper/edge layers'], 'layer_extents': {'B.Cu': {'width': 38.999, 'height': 33.999}, 'B.Mask': {'width': 30.801, 'height': 25.677}, 'B.SilkS': {'width': 14.601, 'height': 16.275}, 'Edge.Cuts': {'width': 40.0, 'height': 35.0}, 'F.Cu': {'width': 33.56, 'height': 28.886}, 'F.Mask': {'width': 30.801, 'height': 25.677}, 'F.SilkS': {'width': 36.974, 'height': 32.391}, 'drill_NPTH': {'width': 30.801, 'height': 25.677}, 'drill_PTH': {'width': 29.089, 'height': 23.517}}}
+
+--- THERMAL ---
+  [SKIP] Thermal analysis not provided
+
+--- EMC ---
+  [SKIP] EMC analysis not provided
+

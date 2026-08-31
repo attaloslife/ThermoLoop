@@ -1,0 +1,5267 @@
+{
+  "analyzer_type": "pcb",
+  "schema_version": "1.4.0",
+  "kicad_version": "10.0",
+  "file_version": "20260206",
+  "statistics": {
+    "footprint_count": 21,
+    "front_side": 21,
+    "back_side": 0,
+    "smd_count": 14,
+    "tht_count": 5,
+    "copper_layers_used": 2,
+    "copper_layer_names": [
+      "B.Cu",
+      "F.Cu"
+    ],
+    "track_segments": 109,
+    "via_count": 5,
+    "zone_count": 1,
+    "total_track_length_mm": 285.87,
+    "board_width_mm": 40.0,
+    "board_height_mm": 35.0,
+    "board_area_mm2": 1400.0,
+    "net_count": 14,
+    "routing_complete": true,
+    "unrouted_net_count": 0
+  },
+  "layers": [
+    {
+      "number": 0,
+      "name": "F.Cu",
+      "type": "signal",
+      "alias": null
+    },
+    {
+      "number": 2,
+      "name": "B.Cu",
+      "type": "signal",
+      "alias": null
+    },
+    {
+      "number": 9,
+      "name": "F.Adhes",
+      "type": "user",
+      "alias": "F.Adhesive"
+    },
+    {
+      "number": 11,
+      "name": "B.Adhes",
+      "type": "user",
+      "alias": "B.Adhesive"
+    },
+    {
+      "number": 13,
+      "name": "F.Paste",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 15,
+      "name": "B.Paste",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 5,
+      "name": "F.SilkS",
+      "type": "user",
+      "alias": "F.Silkscreen"
+    },
+    {
+      "number": 7,
+      "name": "B.SilkS",
+      "type": "user",
+      "alias": "B.Silkscreen"
+    },
+    {
+      "number": 1,
+      "name": "F.Mask",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 3,
+      "name": "B.Mask",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 17,
+      "name": "Dwgs.User",
+      "type": "user",
+      "alias": "User.Drawings"
+    },
+    {
+      "number": 19,
+      "name": "Cmts.User",
+      "type": "user",
+      "alias": "User.Comments"
+    },
+    {
+      "number": 21,
+      "name": "Eco1.User",
+      "type": "user",
+      "alias": "User.Eco1"
+    },
+    {
+      "number": 23,
+      "name": "Eco2.User",
+      "type": "user",
+      "alias": "User.Eco2"
+    },
+    {
+      "number": 25,
+      "name": "Edge.Cuts",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 27,
+      "name": "Margin",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 31,
+      "name": "F.CrtYd",
+      "type": "user",
+      "alias": "F.Courtyard"
+    },
+    {
+      "number": 29,
+      "name": "B.CrtYd",
+      "type": "user",
+      "alias": "B.Courtyard"
+    },
+    {
+      "number": 35,
+      "name": "F.Fab",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 33,
+      "name": "B.Fab",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 39,
+      "name": "User.1",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 41,
+      "name": "User.2",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 43,
+      "name": "User.3",
+      "type": "user",
+      "alias": null
+    },
+    {
+      "number": 45,
+      "name": "User.4",
+      "type": "user",
+      "alias": null
+    }
+  ],
+  "setup": {
+    "board_thickness_mm": 1.6,
+    "pad_to_mask_clearance": 0.0,
+    "legacy_teardrops": "no",
+    "allow_soldermask_bridges": "no"
+  },
+  "nets": {
+    "1": "+5V",
+    "2": "+5V_INPUT",
+    "3": "/FAN_PWM",
+    "4": "/FAN_TACH",
+    "5": "/GREEN_LED",
+    "6": "/RED_LED",
+    "7": "/TEMP_SENSE",
+    "8": "GND",
+    "9": "Net-(J1-Pin_2)",
+    "10": "Net-(J5-Pin_1)",
+    "11": "Net-(J5-Pin_2)",
+    "12": "Net-(Q1-G)",
+    "13": "Net-(Q2-D)",
+    "14": "Net-(U1-PA1)"
+  },
+  "net_name_to_id": {
+    "+5V": 1,
+    "+5V_INPUT": 2,
+    "/FAN_PWM": 3,
+    "/FAN_TACH": 4,
+    "/GREEN_LED": 5,
+    "/RED_LED": 6,
+    "/TEMP_SENSE": 7,
+    "GND": 8,
+    "Net-(J1-Pin_2)": 9,
+    "Net-(J5-Pin_1)": 10,
+    "Net-(J5-Pin_2)": 11,
+    "Net-(Q1-G)": 12,
+    "Net-(Q2-D)": 13,
+    "Net-(U1-PA1)": 14
+  },
+  "board_outline": {
+    "edge_count": 1,
+    "edges": [
+      {
+        "type": "rect",
+        "start": [
+          150.0,
+          50.0
+        ],
+        "end": [
+          190.0,
+          85.0
+        ]
+      }
+    ],
+    "bounding_box": {
+      "min_x": 150.0,
+      "min_y": 50.0,
+      "max_x": 190.0,
+      "max_y": 85.0,
+      "width": 40.0,
+      "height": 35.0
+    },
+    "width_mm": 40.0,
+    "height_mm": 35.0
+  },
+  "component_groups": {
+    "C": {
+      "count": 4,
+      "references": [
+        "C1",
+        "C2",
+        "C3",
+        "C4"
+      ]
+    },
+    "F": {
+      "count": 1,
+      "references": [
+        "F1"
+      ]
+    },
+    "H": {
+      "count": 2,
+      "references": [
+        "H1",
+        "H2"
+      ]
+    },
+    "J": {
+      "count": 5,
+      "references": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5"
+      ]
+    },
+    "Q": {
+      "count": 2,
+      "references": [
+        "Q1",
+        "Q2"
+      ]
+    },
+    "R": {
+      "count": 6,
+      "references": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6"
+      ]
+    },
+    "U": {
+      "count": 1,
+      "references": [
+        "U1"
+      ]
+    }
+  },
+  "footprints": [
+    {
+      "library": "Connector:FanPinHeader_1x04_P2.54mm_Vertical",
+      "reference": "J3",
+      "value": "Conn_01x04",
+      "mpn": "470531000",
+      "x": 175.13276,
+      "y": 56.642,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 5,
+      "sch_path": "/e227d96c-c14e-4bb5-b8a8-2cc1a7f1b591",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Molex",
+      "description": "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Connector.3dshapes/FanPinHeader_1x04_P2.54mm_Vertical.step"
+      ],
+      "courtyard": {
+        "min_x": 173.383,
+        "min_y": 53.442,
+        "max_x": 184.483,
+        "max_y": 60.442
+      },
+      "courtyard_poly": [
+        [
+          [
+            184.483,
+            53.442
+          ],
+          [
+            184.483,
+            60.442
+          ],
+          [
+            173.383,
+            60.442
+          ],
+          [
+            173.383,
+            53.442
+          ]
+        ]
+      ],
+      "footprint": "Connector:FanPinHeader_1x04_P2.54mm_Vertical",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "Pin_1_1"
+        },
+        "2": {
+          "net": "+5V",
+          "pin": "Pin_2_2"
+        },
+        "3": {
+          "net": "/FAN_TACH",
+          "pin": "Pin_3_3"
+        },
+        "4": {
+          "net": "/FAN_PWM",
+          "pin": "Pin_4_4"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "/FAN_PWM",
+        "/FAN_TACH",
+        "GND"
+      ]
+    },
+    {
+      "library": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "reference": "U1",
+      "value": "ATTINY402-SSF",
+      "mpn": "ATTINY402-SSF",
+      "x": 175.13276,
+      "y": 71.038086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 8,
+      "sch_path": "/e313e7f0-d60e-4457-a523-8d612b3a5b91",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Microchip Technology",
+      "description": "20MHz, 4kB Flash, 256B SRAM, 128B EEPROM, SOIC-8",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+      ],
+      "courtyard": {
+        "min_x": 171.433,
+        "min_y": 68.338,
+        "max_x": 178.833,
+        "max_y": 73.738
+      },
+      "courtyard_poly": [
+        [
+          [
+            178.833,
+            73.498
+          ],
+          [
+            177.333,
+            73.498
+          ],
+          [
+            177.333,
+            73.738
+          ],
+          [
+            172.933,
+            73.738
+          ],
+          [
+            172.933,
+            73.498
+          ],
+          [
+            171.433,
+            73.498
+          ],
+          [
+            171.433,
+            68.578
+          ],
+          [
+            172.933,
+            68.578
+          ],
+          [
+            172.933,
+            68.338
+          ],
+          [
+            177.333,
+            68.338
+          ],
+          [
+            177.333,
+            68.578
+          ],
+          [
+            178.833,
+            68.578
+          ]
+        ]
+      ],
+      "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+      "pad_nets": {
+        "1": {
+          "net": "+5V",
+          "pin": "VCC_1"
+        },
+        "2": {
+          "net": "/RED_LED",
+          "pin": "PA6_2"
+        },
+        "3": {
+          "net": "/GREEN_LED",
+          "pin": "PA7_3"
+        },
+        "4": {
+          "net": "Net-(U1-PA1)",
+          "pin": "PA1_4"
+        },
+        "5": {
+          "net": "/FAN_TACH",
+          "pin": "PA2_5"
+        },
+        "6": {
+          "net": "Net-(J1-Pin_2)",
+          "pin": "~{RESET}/PA0_6"
+        },
+        "7": {
+          "net": "/TEMP_SENSE",
+          "pin": "PA3_7"
+        },
+        "8": {
+          "net": "GND",
+          "pin": "GND_8"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "/FAN_TACH",
+        "/GREEN_LED",
+        "/RED_LED",
+        "/TEMP_SENSE",
+        "GND",
+        "Net-(J1-Pin_2)",
+        "Net-(U1-PA1)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R3",
+      "value": "100 k\u03a9",
+      "mpn": "RC0805FR-07100KL",
+      "x": 185.55276,
+      "y": 62.363086,
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/efff07bf-b08b-45d4-9e4b-7566820f6382",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 184.603,
+        "min_y": 60.513,
+        "max_x": 186.503,
+        "max_y": 64.213
+      },
+      "courtyard_poly": [
+        [
+          [
+            184.603,
+            64.213
+          ],
+          [
+            184.603,
+            60.513
+          ],
+          [
+            186.503,
+            60.513
+          ],
+          [
+            186.503,
+            64.213
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "GND"
+        },
+        "2": {
+          "net": "Net-(Q1-G)"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(Q1-G)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R5",
+      "value": "1 k\u03a9",
+      "mpn": "RC0805FR-071KL",
+      "x": 163.43876,
+      "y": 73.301086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/2bdb05a1-9bde-4921-ab71-97d1fc41af7d",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 161.589,
+        "min_y": 72.351,
+        "max_x": 165.289,
+        "max_y": 74.251
+      },
+      "courtyard_poly": [
+        [
+          [
+            161.589,
+            72.351
+          ],
+          [
+            165.289,
+            72.351
+          ],
+          [
+            165.289,
+            74.251
+          ],
+          [
+            161.589,
+            74.251
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(J5-Pin_2)"
+        },
+        "2": {
+          "net": "/RED_LED"
+        }
+      },
+      "connected_nets": [
+        "/RED_LED",
+        "Net-(J5-Pin_2)"
+      ]
+    },
+    {
+      "library": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "reference": "J2",
+      "value": "Conn_01x02",
+      "mpn": "B2B-PH-K-S",
+      "x": 168.13776,
+      "y": 80.159086,
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/55317ca9-6383-4d7a-9a49-765953b2ff5a",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "JST",
+      "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.step"
+      ],
+      "courtyard": {
+        "min_x": 163.688,
+        "min_y": 76.859,
+        "max_x": 170.588,
+        "max_y": 82.359
+      },
+      "courtyard_poly": [
+        [
+          [
+            170.588,
+            82.359
+          ],
+          [
+            163.688,
+            82.359
+          ],
+          [
+            163.688,
+            76.859
+          ],
+          [
+            170.588,
+            76.859
+          ]
+        ]
+      ],
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "pad_nets": {
+        "1": {
+          "net": "/TEMP_SENSE",
+          "pin": "Pin_1_1"
+        },
+        "2": {
+          "net": "GND",
+          "pin": "Pin_2_2"
+        }
+      },
+      "connected_nets": [
+        "/TEMP_SENSE",
+        "GND"
+      ]
+    },
+    {
+      "library": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "reference": "C3",
+      "value": "10 \u00b5F",
+      "mpn": "TCC1206X7R106K160HT",
+      "x": 173.57626,
+      "y": 61.617086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/995c5242-bacd-4840-ac78-e5749fbd9a80",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "CCTC",
+      "description": "Unpolarized capacitor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 171.096,
+        "min_y": 60.467,
+        "max_x": 176.056,
+        "max_y": 62.767
+      },
+      "courtyard_poly": [
+        [
+          [
+            171.096,
+            60.467
+          ],
+          [
+            176.056,
+            60.467
+          ],
+          [
+            176.056,
+            62.767
+          ],
+          [
+            171.096,
+            62.767
+          ]
+        ]
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "GND"
+        },
+        "2": {
+          "net": "+5V"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    {
+      "library": "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical",
+      "reference": "J5",
+      "value": "Conn_01x03",
+      "mpn": "B3B-PH-K-S(LF)(SN)",
+      "x": 160.40676,
+      "y": 80.159086,
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "sch_path": "/cd1f23fb-036a-4ce2-9dee-e330129525f3",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "JST",
+      "description": "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical.step"
+      ],
+      "courtyard": {
+        "min_x": 153.957,
+        "min_y": 76.859,
+        "max_x": 162.857,
+        "max_y": 82.359
+      },
+      "courtyard_poly": [
+        [
+          [
+            162.857,
+            82.359
+          ],
+          [
+            153.957,
+            82.359
+          ],
+          [
+            153.957,
+            76.859
+          ],
+          [
+            162.857,
+            76.859
+          ]
+        ]
+      ],
+      "footprint": "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(J5-Pin_1)",
+          "pin": "Pin_1_1"
+        },
+        "2": {
+          "net": "Net-(J5-Pin_2)",
+          "pin": "Pin_2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "Pin_3_3"
+        }
+      },
+      "connected_nets": [
+        "GND",
+        "Net-(J5-Pin_1)",
+        "Net-(J5-Pin_2)"
+      ]
+    },
+    {
+      "library": "Package_TO_SOT_SMD:SOT-23",
+      "reference": "Q2",
+      "value": "AO3401A",
+      "mpn": "AO3401A",
+      "x": 164.90026,
+      "y": 66.951086,
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 3,
+      "sch_path": "/3a8cc5df-dcf7-405c-aba1-7baf65b98913",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Alpha & Omega Semiconductor",
+      "description": "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23, G-S-D pinout",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ],
+      "courtyard": {
+        "min_x": 162.97,
+        "min_y": 65.251,
+        "max_x": 166.83,
+        "max_y": 68.651
+      },
+      "courtyard_poly": [
+        [
+          [
+            166.83,
+            68.451
+          ],
+          [
+            165.8,
+            68.451
+          ],
+          [
+            165.8,
+            68.651
+          ],
+          [
+            164.0,
+            68.651
+          ],
+          [
+            164.0,
+            67.501
+          ],
+          [
+            162.97,
+            67.501
+          ],
+          [
+            162.97,
+            66.401
+          ],
+          [
+            164.0,
+            66.401
+          ],
+          [
+            164.0,
+            65.251
+          ],
+          [
+            165.8,
+            65.251
+          ],
+          [
+            165.8,
+            65.451
+          ],
+          [
+            166.83,
+            65.451
+          ],
+          [
+            166.83,
+            66.561
+          ],
+          [
+            165.8,
+            66.561
+          ],
+          [
+            165.8,
+            67.341
+          ],
+          [
+            166.83,
+            67.341
+          ]
+        ]
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pad_nets": {
+        "1": {
+          "net": "GND",
+          "pin": "G_1"
+        },
+        "2": {
+          "net": "+5V",
+          "pin": "S_2"
+        },
+        "3": {
+          "net": "Net-(Q2-D)",
+          "pin": "D_3"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "GND",
+        "Net-(Q2-D)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R2",
+      "value": "1 k\u03a9",
+      "mpn": "RC0805FR-071KL",
+      "x": 177.80576,
+      "y": 62.490086,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/4277d998-770f-4c25-8330-18f8461b22bf",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 176.856,
+        "min_y": 60.64,
+        "max_x": 178.756,
+        "max_y": 64.34
+      },
+      "courtyard_poly": [
+        [
+          [
+            178.756,
+            60.64
+          ],
+          [
+            178.756,
+            64.34
+          ],
+          [
+            176.856,
+            64.34
+          ],
+          [
+            176.856,
+            60.64
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(Q1-G)"
+        },
+        "2": {
+          "net": "Net-(U1-PA1)"
+        }
+      },
+      "connected_nets": [
+        "Net-(Q1-G)",
+        "Net-(U1-PA1)"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R1",
+      "value": "10 k\u03a9",
+      "mpn": "RC0805FR-0710KL",
+      "x": 182.10776,
+      "y": 67.205086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/d3dd924b-f0d1-4de9-af1d-9cc0d6421e2a",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 180.258,
+        "min_y": 66.255,
+        "max_x": 183.958,
+        "max_y": 68.155
+      },
+      "courtyard_poly": [
+        [
+          [
+            180.258,
+            66.255
+          ],
+          [
+            183.958,
+            66.255
+          ],
+          [
+            183.958,
+            68.155
+          ],
+          [
+            180.258,
+            68.155
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "/TEMP_SENSE"
+        },
+        "2": {
+          "net": "+5V"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "/TEMP_SENSE"
+      ]
+    },
+    {
+      "library": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "reference": "J1",
+      "value": "Conn_01x03_Pin",
+      "mpn": "2.54-1*3",
+      "x": 173.36076,
+      "y": 80.159086,
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 3,
+      "sch_path": "/e9598536-5fbd-4b28-a3df-be6cc144dd08",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "ZHOURI",
+      "description": "Generic connector, single row, 01x03, script generated",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+      ],
+      "courtyard": {
+        "min_x": 171.591,
+        "min_y": 78.389,
+        "max_x": 180.211,
+        "max_y": 81.929
+      },
+      "courtyard_poly": [
+        [
+          [
+            171.591,
+            81.929
+          ],
+          [
+            171.591,
+            78.389
+          ],
+          [
+            180.211,
+            78.389
+          ],
+          [
+            180.211,
+            81.929
+          ]
+        ]
+      ],
+      "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+      "pad_nets": {
+        "1": {
+          "net": "+5V",
+          "pin": "Pin_1_1"
+        },
+        "2": {
+          "net": "Net-(J1-Pin_2)",
+          "pin": "Pin_2_2"
+        },
+        "3": {
+          "net": "GND",
+          "pin": "Pin_3_3"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "GND",
+        "Net-(J1-Pin_2)"
+      ]
+    },
+    {
+      "library": "MountingHole:MountingHole_3.2mm_M3_DIN965",
+      "reference": "H1",
+      "value": "MountingHole_3.2mm_M3_DIN965",
+      "mpn": "",
+      "x": 155.13276,
+      "y": 56.038086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "board_only",
+      "pad_count": 1,
+      "board_only": true,
+      "exclude_from_bom": true,
+      "exclude_from_pos": true,
+      "courtyard": {
+        "min_x": 155.133,
+        "min_y": 56.038,
+        "max_x": 158.183,
+        "max_y": 56.038
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_DIN965",
+      "pad_nets": {},
+      "connected_nets": []
+    },
+    {
+      "library": "Package_TO_SOT_SMD:SOT-23",
+      "reference": "Q1",
+      "value": "2N7002",
+      "mpn": "2N7002",
+      "x": 181.82126,
+      "y": 62.379086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 3,
+      "sch_path": "/a54f4be2-449f-4488-8580-994e97cf4830",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Yangzhou Yangjie Electronic Technology",
+      "description": "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
+      ],
+      "courtyard": {
+        "min_x": 179.891,
+        "min_y": 60.679,
+        "max_x": 183.751,
+        "max_y": 64.079
+      },
+      "courtyard_poly": [
+        [
+          [
+            183.751,
+            62.929
+          ],
+          [
+            182.721,
+            62.929
+          ],
+          [
+            182.721,
+            64.079
+          ],
+          [
+            180.921,
+            64.079
+          ],
+          [
+            180.921,
+            63.879
+          ],
+          [
+            179.891,
+            63.879
+          ],
+          [
+            179.891,
+            62.769
+          ],
+          [
+            180.921,
+            62.769
+          ],
+          [
+            180.921,
+            61.989
+          ],
+          [
+            179.891,
+            61.989
+          ],
+          [
+            179.891,
+            60.879
+          ],
+          [
+            180.921,
+            60.879
+          ],
+          [
+            180.921,
+            60.679
+          ],
+          [
+            182.721,
+            60.679
+          ],
+          [
+            182.721,
+            61.829
+          ],
+          [
+            183.751,
+            61.829
+          ]
+        ]
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(Q1-G)",
+          "pin": "G_1"
+        },
+        "2": {
+          "net": "GND",
+          "pin": "S_2"
+        },
+        "3": {
+          "net": "/FAN_PWM",
+          "pin": "D_3"
+        }
+      },
+      "connected_nets": [
+        "/FAN_PWM",
+        "GND",
+        "Net-(Q1-G)"
+      ]
+    },
+    {
+      "library": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "reference": "J4",
+      "value": "Conn_01x02",
+      "mpn": "B2B-XH-A(LF)(SN)",
+      "x": 155.702,
+      "y": 71.038086,
+      "angle": 90.0,
+      "layer": "F.Cu",
+      "type": "through_hole",
+      "pad_count": 2,
+      "sch_path": "/d679ee1d-56a5-41cb-84f0-772067525ca2",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "JST",
+      "description": "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical.step"
+      ],
+      "courtyard": {
+        "min_x": 152.852,
+        "min_y": 65.588,
+        "max_x": 159.602,
+        "max_y": 73.988
+      },
+      "courtyard_poly": [
+        [
+          [
+            152.852,
+            73.988
+          ],
+          [
+            152.852,
+            65.588
+          ],
+          [
+            159.602,
+            65.588
+          ],
+          [
+            159.602,
+            73.988
+          ]
+        ]
+      ],
+      "footprint": "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical",
+      "pad_nets": {
+        "1": {
+          "net": "+5V_INPUT",
+          "pin": "Pin_1_1"
+        },
+        "2": {
+          "net": "GND",
+          "pin": "Pin_2_2"
+        }
+      },
+      "connected_nets": [
+        "+5V_INPUT",
+        "GND"
+      ]
+    },
+    {
+      "library": "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "reference": "F1",
+      "value": "250mA PPTC",
+      "mpn": "1206L025/24YR",
+      "x": 162.43876,
+      "y": 71.015086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/b16bceaa-e475-4c16-b44c-4a422d5b7425",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Littelfuse",
+      "description": "Littelfuse 1206L Series PPTC, 0.25A hold, 0.55A trip, 24V, 1206",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 159.989,
+        "min_y": 69.885,
+        "max_x": 164.889,
+        "max_y": 72.145
+      },
+      "courtyard_poly": [
+        [
+          [
+            159.989,
+            69.885
+          ],
+          [
+            164.889,
+            69.885
+          ],
+          [
+            164.889,
+            72.145
+          ],
+          [
+            159.989,
+            72.145
+          ]
+        ]
+      ],
+      "footprint": "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+5V_INPUT"
+        },
+        "2": {
+          "net": "Net-(Q2-D)"
+        }
+      },
+      "connected_nets": [
+        "+5V_INPUT",
+        "Net-(Q2-D)"
+      ]
+    },
+    {
+      "library": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "reference": "C4",
+      "value": "10 \u00b5F",
+      "mpn": "TCC1206X7R106K160HT",
+      "x": 169.29676,
+      "y": 67.624586,
+      "angle": -90.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/e6333e17-470e-42ab-86e1-d35e7b1b0ff9",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "CCTC",
+      "description": "Unpolarized capacitor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 168.147,
+        "min_y": 65.145,
+        "max_x": 170.447,
+        "max_y": 70.105
+      },
+      "courtyard_poly": [
+        [
+          [
+            170.447,
+            65.145
+          ],
+          [
+            170.447,
+            70.105
+          ],
+          [
+            168.147,
+            70.105
+          ],
+          [
+            168.147,
+            65.145
+          ]
+        ]
+      ],
+      "footprint": "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+5V"
+        },
+        "2": {
+          "net": "GND"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R4",
+      "value": "10 k\u03a9",
+      "mpn": "RC0805FR-0710KL",
+      "x": 182.10776,
+      "y": 72.920086,
+      "angle": 180.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/1706e94d-05a2-47a8-b9af-f72f5d9ad207",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 180.258,
+        "min_y": 71.97,
+        "max_x": 183.958,
+        "max_y": 73.87
+      },
+      "courtyard_poly": [
+        [
+          [
+            183.958,
+            73.87
+          ],
+          [
+            180.258,
+            73.87
+          ],
+          [
+            180.258,
+            71.97
+          ],
+          [
+            183.958,
+            71.97
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+5V"
+        },
+        "2": {
+          "net": "/FAN_TACH"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "/FAN_TACH"
+      ]
+    },
+    {
+      "library": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "reference": "C1",
+      "value": "100 nF",
+      "mpn": "GRM21BR71H104KA01L",
+      "x": 173.63276,
+      "y": 66.038086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/bbcc97b1-0636-49e3-8b50-7c2708f40096",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Murata Electronics",
+      "description": "Unpolarized capacitor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 171.753,
+        "min_y": 65.058,
+        "max_x": 175.513,
+        "max_y": 67.018
+      },
+      "courtyard_poly": [
+        [
+          [
+            171.753,
+            65.058
+          ],
+          [
+            175.513,
+            65.058
+          ],
+          [
+            175.513,
+            67.018
+          ],
+          [
+            171.753,
+            67.018
+          ]
+        ]
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "+5V"
+        },
+        "2": {
+          "net": "GND"
+        }
+      },
+      "connected_nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    {
+      "library": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "reference": "R6",
+      "value": "1 k\u03a9",
+      "mpn": "RC0805FR-071KL",
+      "x": 165.61376,
+      "y": 75.460086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/08c49e82-9444-4991-87cf-55cb434a8e40",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "YAGEO",
+      "description": "Resistor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 163.764,
+        "min_y": 74.51,
+        "max_x": 167.464,
+        "max_y": 76.41
+      },
+      "courtyard_poly": [
+        [
+          [
+            163.764,
+            74.51
+          ],
+          [
+            167.464,
+            74.51
+          ],
+          [
+            167.464,
+            76.41
+          ],
+          [
+            163.764,
+            76.41
+          ]
+        ]
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "Net-(J5-Pin_1)"
+        },
+        "2": {
+          "net": "/GREEN_LED"
+        }
+      },
+      "connected_nets": [
+        "/GREEN_LED",
+        "Net-(J5-Pin_1)"
+      ]
+    },
+    {
+      "library": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "reference": "C2",
+      "value": "100 nF",
+      "mpn": "GRM21BR71H104KA01L",
+      "x": 182.13276,
+      "y": 70.380086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "smd",
+      "pad_count": 2,
+      "sch_path": "/53d720b3-ecf4-471a-b971-bf0fd85ff7ce",
+      "sheetname": "/",
+      "sheetfile": "5V_1Fan.kicad_sch",
+      "manufacturer": "Murata Electronics",
+      "description": "Unpolarized capacitor",
+      "models_3d": [
+        "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+      ],
+      "courtyard": {
+        "min_x": 180.253,
+        "min_y": 69.4,
+        "max_x": 184.013,
+        "max_y": 71.36
+      },
+      "courtyard_poly": [
+        [
+          [
+            180.253,
+            69.4
+          ],
+          [
+            184.013,
+            69.4
+          ],
+          [
+            184.013,
+            71.36
+          ],
+          [
+            180.253,
+            71.36
+          ]
+        ]
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder",
+      "pad_nets": {
+        "1": {
+          "net": "/TEMP_SENSE"
+        },
+        "2": {
+          "net": "GND"
+        }
+      },
+      "connected_nets": [
+        "/TEMP_SENSE",
+        "GND"
+      ]
+    },
+    {
+      "library": "MountingHole:MountingHole_3.2mm_M3_DIN965",
+      "reference": "H2",
+      "value": "MountingHole_3.2mm_M3_DIN965",
+      "mpn": "",
+      "x": 185.93376,
+      "y": 80.159086,
+      "angle": 0.0,
+      "layer": "F.Cu",
+      "type": "board_only",
+      "pad_count": 1,
+      "board_only": true,
+      "exclude_from_bom": true,
+      "exclude_from_pos": true,
+      "courtyard": {
+        "min_x": 185.934,
+        "min_y": 80.159,
+        "max_x": 188.984,
+        "max_y": 80.159
+      },
+      "footprint": "MountingHole:MountingHole_3.2mm_M3_DIN965",
+      "pad_nets": {},
+      "connected_nets": []
+    }
+  ],
+  "tracks": {
+    "segment_count": 109,
+    "arc_count": 0,
+    "width_distribution": {
+      "0.5": 16,
+      "0.8": 22,
+      "0.2": 13,
+      "0.3": 58
+    },
+    "layer_distribution": {
+      "F.Cu": 109
+    },
+    "segments": [
+      {
+        "x1": 180.88376,
+        "y1": 63.329086,
+        "x2": 183.45476,
+        "y2": 63.329086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.60776,
+        "y1": 66.499086,
+        "x2": 177.60776,
+        "y2": 67.332086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.14676,
+        "y1": 66.038086,
+        "x2": 177.60776,
+        "y2": 66.499086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 174.67026,
+        "y1": 66.038086,
+        "x2": 177.14676,
+        "y2": 66.038086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.60776,
+        "y1": 67.332086,
+        "x2": 178.94876,
+        "y2": 67.332086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 183.48876,
+        "y1": 63.363086,
+        "x2": 183.45476,
+        "y2": 63.329086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 185.55276,
+        "y1": 63.363086,
+        "x2": 183.48876,
+        "y2": 63.363086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 169.29676,
+        "y1": 69.187086,
+        "x2": 165.85776,
+        "y2": 69.187086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 165.85776,
+        "y1": 69.187086,
+        "x2": 165.83776,
+        "y2": 69.207086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 172.01376,
+        "y1": 59.508086,
+        "x2": 172.01376,
+        "y2": 61.617086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 165.83776,
+        "y1": 69.207086,
+        "x2": 165.86776,
+        "y2": 69.237086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 177.60776,
+        "y1": 67.332086,
+        "x2": 177.60776,
+        "y2": 69.133086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 165.83776,
+        "y1": 67.901086,
+        "x2": 165.83776,
+        "y2": 69.207086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 183.17026,
+        "y1": 70.380086,
+        "x2": 184.79076,
+        "y2": 70.380086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 8
+      },
+      {
+        "x1": 182.25076,
+        "y1": 65.300086,
+        "x2": 180.47276,
+        "y2": 65.300086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 173.74176,
+        "y1": 82.318086,
+        "x2": 173.36076,
+        "y2": 81.937086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 183.10776,
+        "y1": 66.157086,
+        "x2": 182.25076,
+        "y2": 65.300086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 165.83776,
+        "y1": 66.001086,
+        "x2": 169.23576,
+        "y2": 66.001086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 185.928,
+        "y1": 70.993,
+        "x2": 185.928,
+        "y2": 68.723326,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 185.928,
+        "y1": 68.723326,
+        "x2": 184.40976,
+        "y2": 67.205086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 180.59976,
+        "y1": 81.556086,
+        "x2": 179.83776,
+        "y2": 82.318086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 173.36076,
+        "y1": 81.937086,
+        "x2": 173.36076,
+        "y2": 80.159086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 171.20176,
+        "y1": 66.697086,
+        "x2": 170.56676,
+        "y2": 66.062086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 179.45676,
+        "y1": 63.141086,
+        "x2": 178.82176,
+        "y2": 62.506086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 176.02776,
+        "y1": 62.506086,
+        "x2": 175.13876,
+        "y2": 61.617086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 169.23576,
+        "y1": 66.001086,
+        "x2": 169.29676,
+        "y2": 66.062086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 179.386846,
+        "y1": 53.432,
+        "x2": 183.804202,
+        "y2": 53.432,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 180.47276,
+        "y1": 65.300086,
+        "x2": 179.45676,
+        "y2": 64.284086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 178.69476,
+        "y1": 54.124086,
+        "x2": 179.386846,
+        "y2": 53.432,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 187.198288,
+        "y1": 75.425086,
+        "x2": 182.53976,
+        "y2": 75.425086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 183.10776,
+        "y1": 67.205086,
+        "x2": 183.10776,
+        "y2": 66.157086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 175.13876,
+        "y1": 61.617086,
+        "x2": 177.67876,
+        "y2": 59.077086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 172.59526,
+        "y1": 66.038086,
+        "x2": 172.59526,
+        "y2": 69.070586,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67276,
+        "y1": 56.642,
+        "x2": 177.67276,
+        "y2": 54.130086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 179.45676,
+        "y1": 64.284086,
+        "x2": 179.45676,
+        "y2": 63.141086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 188.69276,
+        "y1": 58.320558,
+        "x2": 188.69276,
+        "y2": 73.930614,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 183.804202,
+        "y1": 53.432,
+        "x2": 188.69276,
+        "y2": 58.320558,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 183.10776,
+        "y1": 72.920086,
+        "x2": 184.000914,
+        "y2": 72.920086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 169.29676,
+        "y1": 57.426086,
+        "x2": 169.29676,
+        "y2": 66.062086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 170.56676,
+        "y1": 66.062086,
+        "x2": 169.29676,
+        "y2": 66.062086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67876,
+        "y1": 59.077086,
+        "x2": 177.67276,
+        "y2": 59.071086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67276,
+        "y1": 59.071086,
+        "x2": 177.67276,
+        "y2": 56.038086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67276,
+        "y1": 54.130086,
+        "x2": 177.67876,
+        "y2": 54.124086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 184.40976,
+        "y1": 67.205086,
+        "x2": 183.10776,
+        "y2": 67.205086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67876,
+        "y1": 54.124086,
+        "x2": 178.69476,
+        "y2": 54.124086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 178.82176,
+        "y1": 62.506086,
+        "x2": 176.02776,
+        "y2": 62.506086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 172.65776,
+        "y1": 69.133086,
+        "x2": 171.20176,
+        "y2": 67.677086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 172.59876,
+        "y1": 54.124086,
+        "x2": 169.29676,
+        "y2": 57.426086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 175.75876,
+        "y1": 54.124086,
+        "x2": 172.59876,
+        "y2": 54.124086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 188.69276,
+        "y1": 73.930614,
+        "x2": 187.198288,
+        "y2": 75.425086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 180.59976,
+        "y1": 77.365086,
+        "x2": 180.59976,
+        "y2": 81.556086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 171.20176,
+        "y1": 67.677086,
+        "x2": 171.20176,
+        "y2": 66.697086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 179.83776,
+        "y1": 82.318086,
+        "x2": 173.74176,
+        "y2": 82.318086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 184.000914,
+        "y1": 72.920086,
+        "x2": 185.928,
+        "y2": 70.993,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 182.53976,
+        "y1": 75.425086,
+        "x2": 180.59976,
+        "y2": 77.365086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 177.67876,
+        "y1": 54.124086,
+        "x2": 175.75876,
+        "y2": 54.124086,
+        "width": 0.5,
+        "layer": "F.Cu",
+        "net": 1
+      },
+      {
+        "x1": 188.09276,
+        "y1": 73.682086,
+        "x2": 186.94976,
+        "y2": 74.825086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 188.09276,
+        "y1": 58.569086,
+        "x2": 188.09276,
+        "y2": 73.682086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 184.014837,
+        "y1": 54.491163,
+        "x2": 188.09276,
+        "y2": 58.569086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 177.63076,
+        "y1": 72.920086,
+        "x2": 177.60776,
+        "y2": 72.943086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 186.94976,
+        "y1": 74.825086,
+        "x2": 179.48976,
+        "y2": 74.825086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 179.48976,
+        "y1": 74.825086,
+        "x2": 177.60776,
+        "y2": 72.943086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 181.10776,
+        "y1": 72.920086,
+        "x2": 177.63076,
+        "y2": 72.920086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 180.21276,
+        "y1": 56.642,
+        "x2": 182.363597,
+        "y2": 54.491163,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 182.363597,
+        "y1": 54.491163,
+        "x2": 184.014837,
+        "y2": 54.491163,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 4
+      },
+      {
+        "x1": 182.75876,
+        "y1": 62.379086,
+        "x2": 186.18776,
+        "y2": 62.379086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 186.18776,
+        "y1": 62.379086,
+        "x2": 186.94976,
+        "y2": 61.617086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 183.91076,
+        "y1": 56.038086,
+        "x2": 186.94976,
+        "y2": 59.077086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 182.75276,
+        "y1": 56.038086,
+        "x2": 183.91076,
+        "y2": 56.038086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 186.94976,
+        "y1": 61.617086,
+        "x2": 186.94976,
+        "y2": 59.077086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 3
+      },
+      {
+        "x1": 167.11476,
+        "y1": 70.403086,
+        "x2": 164.43876,
+        "y2": 73.079086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 172.65776,
+        "y1": 70.403086,
+        "x2": 167.11476,
+        "y2": 70.403086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 164.43876,
+        "y1": 73.079086,
+        "x2": 164.43876,
+        "y2": 73.301086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 6
+      },
+      {
+        "x1": 166.61376,
+        "y1": 72.428086,
+        "x2": 166.61376,
+        "y2": 75.460086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 172.65776,
+        "y1": 71.673086,
+        "x2": 167.36876,
+        "y2": 71.673086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 167.36876,
+        "y1": 71.673086,
+        "x2": 166.61376,
+        "y2": 72.428086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 5
+      },
+      {
+        "x1": 174.12276,
+        "y1": 67.713086,
+        "x2": 173.61476,
+        "y2": 67.205086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 174.53576,
+        "y1": 63.490086,
+        "x2": 177.80576,
+        "y2": 63.490086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 173.61476,
+        "y1": 67.205086,
+        "x2": 173.61476,
+        "y2": 64.411086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 173.61476,
+        "y1": 64.411086,
+        "x2": 174.53576,
+        "y2": 63.490086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 174.12276,
+        "y1": 72.539086,
+        "x2": 174.12276,
+        "y2": 67.713086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 173.71876,
+        "y1": 72.943086,
+        "x2": 174.12276,
+        "y2": 72.539086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 172.65776,
+        "y1": 72.943086,
+        "x2": 173.71876,
+        "y2": 72.943086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 14
+      },
+      {
+        "x1": 177.60776,
+        "y1": 71.673086,
+        "x2": 176.76676,
+        "y2": 71.673086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 175.90076,
+        "y1": 72.539086,
+        "x2": 175.90076,
+        "y2": 80.159086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 176.76676,
+        "y1": 71.673086,
+        "x2": 175.90076,
+        "y2": 72.539086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 9
+      },
+      {
+        "x1": 181.07226,
+        "y1": 70.403086,
+        "x2": 181.09526,
+        "y2": 70.380086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 177.60776,
+        "y1": 70.403086,
+        "x2": 176.632761,
+        "y2": 70.403086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 176.632761,
+        "y1": 70.403086,
+        "x2": 175.39276,
+        "y2": 71.643087,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 181.09526,
+        "y1": 67.217586,
+        "x2": 181.10776,
+        "y2": 67.205086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 175.39276,
+        "y1": 71.643087,
+        "x2": 175.39276,
+        "y2": 75.206086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 177.60776,
+        "y1": 70.403086,
+        "x2": 181.07226,
+        "y2": 70.403086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 181.09526,
+        "y1": 70.380086,
+        "x2": 181.09526,
+        "y2": 67.217586,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 170.43976,
+        "y1": 80.159086,
+        "x2": 168.13776,
+        "y2": 80.159086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 175.39276,
+        "y1": 75.206086,
+        "x2": 170.43976,
+        "y2": 80.159086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 7
+      },
+      {
+        "x1": 177.80576,
+        "y1": 61.490086,
+        "x2": 180.82276,
+        "y2": 61.490086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 180.88376,
+        "y1": 61.429086,
+        "x2": 181.04176,
+        "y2": 61.429086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 181.10776,
+        "y1": 61.363086,
+        "x2": 185.55276,
+        "y2": 61.363086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 180.82276,
+        "y1": 61.490086,
+        "x2": 180.88376,
+        "y2": 61.429086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 181.04176,
+        "y1": 61.429086,
+        "x2": 181.10776,
+        "y2": 61.363086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 12
+      },
+      {
+        "x1": 158.40676,
+        "y1": 80.159086,
+        "x2": 158.40676,
+        "y2": 77.333086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 11
+      },
+      {
+        "x1": 158.40676,
+        "y1": 77.333086,
+        "x2": 162.43876,
+        "y2": 73.301086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 11
+      },
+      {
+        "x1": 160.40676,
+        "y1": 76.603086,
+        "x2": 160.40676,
+        "y2": 80.159086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 161.54976,
+        "y1": 75.460086,
+        "x2": 160.40676,
+        "y2": 76.603086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 164.61376,
+        "y1": 75.460086,
+        "x2": 161.54976,
+        "y2": 75.460086,
+        "width": 0.3,
+        "layer": "F.Cu",
+        "net": 10
+      },
+      {
+        "x1": 163.92626,
+        "y1": 71.015086,
+        "x2": 163.92626,
+        "y2": 66.987586,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 13
+      },
+      {
+        "x1": 163.92626,
+        "y1": 66.987586,
+        "x2": 163.96276,
+        "y2": 66.951086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 13
+      },
+      {
+        "x1": 155.13276,
+        "y1": 71.038086,
+        "x2": 160.92826,
+        "y2": 71.038086,
+        "width": 0.8,
+        "layer": "F.Cu",
+        "net": 2
+      },
+      {
+        "x1": 160.92826,
+        "y1": 71.038086,
+        "x2": 160.95126,
+        "y2": 71.015086,
+        "width": 0.2,
+        "layer": "F.Cu",
+        "net": 2
+      }
+    ],
+    "arcs": []
+  },
+  "vias": {
+    "count": 5,
+    "size_distribution": {
+      "0.8/0.3": 5
+    },
+    "via_analysis": {
+      "type_breakdown": {
+        "through": {
+          "count": 5,
+          "size_distribution": {
+            "0.8/0.3": 5
+          }
+        }
+      },
+      "annular_ring": {
+        "min_mm": 0.25,
+        "max_mm": 0.25,
+        "distribution": {
+          "0.25": 5
+        }
+      },
+      "current_capacity": {
+        "drill_size_distribution": {
+          "0.3": 5
+        },
+        "min_drill_mm": 0.3,
+        "max_drill_mm": 0.3,
+        "total_vias": 5,
+        "ratings": [
+          {
+            "drill_mm": 0.3,
+            "count": 5,
+            "plating_area_mm2": 0.0236,
+            "approx_current_A": 7.9
+          }
+        ]
+      }
+    },
+    "vias": [
+      {
+        "x": 178.94876,
+        "y": 67.332086,
+        "size": 0.8,
+        "drill": 0.3,
+        "net": 8,
+        "type": "through",
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "x": 184.79076,
+        "y": 70.380086,
+        "size": 0.8,
+        "drill": 0.3,
+        "net": 8,
+        "type": "through",
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "x": 172.01376,
+        "y": 59.508086,
+        "size": 0.8,
+        "drill": 0.3,
+        "net": 8,
+        "type": "through",
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "x": 183.45476,
+        "y": 63.329086,
+        "size": 0.8,
+        "drill": 0.3,
+        "net": 8,
+        "type": "through",
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      },
+      {
+        "x": 165.86776,
+        "y": 69.237086,
+        "size": 0.8,
+        "drill": 0.3,
+        "net": 8,
+        "type": "through",
+        "layers": [
+          "F.Cu",
+          "B.Cu"
+        ]
+      }
+    ]
+  },
+  "zones": [
+    {
+      "net": 8,
+      "net_name": "GND",
+      "layers": [
+        "B.Cu"
+      ],
+      "clearance": 0.5,
+      "min_thickness": 0.25,
+      "thermal_gap": 0.5,
+      "thermal_bridge_width": 0.5,
+      "outline_points": 4,
+      "outline_area_mm2": 1999.23,
+      "is_filled": true,
+      "outline_bbox": [
+        149.987,
+        50.038,
+        200.025,
+        90.043
+      ],
+      "filled_area_mm2": 1219.02,
+      "fill_region_count": 1,
+      "filled_bbox": [
+        150.5,
+        50.501,
+        189.5,
+        84.499
+      ],
+      "fill_ratio": 0.61
+    }
+  ],
+  "keepout_zones": [],
+  "connectivity": {
+    "total_nets_with_pads": 14,
+    "routed_nets": 14,
+    "unrouted_count": 0,
+    "routing_complete": true
+  },
+  "net_lengths": [
+    {
+      "net": "+5V",
+      "net_number": 1,
+      "total_length_mm": 112.301,
+      "segment_count": 42,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 112.301,
+          "segments": 42
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.778,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.539,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.212,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.398,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.27,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.147,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.078,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.778,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.898,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.898,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.257,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.086,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.417,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.437,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.979,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.659,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.048,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.592,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.032,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.512,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.143,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 15.61,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 6.913,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.893,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 8.636,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.27,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.008,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.033,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.008,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.302,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.016,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.794,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.059,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.67,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.16,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.114,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.191,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.98,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 6.096,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.725,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.744,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.92,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ]
+    },
+    {
+      "net": "/FAN_TACH",
+      "net_number": 4,
+      "total_length_mm": 40.821,
+      "segment_count": 9,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 40.821,
+          "segments": 9
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.616,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 15.113,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.767,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.033,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.46,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.662,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.477,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.042,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.651,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "/TEMP_SENSE",
+      "net_number": 7,
+      "total_length_mm": 22.275,
+      "segment_count": 9,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 22.275,
+          "segments": 9
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.033,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.975,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.754,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.018,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.563,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.464,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.163,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.302,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.005,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "GND",
+      "net_number": 8,
+      "total_length_mm": 20.332,
+      "segment_count": 14,
+      "via_count": 5,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 20.332,
+          "segments": 14
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.571,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.833,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.652,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.476,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.341,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.048,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.064,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.439,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.028,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.109,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.042,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.801,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.306,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.62,
+          "width_mm": 0.5,
+          "impedance_ohm": 87.3
+        }
+      ],
+      "via_details": [
+        {
+          "drill_mm": 0.3,
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ]
+        },
+        {
+          "drill_mm": 0.3,
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ]
+        },
+        {
+          "drill_mm": 0.3,
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ]
+        },
+        {
+          "drill_mm": 0.3,
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ]
+        },
+        {
+          "drill_mm": 0.3,
+          "layers": [
+            "F.Cu",
+            "B.Cu"
+          ]
+        }
+      ]
+    },
+    {
+      "net": "Net-(U1-PA1)",
+      "net_number": 14,
+      "total_length_mm": 14.543,
+      "segment_count": 7,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 14.543,
+          "segments": 7
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.718,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.27,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.794,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.302,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.826,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.571,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.061,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "/FAN_PWM",
+      "net_number": 3,
+      "total_length_mm": 12.502,
+      "segment_count": 5,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 12.502,
+          "segments": 5
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.429,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.078,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.298,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.158,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.54,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "Net-(J1-Pin_2)",
+      "net_number": 9,
+      "total_length_mm": 9.686,
+      "segment_count": 3,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 9.686,
+          "segments": 3
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.841,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 7.62,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.225,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "/RED_LED",
+      "net_number": 6,
+      "total_length_mm": 9.549,
+      "segment_count": 3,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 9.549,
+          "segments": 3
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.784,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.543,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.222,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "/GREEN_LED",
+      "net_number": 5,
+      "total_length_mm": 9.389,
+      "segment_count": 3,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 9.389,
+          "segments": 3
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.032,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.289,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.068,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "Net-(J5-Pin_2)",
+      "net_number": 11,
+      "total_length_mm": 8.528,
+      "segment_count": 2,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 8.528,
+          "segments": 2
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 2.826,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.702,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "Net-(J5-Pin_1)",
+      "net_number": 10,
+      "total_length_mm": 8.236,
+      "segment_count": 3,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 8.236,
+          "segments": 3
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.556,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 1.616,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.064,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        }
+      ]
+    },
+    {
+      "net": "Net-(Q1-G)",
+      "net_number": 12,
+      "total_length_mm": 7.8,
+      "segment_count": 5,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 7.8,
+          "segments": 5
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 3.017,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.158,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.445,
+          "width_mm": 0.3,
+          "impedance_ohm": 99.7
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.086,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.093,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        }
+      ]
+    },
+    {
+      "net": "+5V_INPUT",
+      "net_number": 2,
+      "total_length_mm": 5.828,
+      "segment_count": 2,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 5.828,
+          "segments": 2
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 5.796,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.033,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        }
+      ]
+    },
+    {
+      "net": "Net-(Q2-D)",
+      "net_number": 13,
+      "total_length_mm": 4.079,
+      "segment_count": 2,
+      "via_count": 0,
+      "layers": {
+        "F.Cu": {
+          "length_mm": 4.079,
+          "segments": 2
+        }
+      },
+      "trace_segments": [
+        {
+          "layer": "F.Cu",
+          "length_mm": 4.028,
+          "width_mm": 0.8,
+          "impedance_ohm": 75.4
+        },
+        {
+          "layer": "F.Cu",
+          "length_mm": 0.052,
+          "width_mm": 0.2,
+          "impedance_ohm": 109.1
+        }
+      ]
+    }
+  ],
+  "pad_to_pad_distances": {
+    "U1.8-C1.2": {
+      "net": "GND",
+      "routed_distance_mm": 5.762,
+      "euclidean_distance_mm": 4.267,
+      "ratio": 1.35,
+      "min_width_mm": 0.8
+    },
+    "R3.1-Q1.2": {
+      "net": "GND",
+      "routed_distance_mm": 4.683,
+      "euclidean_distance_mm": 4.669,
+      "ratio": 1.0,
+      "min_width_mm": 0.2
+    },
+    "Q2.1-C4.2": {
+      "net": "GND",
+      "routed_distance_mm": 4.773,
+      "euclidean_distance_mm": 3.69,
+      "ratio": 1.29,
+      "min_width_mm": 0.2
+    },
+    "J3.2-U1.1": {
+      "net": "+5V",
+      "routed_distance_mm": 26.113,
+      "euclidean_distance_mm": 13.46,
+      "ratio": 1.94,
+      "min_width_mm": 0.5
+    },
+    "J3.2-Q2.2": {
+      "net": "+5V",
+      "routed_distance_mm": 24.39,
+      "euclidean_distance_mm": 15.088,
+      "ratio": 1.62,
+      "min_width_mm": 0.2
+    },
+    "J3.2-J1.1": {
+      "net": "+5V",
+      "routed_distance_mm": 54.653,
+      "euclidean_distance_mm": 23.909,
+      "ratio": 2.29,
+      "min_width_mm": 0.5
+    },
+    "J3.2-C4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 20.906,
+      "euclidean_distance_mm": 12.605,
+      "ratio": 1.66,
+      "min_width_mm": 0.5
+    },
+    "U1.1-Q2.2": {
+      "net": "+5V",
+      "routed_distance_mm": 8.691,
+      "euclidean_distance_mm": 7.505,
+      "ratio": 1.16,
+      "min_width_mm": 0.2
+    },
+    "U1.1-J1.1": {
+      "net": "+5V",
+      "routed_distance_mm": 75.726,
+      "euclidean_distance_mm": 11.048,
+      "ratio": 6.85,
+      "min_width_mm": 0.5
+    },
+    "U1.1-C4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 5.207,
+      "euclidean_distance_mm": 4.553,
+      "ratio": 1.14,
+      "min_width_mm": 0.8
+    },
+    "C3.2-R1.2": {
+      "net": "+5V",
+      "routed_distance_mm": 11.567,
+      "euclidean_distance_mm": 9.733,
+      "ratio": 1.19,
+      "min_width_mm": 0.3
+    },
+    "C3.2-R4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 20.904,
+      "euclidean_distance_mm": 13.83,
+      "ratio": 1.51,
+      "min_width_mm": 0.3
+    },
+    "Q2.2-J1.1": {
+      "net": "+5V",
+      "routed_distance_mm": 74.003,
+      "euclidean_distance_mm": 16.033,
+      "ratio": 4.62,
+      "min_width_mm": 0.2
+    },
+    "Q2.2-C4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 3.484,
+      "euclidean_distance_mm": 3.46,
+      "ratio": 1.01,
+      "min_width_mm": 0.2
+    },
+    "R1.2-R4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 9.337,
+      "euclidean_distance_mm": 5.715,
+      "ratio": 1.63,
+      "min_width_mm": 0.3
+    },
+    "J1.1-C4.1": {
+      "net": "+5V",
+      "routed_distance_mm": 70.518,
+      "euclidean_distance_mm": 14.671,
+      "ratio": 4.81,
+      "min_width_mm": 0.5
+    },
+    "J3.3-U1.5": {
+      "net": "/FAN_TACH",
+      "routed_distance_mm": 37.311,
+      "euclidean_distance_mm": 16.508,
+      "ratio": 2.26,
+      "min_width_mm": 0.3
+    },
+    "J3.3-R4.2": {
+      "net": "/FAN_TACH",
+      "routed_distance_mm": 40.821,
+      "euclidean_distance_mm": 16.303,
+      "ratio": 2.5,
+      "min_width_mm": 0.2
+    },
+    "U1.5-R4.2": {
+      "net": "/FAN_TACH",
+      "routed_distance_mm": 3.51,
+      "euclidean_distance_mm": 3.5,
+      "ratio": 1.0,
+      "min_width_mm": 0.2
+    },
+    "U1.2-R5.2": {
+      "net": "/RED_LED",
+      "routed_distance_mm": 9.549,
+      "euclidean_distance_mm": 8.715,
+      "ratio": 1.1,
+      "min_width_mm": 0.3
+    },
+    "U1.3-R6.2": {
+      "net": "/GREEN_LED",
+      "routed_distance_mm": 9.389,
+      "euclidean_distance_mm": 7.132,
+      "ratio": 1.32,
+      "min_width_mm": 0.3
+    },
+    "U1.4-R2.2": {
+      "net": "Net-(U1-PA1)",
+      "routed_distance_mm": 14.543,
+      "euclidean_distance_mm": 10.764,
+      "ratio": 1.35,
+      "min_width_mm": 0.3
+    },
+    "U1.6-J1.2": {
+      "net": "Net-(J1-Pin_2)",
+      "routed_distance_mm": 9.686,
+      "euclidean_distance_mm": 8.656,
+      "ratio": 1.12,
+      "min_width_mm": 0.3
+    },
+    "U1.7-J2.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 15.598,
+      "euclidean_distance_mm": 13.596,
+      "ratio": 1.15,
+      "min_width_mm": 0.3
+    },
+    "U1.7-R1.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 6.677,
+      "euclidean_distance_mm": 4.741,
+      "ratio": 1.41,
+      "min_width_mm": 0.2
+    },
+    "U1.7-C2.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 3.497,
+      "euclidean_distance_mm": 3.488,
+      "ratio": 1.0,
+      "min_width_mm": 0.2
+    },
+    "J2.1-R1.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 22.275,
+      "euclidean_distance_mm": 18.331,
+      "ratio": 1.22,
+      "min_width_mm": 0.2
+    },
+    "J2.1-C2.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 19.095,
+      "euclidean_distance_mm": 16.233,
+      "ratio": 1.18,
+      "min_width_mm": 0.2
+    },
+    "R1.1-C2.1": {
+      "net": "/TEMP_SENSE",
+      "routed_distance_mm": 3.18,
+      "euclidean_distance_mm": 3.175,
+      "ratio": 1.0,
+      "min_width_mm": 0.2
+    },
+    "R3.2-R2.1": {
+      "net": "Net-(Q1-G)",
+      "routed_distance_mm": 7.8,
+      "euclidean_distance_mm": 7.748,
+      "ratio": 1.01,
+      "min_width_mm": 0.2
+    },
+    "R3.2-Q1.1": {
+      "net": "Net-(Q1-G)",
+      "routed_distance_mm": 4.696,
+      "euclidean_distance_mm": 4.669,
+      "ratio": 1.01,
+      "min_width_mm": 0.2
+    },
+    "R2.1-Q1.1": {
+      "net": "Net-(Q1-G)",
+      "routed_distance_mm": 3.103,
+      "euclidean_distance_mm": 3.079,
+      "ratio": 1.01,
+      "min_width_mm": 0.2
+    },
+    "R5.1-J5.2": {
+      "net": "Net-(J5-Pin_2)",
+      "routed_distance_mm": 8.528,
+      "euclidean_distance_mm": 7.955,
+      "ratio": 1.07,
+      "min_width_mm": 0.3
+    },
+    "J5.1-R6.1": {
+      "net": "Net-(J5-Pin_1)",
+      "routed_distance_mm": 8.236,
+      "euclidean_distance_mm": 6.307,
+      "ratio": 1.31,
+      "min_width_mm": 0.3
+    },
+    "Q2.3-F1.2": {
+      "net": "Net-(Q2-D)",
+      "routed_distance_mm": 4.079,
+      "euclidean_distance_mm": 4.064,
+      "ratio": 1.0,
+      "min_width_mm": 0.2
+    }
+  },
+  "power_net_routing": [
+    {
+      "net": "+5V",
+      "track_count": 42,
+      "total_length_mm": 112.3,
+      "min_width_mm": 0.2,
+      "max_width_mm": 0.8,
+      "widths_used": [
+        0.2,
+        0.3,
+        0.5,
+        0.8
+      ]
+    },
+    {
+      "net": "+5V_INPUT",
+      "track_count": 2,
+      "total_length_mm": 5.83,
+      "min_width_mm": 0.2,
+      "max_width_mm": 0.8,
+      "widths_used": [
+        0.2,
+        0.8
+      ]
+    },
+    {
+      "net": "GND",
+      "track_count": 14,
+      "total_length_mm": 20.33,
+      "min_width_mm": 0.2,
+      "max_width_mm": 0.8,
+      "widths_used": [
+        0.2,
+        0.3,
+        0.5,
+        0.8
+      ]
+    }
+  ],
+  "decoupling_placement": [
+    {
+      "ic": "U1",
+      "value": "ATTINY402-SSF",
+      "layer": "F.Cu",
+      "nearby_caps": [
+        {
+          "cap": "C1",
+          "value": "100 nF",
+          "distance_mm": 3.1,
+          "shared_nets": [
+            "+5V",
+            "GND"
+          ],
+          "same_side": true
+        },
+        {
+          "cap": "C4",
+          "value": "10 \u00b5F",
+          "distance_mm": 3.36,
+          "shared_nets": [
+            "+5V",
+            "GND"
+          ],
+          "same_side": true
+        },
+        {
+          "cap": "C2",
+          "value": "100 nF",
+          "distance_mm": 3.7,
+          "shared_nets": [
+            "/TEMP_SENSE",
+            "GND"
+          ],
+          "same_side": true
+        },
+        {
+          "cap": "C3",
+          "value": "10 \u00b5F",
+          "distance_mm": 7.54,
+          "shared_nets": [
+            "+5V",
+            "GND"
+          ],
+          "same_side": true
+        }
+      ],
+      "closest_cap_mm": 3.1
+    }
+  ],
+  "decoupling_proximity": [
+    {
+      "ic_ref": "U1",
+      "cap_ref": "C1",
+      "distance_mm": 3.1,
+      "cap_value": "100 nF",
+      "same_side": true,
+      "shared_nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    {
+      "ic_ref": "U1",
+      "cap_ref": "C4",
+      "distance_mm": 3.36,
+      "cap_value": "10 \u00b5F",
+      "same_side": true,
+      "shared_nets": [
+        "+5V",
+        "GND"
+      ]
+    },
+    {
+      "ic_ref": "U1",
+      "cap_ref": "C2",
+      "distance_mm": 3.7,
+      "cap_value": "100 nF",
+      "same_side": true,
+      "shared_nets": [
+        "/TEMP_SENSE",
+        "GND"
+      ]
+    },
+    {
+      "ic_ref": "U1",
+      "cap_ref": "C3",
+      "distance_mm": 7.54,
+      "cap_value": "10 \u00b5F",
+      "same_side": true,
+      "shared_nets": [
+        "+5V",
+        "GND"
+      ]
+    }
+  ],
+  "ground_domains": {
+    "domain_count": 1,
+    "domains": [
+      {
+        "net": "GND",
+        "net_number": 8,
+        "component_count": 13,
+        "components": [
+          "C1",
+          "C2",
+          "C3",
+          "C4",
+          "J1",
+          "J2",
+          "J3",
+          "J4",
+          "J5",
+          "Q1",
+          "Q2",
+          "R3",
+          "U1"
+        ],
+        "has_zone": true,
+        "zone_layers": [
+          "B.Cu"
+        ]
+      }
+    ],
+    "multi_domain_components": []
+  },
+  "silkscreen": {
+    "board_text_count": 26,
+    "refs_visible_on_silk": 21,
+    "refs_hidden_on_silk": 0,
+    "board_texts": [
+      {
+        "text": "UPDI",
+        "layer": "F.SilkS",
+        "x": 178.06,
+        "y": 77.75
+      },
+      {
+        "text": "LED",
+        "layer": "F.SilkS",
+        "x": 156.09,
+        "y": 76.73
+      },
+      {
+        "text": "TEMP",
+        "layer": "F.SilkS",
+        "x": 167.77,
+        "y": 76.73
+      },
+      {
+        "text": "5V IN",
+        "layer": "F.SilkS",
+        "x": 155.7,
+        "y": 65.41
+      },
+      {
+        "text": "FAN",
+        "layer": "F.SilkS",
+        "x": 185.67,
+        "y": 54.36
+      },
+      {
+        "text": "GND",
+        "layer": "F.SilkS",
+        "x": 153.8,
+        "y": 83.97
+      },
+      {
+        "text": "5V\u20221 FAN\u20221 TH",
+        "layer": "F.SilkS",
+        "x": 156.34,
+        "y": 58.8
+      },
+      {
+        "text": "v1.0",
+        "layer": "F.SilkS",
+        "x": 156.34,
+        "y": 60.58
+      },
+      {
+        "text": "RED",
+        "layer": "F.SilkS",
+        "x": 156.98,
+        "y": 83.97
+      },
+      {
+        "text": "GRN",
+        "layer": "F.SilkS",
+        "x": 160.03,
+        "y": 83.97
+      },
+      {
+        "text": "GND",
+        "layer": "F.SilkS",
+        "x": 163.84,
+        "y": 83.97
+      },
+      {
+        "text": "TMP",
+        "layer": "F.SilkS",
+        "x": 167.39,
+        "y": 83.97
+      },
+      {
+        "text": "5V",
+        "layer": "F.SilkS",
+        "x": 172.09,
+        "y": 83.97
+      },
+      {
+        "text": "GND",
+        "layer": "F.SilkS",
+        "x": 172.97,
+        "y": 52.6
+      },
+      {
+        "text": "UPDI",
+        "layer": "F.SilkS",
+        "x": 174.5,
+        "y": 83.97
+      },
+      {
+        "text": "5V",
+        "layer": "F.SilkS",
+        "x": 176.66,
+        "y": 52.6
+      },
+      {
+        "text": "GND",
+        "layer": "F.SilkS",
+        "x": 178.57,
+        "y": 83.97
+      },
+      {
+        "text": "TCH",
+        "layer": "F.SilkS",
+        "x": 178.82,
+        "y": 52.58
+      },
+      {
+        "text": "PWM",
+        "layer": "F.SilkS",
+        "x": 181.99,
+        "y": 52.58
+      },
+      {
+        "text": "GND",
+        "layer": "F.SilkS",
+        "x": 152.68,
+        "y": 69.17
+      },
+      {
+        "text": "5V",
+        "layer": "F.SilkS",
+        "x": 152.78,
+        "y": 72.52
+      },
+      {
+        "text": "ThermoLoop",
+        "layer": "F.SilkS",
+        "x": 157.23,
+        "y": 56.77
+      },
+      {
+        "text": "2026-08",
+        "layer": "B.SilkS",
+        "x": 171.33,
+        "y": 75.46
+      },
+      {
+        "text": "v1.0",
+        "layer": "B.SilkS",
+        "x": 176.54,
+        "y": 75.46
+      },
+      {
+        "text": "5V\u20221 FAN\u20221 TH",
+        "layer": "B.SilkS",
+        "x": 176.66,
+        "y": 73.56
+      },
+      {
+        "text": "ThermoLoop",
+        "layer": "B.SilkS",
+        "x": 176.92,
+        "y": 71.27
+      }
+    ],
+    "documentation_warnings": [
+      {
+        "type": "missing_connector_labels",
+        "severity": "suggestion",
+        "components": [
+          "J3",
+          "J5",
+          "J1"
+        ],
+        "message": "Connectors (3+ pins) without silkscreen labels: ['J3', 'J5', 'J1']. Consider adding pin names, signal names, or connector function labels."
+      }
+    ],
+    "fab_notes_completeness": {
+      "checks": {
+        "ipc_class": false,
+        "surface_finish": false,
+        "board_thickness": false,
+        "copper_weight": false,
+        "solder_mask": false,
+        "material": false
+      },
+      "missing": [
+        "ipc class",
+        "surface finish",
+        "board thickness",
+        "copper weight",
+        "solder mask",
+        "material"
+      ],
+      "completeness_pct": 0,
+      "status": "warning"
+    },
+    "silkscreen_completeness": {
+      "checks": {
+        "revision_marking": true,
+        "board_name": true,
+        "ref_designators_visible": true,
+        "connector_labels": false,
+        "polarity_markers": true
+      },
+      "missing": [
+        "connector labels"
+      ],
+      "completeness_pct": 80,
+      "status": "warning"
+    }
+  },
+  "board_metadata": {
+    "paper": "A4"
+  },
+  "groups": [
+    {
+      "name": "",
+      "member_count": 8
+    }
+  ],
+  "net_classes": [
+    {
+      "name": "Default",
+      "clearance": 0.2,
+      "track_width": 0.2,
+      "via_diameter": 0.6,
+      "via_drill": 0.3,
+      "diff_pair_width": 0.2,
+      "diff_pair_gap": 0.25
+    }
+  ],
+  "project_settings": {
+    "source": "5V_1Fan.kicad_pro",
+    "net_classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.25
+      }
+    ],
+    "design_rules": {
+      "min_clearance": 0.0,
+      "min_connection": 0.0,
+      "min_copper_edge_clearance": 0.5,
+      "min_groove_width": 0.0,
+      "min_hole_clearance": 0.25,
+      "min_hole_to_hole": 0.25,
+      "min_microvia_diameter": 0.2,
+      "min_microvia_drill": 0.1,
+      "min_resolved_spokes": 2,
+      "min_silk_clearance": 0.0,
+      "min_text_height": 0.8,
+      "min_text_thickness": 0.08,
+      "min_through_hole_diameter": 0.3,
+      "min_track_width": 0.2,
+      "min_via_annular_width": 0.1,
+      "min_via_diameter": 0.5
+    }
+  },
+  "design_rule_compliance": {
+    "compliant": true,
+    "rules_checked": 3,
+    "rules_source": "5V_1Fan.kicad_pro"
+  },
+  "return_path_continuity": [
+    {
+      "net": "Net-(J5-Pin_2)",
+      "total_trace_mm": 8.5,
+      "samples_checked": 5,
+      "samples_with_reference_plane": 4,
+      "reference_plane_coverage_pct": 80.0,
+      "gap_note": "1 of 5 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(J5-Pin_1)",
+      "total_trace_mm": 8.2,
+      "samples_checked": 6,
+      "samples_with_reference_plane": 5,
+      "reference_plane_coverage_pct": 83.3,
+      "gap_note": "1 of 6 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "Net-(J1-Pin_2)",
+      "total_trace_mm": 9.7,
+      "samples_checked": 8,
+      "samples_with_reference_plane": 7,
+      "reference_plane_coverage_pct": 87.5,
+      "gap_note": "1 of 8 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "/FAN_PWM",
+      "total_trace_mm": 12.5,
+      "samples_checked": 11,
+      "samples_with_reference_plane": 10,
+      "reference_plane_coverage_pct": 90.9,
+      "gap_note": "1 of 11 sample points lack reference plane on opposite layer"
+    },
+    {
+      "net": "/TEMP_SENSE",
+      "total_trace_mm": 22.3,
+      "samples_checked": 16,
+      "samples_with_reference_plane": 15,
+      "reference_plane_coverage_pct": 93.8,
+      "gap_note": "1 of 16 sample points lack reference plane on opposite layer"
+    }
+  ],
+  "connectivity_graph": {
+    "GND": {
+      "islands": 1,
+      "components": {
+        "C1:2": 0,
+        "C2:2": 0,
+        "C3:1": 0,
+        "C4:2": 0,
+        "J1:3": 0,
+        "J2:2": 0,
+        "J3:1": 0,
+        "J4:2": 0,
+        "J5:3": 0,
+        "Q1:2": 0,
+        "Q2:1": 0,
+        "R3:1": 0,
+        "U1:8": 0,
+        "via_0": 0,
+        "via_1": 0,
+        "via_2": 0,
+        "via_3": 0,
+        "via_4": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "+5V": {
+      "islands": 3,
+      "components": {
+        "C1:1": 2,
+        "C3:2": 0,
+        "C4:1": 1,
+        "J1:1": 1,
+        "J3:2": 1,
+        "Q2:2": 1,
+        "R1:2": 0,
+        "R4:1": 0,
+        "U1:1": 1
+      },
+      "gaps": [
+        {
+          "layer": "F.Cu",
+          "bbox": [
+            175.14,
+            56.04,
+            185.93,
+            72.92
+          ],
+          "between_islands": [
+            0,
+            1
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "bbox": [
+            172.6,
+            66.04,
+            175.14,
+            69.07
+          ],
+          "between_islands": [
+            0,
+            2
+          ]
+        },
+        {
+          "layer": "F.Cu",
+          "bbox": [
+            172.6,
+            66.04,
+            172.6,
+            69.07
+          ],
+          "between_islands": [
+            1,
+            2
+          ]
+        }
+      ],
+      "disconnected_pads": [
+        [
+          "J3:2",
+          "C3:2"
+        ],
+        [
+          "J3:2",
+          "C1:1"
+        ],
+        [
+          "C3:2",
+          "C1:1"
+        ]
+      ]
+    },
+    "/FAN_TACH": {
+      "islands": 1,
+      "components": {
+        "J3:3": 0,
+        "R4:2": 0,
+        "U1:5": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "/FAN_PWM": {
+      "islands": 1,
+      "components": {
+        "J3:4": 0,
+        "Q1:3": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "/RED_LED": {
+      "islands": 1,
+      "components": {
+        "R5:2": 0,
+        "U1:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "/GREEN_LED": {
+      "islands": 1,
+      "components": {
+        "R6:2": 0,
+        "U1:3": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(U1-PA1)": {
+      "islands": 1,
+      "components": {
+        "R2:2": 0,
+        "U1:4": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(J1-Pin_2)": {
+      "islands": 1,
+      "components": {
+        "J1:2": 0,
+        "U1:6": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "/TEMP_SENSE": {
+      "islands": 1,
+      "components": {
+        "C2:1": 0,
+        "J2:1": 0,
+        "R1:1": 0,
+        "U1:7": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(Q1-G)": {
+      "islands": 1,
+      "components": {
+        "Q1:1": 0,
+        "R2:1": 0,
+        "R3:2": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(J5-Pin_2)": {
+      "islands": 1,
+      "components": {
+        "J5:2": 0,
+        "R5:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(J5-Pin_1)": {
+      "islands": 1,
+      "components": {
+        "J5:1": 0,
+        "R6:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "Net-(Q2-D)": {
+      "islands": 1,
+      "components": {
+        "F1:2": 0,
+        "Q2:3": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    },
+    "+5V_INPUT": {
+      "islands": 1,
+      "components": {
+        "F1:1": 0,
+        "J4:1": 0
+      },
+      "gaps": [],
+      "disconnected_pads": []
+    }
+  },
+  "dfm_summary": {
+    "dfm_tier": "standard",
+    "metrics": {
+      "min_track_width_mm": 0.2,
+      "approx_min_spacing_mm": 0.2494,
+      "min_drill_mm": 0.3,
+      "min_annular_ring_mm": 0.25,
+      "board_width_mm": 40.0,
+      "board_height_mm": 35.0
+    },
+    "violation_count": 0
+  },
+  "placement_density": {
+    "board_area_cm2": 14.0,
+    "front_density_per_cm2": 1.5
+  },
+  "board_thickness_mm": 1.6,
+  "copper_presence_summary": [
+    {
+      "opposite_layer_nets": "GND",
+      "component_count": 14,
+      "components": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "F1",
+        "Q1",
+        "Q2",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "U1"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "net": "+5V",
+      "net_number": 1,
+      "min_track_width_mm": 0.2,
+      "max_track_width_mm": 0.8,
+      "track_widths_used": [
+        0.2,
+        0.3,
+        0.5,
+        0.8
+      ],
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "segment_count": 42,
+      "via_count": 0,
+      "detector": "analyze_current_capacity",
+      "rule_id": "CC-DET",
+      "category": "current_capacity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Power net +5V: 0.2mm min trace",
+      "description": "Power/ground net +5V: min trace 0.2mm, max 0.8mm, 42 segments.",
+      "components": [],
+      "nets": [
+        "+5V"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Current Capacity",
+        "impact": "Power delivery",
+        "standard_ref": "IPC-2221"
+      },
+      "stages": [
+        "layout",
+        "pre_fab"
+      ],
+      "finding_id": "pcb:CC-DET-+5v"
+    },
+    {
+      "net": "+5V_INPUT",
+      "net_number": 2,
+      "min_track_width_mm": 0.2,
+      "max_track_width_mm": 0.8,
+      "track_widths_used": [
+        0.2,
+        0.8
+      ],
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "segment_count": 2,
+      "via_count": 0,
+      "detector": "analyze_current_capacity",
+      "rule_id": "CC-DET",
+      "category": "current_capacity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Power net +5V_INPUT: 0.2mm min trace",
+      "description": "Power/ground net +5V_INPUT: min trace 0.2mm, max 0.8mm, 2 segments.",
+      "components": [],
+      "nets": [
+        "+5V_INPUT"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Current Capacity",
+        "impact": "Power delivery",
+        "standard_ref": "IPC-2221"
+      },
+      "stages": [
+        "layout",
+        "pre_fab"
+      ],
+      "finding_id": "pcb:CC-DET-+5v_input"
+    },
+    {
+      "net": "GND",
+      "net_number": 8,
+      "min_track_width_mm": 0.2,
+      "max_track_width_mm": 0.8,
+      "track_widths_used": [
+        0.2,
+        0.3,
+        0.5,
+        0.8
+      ],
+      "copper_layers": [
+        "F.Cu"
+      ],
+      "segment_count": 14,
+      "via_count": 5,
+      "via_drill_sizes_mm": [
+        0.3
+      ],
+      "zones": [
+        {
+          "layers": [
+            "B.Cu"
+          ],
+          "filled_area_mm2": 1219.02,
+          "min_thickness": 0.25
+        }
+      ],
+      "detector": "analyze_current_capacity",
+      "rule_id": "CC-DET",
+      "category": "current_capacity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Power net GND: 0.2mm min trace",
+      "description": "Power/ground net GND: min trace 0.2mm, max 0.8mm, 14 segments.",
+      "components": [],
+      "nets": [
+        "GND"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Current Capacity",
+        "impact": "Power delivery",
+        "standard_ref": "IPC-2221"
+      },
+      "stages": [
+        "layout",
+        "pre_fab"
+      ],
+      "finding_id": "pcb:CC-DET-gnd"
+    },
+    {
+      "component": "H1",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under H1",
+      "description": "Component H1 has no copper zone on the opposite layer.",
+      "components": [
+        "H1"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:h1"
+    },
+    {
+      "component": "H2",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under H2",
+      "description": "Component H2 has no copper zone on the opposite layer.",
+      "components": [
+        "H2"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:h2"
+    },
+    {
+      "component": "J1",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J1",
+      "description": "Component J1 has no copper zone on the opposite layer.",
+      "components": [
+        "J1"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:j1"
+    },
+    {
+      "component": "J2",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J2",
+      "description": "Component J2 has no copper zone on the opposite layer.",
+      "components": [
+        "J2"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:j2"
+    },
+    {
+      "component": "J3",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J3",
+      "description": "Component J3 has no copper zone on the opposite layer.",
+      "components": [
+        "J3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:j3"
+    },
+    {
+      "component": "J4",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J4",
+      "description": "Component J4 has no copper zone on the opposite layer.",
+      "components": [
+        "J4"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:j4"
+    },
+    {
+      "component": "J5",
+      "detector": "analyze_copper_presence",
+      "rule_id": "CP-002",
+      "category": "copper_integrity",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "geometry",
+      "summary": "No opposite-layer copper under J5",
+      "description": "Component J5 has no copper zone on the opposite layer.",
+      "components": [
+        "J5"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Copper Integrity",
+        "impact": "Return path / shielding",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:CP-002:j5"
+    },
+    {
+      "side": "F.Cu",
+      "fiducial_count": 0,
+      "fiducial_refs": [],
+      "smd_component_count": 14,
+      "finest_smd_pad_dim_mm": 0.6,
+      "detector": "analyze_fiducials",
+      "rule_id": "FD-001",
+      "category": "assembly",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "No fiducials on F.Cu (14 SMD components) (finest pad dim 0.60mm \u2014 coarse pitch only)",
+      "description": "F.Cu has 0 fiducial(s) but 14 SMD components. Assembly machines need >= 3 fiducials for accurate placement.",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Add fiducial markers for pick-and-place alignment (3 per side with SMD).",
+      "report_context": {
+        "section": "Assembly",
+        "impact": "Pick-and-place alignment",
+        "standard_ref": "IPC-7351"
+      },
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "pcb:FD-001:fce0505283cc"
+    },
+    {
+      "side": "F.Cu",
+      "total_passives": 10,
+      "majority_angle": 0,
+      "majority_count": 7,
+      "deviator_count": 3,
+      "deviator_refs": [
+        "R3",
+        "R2",
+        "C4"
+      ],
+      "detector": "analyze_orientation_consistency",
+      "rule_id": "OR-001",
+      "category": "assembly",
+      "severity": "info",
+      "confidence": "heuristic",
+      "evidence_source": "topology",
+      "summary": "Orientation: 3 passives on F.Cu deviate from 0 deg majority",
+      "description": "3 of 10 passives on F.Cu are not at the majority 0 deg orientation.",
+      "components": [
+        "C4",
+        "R2",
+        "R3"
+      ],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Align passive component orientations for consistent pick-and-place.",
+      "report_context": {
+        "section": "Assembly",
+        "impact": "Pick-and-place efficiency",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:OR-001:c4"
+    },
+    {
+      "total_signal_nets": 11,
+      "nets_with_test_points": 0,
+      "coverage_pct": 0.0,
+      "test_point_count": 0,
+      "detector": "analyze_test_point_coverage",
+      "rule_id": "TE-001",
+      "category": "testability",
+      "severity": "warning",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Test point coverage: 0/11 nets (0%)",
+      "description": "0 of 11 signal nets have test points (0% coverage).",
+      "components": [],
+      "nets": [],
+      "pins": [],
+      "recommendation": "Add test points to improve ICT/flying probe coverage.",
+      "report_context": {
+        "section": "Testability",
+        "impact": "ICT accessibility",
+        "standard_ref": ""
+      },
+      "stages": [
+        "pre_fab"
+      ],
+      "finding_id": "pcb:TE-001:cf9b82c35ddf"
+    },
+    {
+      "net": "GND",
+      "zone_layers": [
+        "B.Cu"
+      ],
+      "zone_area_mm2": 1999.2,
+      "via_count": 5,
+      "via_density_per_cm2": 0.3,
+      "drill_sizes_mm": [
+        0.3
+      ],
+      "detector": "analyze_thermal_vias",
+      "rule_id": "TS-DET",
+      "category": "thermal",
+      "severity": "info",
+      "confidence": "deterministic",
+      "evidence_source": "topology",
+      "summary": "Zone stitching: GND 5 vias",
+      "description": "Zone stitching on net GND: 5 vias across layers ['B.Cu'].",
+      "components": [],
+      "nets": [
+        "GND"
+      ],
+      "pins": [],
+      "recommendation": "",
+      "report_context": {
+        "section": "Thermal",
+        "impact": "Thermal/ground plane connectivity",
+        "standard_ref": ""
+      },
+      "stages": [
+        "layout"
+      ],
+      "finding_id": "pcb:TS-DET-gnd"
+    }
+  ],
+  "assessments": [],
+  "trust_summary": {
+    "total_findings": 14,
+    "trust_level": "high",
+    "by_confidence": {
+      "deterministic": 13,
+      "heuristic": 1,
+      "datasheet_backed": 0
+    },
+    "by_evidence_source": {
+      "datasheet": 0,
+      "topology": 7,
+      "heuristic_rule": 0,
+      "symbol_footprint": 0,
+      "bom": 0,
+      "geometry": 7,
+      "api_lookup": 0
+    },
+    "provenance_coverage_pct": 0.0
+  },
+  "summary": {
+    "total_findings": 14,
+    "by_severity": {
+      "error": 0,
+      "warning": 1,
+      "info": 13
+    }
+  },
+  "inputs": {
+    "source_files": [
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\5V_1Fan.kicad_pcb"
+    ],
+    "source_hashes": {
+      "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\5V\\1 Fan\\5V_1Fan\\5V_1Fan.kicad_pcb": "f566bdc3bf76db8a0910fcfe4d2a557eff34a70156f072d6bbac10db3a67c7b2"
+    },
+    "run_id": "20260827T064229Z-977e6e",
+    "config_hash": null,
+    "upstream_artifacts": {}
+  },
+  "compat": {
+    "minimum_consumer_version": "1.4.0",
+    "deprecated_fields": [],
+    "experimental_fields": []
+  },
+  "design_intent": {
+    "product_class": "prototype",
+    "ipc_class": 2,
+    "target_market": "hobby",
+    "expected_lifetime_years": 5,
+    "operating_temp_range": [
+      -10,
+      70
+    ],
+    "preferred_passive_size": "0603",
+    "test_coverage_target": 0.85,
+    "approved_manufacturers": [],
+    "confidence": 0.3,
+    "detection_signals": [],
+    "source": {
+      "ipc_class": "auto",
+      "product_class": "auto",
+      "target_market": "auto",
+      "expected_lifetime_years": "auto",
+      "operating_temp_range": "auto",
+      "preferred_passive_size": "auto",
+      "test_coverage_target": "auto",
+      "approved_manufacturers": "auto"
+    }
+  },
+  "audience_summary": {
+    "designer": {
+      "total_findings": 14,
+      "by_severity": {
+        "error": 0,
+        "warning": 1,
+        "info": 13
+      },
+      "by_category": {
+        "current_capacity": 3,
+        "copper_integrity": 7,
+        "assembly": 2,
+        "testability": 1,
+        "thermal": 1
+      },
+      "top_issues": [
+        {
+          "total_signal_nets": 11,
+          "nets_with_test_points": 0,
+          "coverage_pct": 0.0,
+          "test_point_count": 0,
+          "detector": "analyze_test_point_coverage",
+          "rule_id": "TE-001",
+          "category": "testability",
+          "severity": "warning",
+          "confidence": "deterministic",
+          "evidence_source": "topology",
+          "summary": "Test point coverage: 0/11 nets (0%)",
+          "description": "0 of 11 signal nets have test points (0% coverage).",
+          "components": [],
+          "nets": [],
+          "pins": [],
+          "recommendation": "Add test points to improve ICT/flying probe coverage.",
+          "report_context": {
+            "section": "Testability",
+            "impact": "ICT accessibility",
+            "standard_ref": ""
+          },
+          "stages": [
+            "pre_fab"
+          ],
+          "finding_id": "pcb:TE-001:cf9b82c35ddf"
+        }
+      ]
+    },
+    "reviewer": {
+      "total_findings": 1,
+      "by_category": {
+        "testability": 1
+      },
+      "top_issues": [
+        {
+          "rule_id": "TE-001",
+          "severity": "warning",
+          "summary": "Test point coverage: 0/11 nets (0%)",
+          "recommendation": "Add test points to improve ICT/flying probe coverage.",
+          "category": "testability"
+        }
+      ]
+    },
+    "manager": {
+      "risk_level": "low",
+      "blocker_count": 0,
+      "warning_count": 1,
+      "stage_readiness": {
+        "schematic": "pass",
+        "layout": "pass",
+        "pre_fab": "needs_review",
+        "bring_up": "pass"
+      },
+      "one_liner": "1 warning across 1 category."
+    }
+  },
+  "capability_mode_ref": {
+    "source": "analysis/capability_mode.json",
+    "run_id": "20260827T064229Z-977e6e"
+  }
+}
