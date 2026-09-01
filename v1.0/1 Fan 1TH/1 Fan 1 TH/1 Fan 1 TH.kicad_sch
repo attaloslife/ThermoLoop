@@ -7039,7 +7039,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NCE40P05Y"
+		(property "Value" "AP40P05"
 			(at 50.8 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TH1"
+		(property "Value" "TH2"
 			(at 105.41 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
