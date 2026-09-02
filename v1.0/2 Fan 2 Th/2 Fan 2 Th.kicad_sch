@@ -1455,9 +1455,6 @@
 			(embedded_fonts no)
 		)
 		(symbol "Device:D_Zener"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3412,6 +3409,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "PANEL POWER SWITCH\nSW1: EAO 82-4151.2000 - use COM + one throw"
 		(exclude_from_sim no)
@@ -3422,6 +3534,16 @@
 			)
 		)
 		(uuid "4e4e2c7e-9069-4990-bd63-34bcb443d0ec")
+	)
+	(text "CPE-270\n1 = +\n2 = –"
+		(exclude_from_sim no)
+		(at 121.158 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d5d8ac2-147a-4b3c-8253-fe789d47cf87")
 	)
 	(junction
 		(at 194.31 138.43)
@@ -3436,6 +3558,12 @@
 		(uuid "21cc7838-cbb8-409d-8d8a-7947ec41b09c")
 	)
 	(junction
+		(at 46.99 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e2c73cc-d3d4-4f4c-bc34-2103231cda2a")
+	)
+	(junction
 		(at 86.36 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3448,6 +3576,12 @@
 		(uuid "3ec0ce28-891d-4fb3-86ba-1b1508b6ebc6")
 	)
 	(junction
+		(at 49.53 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40941b6c-9993-4989-80b6-f9f15eec0fec")
+	)
+	(junction
 		(at 166.37 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3458,6 +3592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b54a498-5d9f-441c-9f42-0783d1e839c0")
+	)
+	(junction
+		(at 151.13 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66bba644-688f-4b68-a36a-6b5b9d15868a")
 	)
 	(junction
 		(at 247.65 138.43)
@@ -3488,12 +3628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96ff48ad-a818-4d3d-9e25-36e7f04f0fa7")
-	)
-	(junction
-		(at 46.99 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a34d77f9-2c02-40ae-adf6-810e67938943")
 	)
 	(junction
 		(at 46.99 100.33)
@@ -3537,9 +3671,11 @@
 		(color 0 0 0 0)
 		(uuid "f22715dc-dce4-438a-b36f-216e8d7b63b8")
 	)
-	(no_connect
-		(at 111.76 106.68)
-		(uuid "0ca84d69-2587-402b-96e8-652de3c1d7ca")
+	(junction
+		(at 46.99 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7661bc7-8317-412e-af04-1fc61cdb6d5c")
 	)
 	(wire
 		(pts
@@ -3593,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 86.36) (xy 63.5 86.36)
+			(xy 58.42 90.17) (xy 63.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3623,33 +3759,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 175.26) (xy 88.9 175.26)
+			(xy 101.6 180.34) (xy 123.19 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1731da00-5a17-4115-b6ad-30a517e88158")
-	)
-	(wire
-		(pts
-			(xy 68.58 177.8) (xy 88.9 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17d06ae2-e19d-4b6f-977c-9f660c40957f")
-	)
-	(wire
-		(pts
-			(xy 101.6 172.72) (xy 123.19 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2454af0f-7ea5-40c1-bebd-7aadd155c32d")
+		(uuid "1cdb1b26-2f0a-420b-97db-09a24415d123")
 	)
 	(wire
 		(pts
@@ -3693,13 +3809,33 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 180.34) (xy 88.9 180.34)
+			(xy 68.58 175.26) (xy 88.9 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "39355622-891b-456f-ac4a-af548aeab5eb")
+		(uuid "3511f881-c1bd-441d-b19f-a8617db07ff8")
+	)
+	(wire
+		(pts
+			(xy 46.99 90.17) (xy 46.99 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3595388b-e6b4-439f-b12e-97746747e9f1")
+	)
+	(wire
+		(pts
+			(xy 151.13 138.43) (xy 151.13 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38aa00cf-47ab-4362-9212-b685ad124a5e")
 	)
 	(wire
 		(pts
@@ -3743,13 +3879,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 182.88) (xy 88.9 182.88)
+			(xy 101.6 175.26) (xy 123.19 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f78be73-a1cf-4b3a-92d3-8153907fa84d")
+		(uuid "4b07742a-9ee5-4dfe-b33a-c579619a4f00")
 	)
 	(wire
 		(pts
@@ -3793,6 +3929,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 83.82) (xy 46.99 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640cea00-ad1b-446b-ba39-2bd81222434e")
+	)
+	(wire
+		(pts
 			(xy 262.89 104.14) (xy 262.89 119.38)
 		)
 		(stroke
@@ -3823,6 +3969,36 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 182.88) (xy 88.9 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d6fb04-54ae-4b48-be9d-d71540772d39")
+	)
+	(wire
+		(pts
+			(xy 68.58 177.8) (xy 88.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6de09389-f320-429f-b59a-b2532e03e00c")
+	)
+	(wire
+		(pts
+			(xy 101.6 172.72) (xy 123.19 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9d10c8-77ad-47d0-ba07-6c202e59cbde")
+	)
+	(wire
+		(pts
 			(xy 46.99 67.31) (xy 46.99 72.39)
 		)
 		(stroke
@@ -3840,16 +4016,6 @@
 			(type default)
 		)
 		(uuid "7778a044-d2d3-441f-b324-3474f638012c")
-	)
-	(wire
-		(pts
-			(xy 46.99 86.36) (xy 46.99 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842f1509-9ce7-4482-92ad-dd542e104d98")
 	)
 	(wire
 		(pts
@@ -3883,7 +4049,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 46.99 86.36)
+			(xy 50.8 90.17) (xy 46.99 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3940,16 +4106,6 @@
 			(type default)
 		)
 		(uuid "97eb0b24-062a-43bc-b513-97c00e1e4b3e")
-	)
-	(wire
-		(pts
-			(xy 101.6 175.26) (xy 123.19 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a01b74ef-879c-4034-a496-69e0020ebd41")
 	)
 	(wire
 		(pts
@@ -4033,13 +4189,33 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 87.63) (xy 63.5 86.36)
+			(xy 63.5 91.44) (xy 63.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be852da8-b5d3-482a-ba17-8601dd25ba1a")
+	)
+	(wire
+		(pts
+			(xy 101.6 177.8) (xy 123.19 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85ff0e5-709f-4609-8134-a135919c8a2f")
+	)
+	(wire
+		(pts
+			(xy 151.13 143.51) (xy 151.13 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc33d8bb-2571-44cb-9b6e-a786e1afb144")
 	)
 	(wire
 		(pts
@@ -4050,6 +4226,16 @@
 			(type default)
 		)
 		(uuid "cd0a6255-16f0-4e1e-b747-83d4dd21d6b6")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 46.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd208aa7-c919-4e93-a66e-e757b78ba794")
 	)
 	(wire
 		(pts
@@ -4103,13 +4289,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 180.34) (xy 123.19 180.34)
+			(xy 68.58 180.34) (xy 88.9 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e39f0479-29c0-43c0-9ae3-6dcd6e568e13")
+		(uuid "e6585f39-1094-454b-a5cc-93519ca2bd37")
 	)
 	(wire
 		(pts
@@ -4151,25 +4337,15 @@
 		)
 		(uuid "f030fde7-e16b-4efb-b247-16eabb4e0ba9")
 	)
-	(wire
-		(pts
-			(xy 46.99 82.55) (xy 46.99 86.36)
+	(label "BUZZER_CTRL"
+		(at 111.76 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66b6c54-98f6-4eb4-ad36-6a19cf7ca419")
-	)
-	(wire
-		(pts
-			(xy 101.6 177.8) (xy 123.19 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9e8a91d-edb3-48cc-9859-af39479d792d")
+		(uuid "039abb88-bd21-40e2-be2a-8fb7b7593ef0")
 	)
 	(label "FAN1_TACH"
 		(at 243.84 138.43 180)
@@ -4182,17 +4358,17 @@
 		(uuid "0418ce2c-cc82-4e82-8701-fd83e562455e")
 	)
 	(label "FAN1_LED_A"
-		(at 88.9 175.26 180)
+		(at 101.6 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "052014dd-0c3c-45f4-8053-6ab5dd53b861")
 	)
 	(label "SYSTEM_LED_B_CTRL"
-		(at 130.81 172.72 0)
+		(at 130.81 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4222,7 +4398,7 @@
 		(uuid "13a1e5e4-bbb0-4359-b79a-9952d507a4ac")
 	)
 	(label "TH2_LED_A"
-		(at 88.9 182.88 180)
+		(at 88.9 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4240,6 +4416,16 @@
 			(justify right bottom)
 		)
 		(uuid "33196413-f410-46d4-aa63-448b9b041ee4")
+	)
+	(label "BUZZER_SW"
+		(at 130.81 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33b1d3b9-b99b-448e-8938-ff744ada5b86")
 	)
 	(label "FAN1_TACH"
 		(at 111.76 99.06 180)
@@ -4271,23 +4457,33 @@
 		)
 		(uuid "45ceb8fc-0d77-4c41-8a8b-612af87a2b96")
 	)
-	(label "FAN2_LED_B_CTRL"
-		(at 130.81 180.34 0)
+	(label "BUZZER_SW"
+		(at 158.75 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "48453336-e5a2-4481-bee8-1abe1233fba5")
+		(uuid "4627d7e2-5390-4aff-9801-7d6cd4916cc6")
 	)
-	(label "FAN2_LED_A_CTRL"
-		(at 60.96 180.34 180)
+	(label "FAN2_LED_B_CTRL"
+		(at 60.96 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "48453336-e5a2-4481-bee8-1abe1233fba5")
+	)
+	(label "FAN2_LED_A_CTRL"
+		(at 130.81 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "4aaf1649-141c-4f96-b8c7-1f7f434eca1e")
 	)
@@ -4322,22 +4518,22 @@
 		(uuid "5a5d5831-0aab-4169-890a-1e1076f450a3")
 	)
 	(label "FAN2_LED_A"
-		(at 88.9 180.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f12ee85-eb14-4350-9d26-ba90d27cdd12")
-	)
-	(label "FAN2_LED_B"
-		(at 101.6 180.34 0)
+		(at 101.6 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "5f12ee85-eb14-4350-9d26-ba90d27cdd12")
+	)
+	(label "FAN2_LED_B"
+		(at 88.9 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "5f2f30a5-6b92-4fcb-b21c-fcef47053989")
 	)
@@ -4362,7 +4558,7 @@
 		(uuid "629bcc31-0854-49c5-a609-3404f29fe615")
 	)
 	(label "SYSTEM_LED_B"
-		(at 101.6 172.72 0)
+		(at 101.6 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4402,17 +4598,17 @@
 		(uuid "6da9ac48-275a-4d2f-a95e-bb3f71bcf6da")
 	)
 	(label "FAN1_LED_A_CTRL"
-		(at 60.96 175.26 180)
+		(at 130.81 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6dbbc675-30eb-42e0-bcad-486751e95267")
 	)
 	(label "TH2_LED_A_CTRL"
-		(at 60.96 182.88 180)
+		(at 60.96 177.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4420,6 +4616,16 @@
 			(justify right bottom)
 		)
 		(uuid "78423700-ef31-4d1e-967a-2dad0b0cedd7")
+	)
+	(label "VIN_PROTECTED"
+		(at 128.27 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79fbfb53-9f1f-4f23-9356-12f59462830d")
 	)
 	(label "TH2_LED_A_CTRL"
 		(at 142.24 109.22 0)
@@ -4492,7 +4698,7 @@
 		(uuid "90e64745-ec9e-49f4-a178-e148d1cab8fa")
 	)
 	(label "TH1_LED_B"
-		(at 101.6 177.8 0)
+		(at 101.6 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4541,13 +4747,23 @@
 		)
 		(uuid "aa31bb38-f8e0-4e3a-8d5d-e8d66aaadf1b")
 	)
-	(label "FAN1_LED_B"
-		(at 101.6 175.26 0)
+	(label "BUZZER_CTRL"
+		(at 151.13 130.81 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "acedc5ae-a3a1-4987-a605-bb84f4362984")
+	)
+	(label "FAN1_LED_B"
+		(at 88.9 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "af0ba5ab-a955-42b1-8642-b268971ed233")
 	)
@@ -4582,12 +4798,12 @@
 		(uuid "bb909fc9-a059-468c-9303-6728ab55a757")
 	)
 	(label "FAN1_LED_B_CTRL"
-		(at 130.81 175.26 0)
+		(at 60.96 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bedac633-405d-4e5d-96b4-db2d359596f0")
 	)
@@ -4612,7 +4828,7 @@
 		(uuid "c3655e55-0e9f-4557-adf1-ae075a8eb676")
 	)
 	(label "TH1_LED_A"
-		(at 88.9 177.8 180)
+		(at 88.9 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4672,7 +4888,7 @@
 		(uuid "cf1e1f13-e138-4a25-9c98-68c18e5329bb")
 	)
 	(label "TH1_LED_B_CTRL"
-		(at 130.81 177.8 0)
+		(at 130.81 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4752,7 +4968,7 @@
 		(uuid "fa4e9050-b31d-4474-9dfd-98769cda0ce5")
 	)
 	(label "TH1_LED_A_CTRL"
-		(at 60.96 177.8 180)
+		(at 60.96 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -4832,7 +5048,7 @@
 			(uuid "eefb8873-6949-42a6-b389-cf3dea046615")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R20")
 					(unit 1)
@@ -4915,7 +5131,7 @@
 			(uuid "78aa292b-8685-474e-8234-e5ebd728e04c")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "U1")
 					(unit 1)
@@ -4993,7 +5209,7 @@
 			(uuid "c2608654-1a15-40b0-84b8-a8648c51d7ec")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR023")
 					(unit 1)
@@ -5072,7 +5288,7 @@
 			(uuid "1320ab1a-b77e-4b91-97de-691fe18dbc5a")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR032")
 					(unit 1)
@@ -5113,7 +5329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5369,7 @@
 			(uuid "6d012f35-02b6-434d-bc18-09524f152b15")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R18")
 					(unit 1)
@@ -5231,7 +5447,7 @@
 			(uuid "1c92ab96-a6fd-474e-9490-fc5bb1925d2a")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR028")
 					(unit 1)
@@ -5241,7 +5457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 87.63 0)
+		(at 63.5 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5252,7 +5468,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e8824a1-d5da-4650-9ff4-953967473a14")
 		(property "Reference" "#PWR04"
-			(at 63.5 93.98 0)
+			(at 63.5 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5263,7 +5479,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 92.71 0)
+			(at 63.5 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5273,7 +5489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 87.63 0)
+			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5284,7 +5500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 87.63 0)
+			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +5511,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 87.63 0)
+			(at 63.5 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5525,7 @@
 			(uuid "e1b7a02a-0624-40ca-89a7-0b66dc2f12c5")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR04")
 					(unit 1)
@@ -5349,7 +5565,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1015_2x05_P3.00mm_Vertical"
 			(at 93.98 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -5413,7 +5629,7 @@
 			(uuid "20ce978d-1126-4418-962e-55beb98e6ee7")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J5")
 					(unit 1)
@@ -5491,9 +5707,97 @@
 			(uuid "1ab2dc8f-5f7b-40b1-898b-25f445111549")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 156.21 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1862a775-29bd-404b-9604-21886f744d64")
+		(property "Reference" "Q4"
+			(at 162.56 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 162.56 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 161.29 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 161.29 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 156.21 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a4394676-9c82-44f3-93f6-898cc29af3b4")
+		)
+		(pin "2"
+			(uuid "837b9688-57f8-41a7-807e-e15c11cfd856")
+		)
+		(pin "1"
+			(uuid "b5ec1f38-b35f-4e43-bfe4-307008507f39")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5569,7 +5873,7 @@
 			(uuid "db384d5c-f389-4d1e-b49f-5870ec79a71d")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR027")
 					(unit 1)
@@ -5647,9 +5951,87 @@
 			(uuid "6d3f6072-13c8-413e-b167-bf57d6ce4c37")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f7e8ff5-1be9-4b88-a372-bbb2a8a62f52")
+		(property "Reference" "#PWR036"
+			(at 151.13 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01cc9bbe-0d6a-4b5a-b84d-363445d1ff30")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -5677,7 +6059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF 35 V"
+		(property "Value" "10 µF 50 V"
 			(at 253.492 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5688,7 +6070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 253.6952 127 0)
 			(hide yes)
 			(show_name no)
@@ -5728,7 +6110,7 @@
 			(uuid "de9a04b3-08fe-4849-87c5-5b9c0d24d98e")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C8")
 					(unit 1)
@@ -5806,7 +6188,7 @@
 			(uuid "450232a2-d462-4d3c-914b-a9348474c620")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR09")
 					(unit 1)
@@ -5847,7 +6229,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
 			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5888,7 +6270,7 @@
 			(uuid "6b8f72fb-7449-46b0-a140-00931949ee2c")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "F1")
 					(unit 1)
@@ -5929,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 248.6152 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +6351,7 @@
 			(uuid "dd6c675f-6bf1-4a66-869e-0918e484c780")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C7")
 					(unit 1)
@@ -6010,7 +6392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.3252 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6050,7 +6432,7 @@
 			(uuid "1000ea51-afad-4fe2-a25f-f5af9bd7d020")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C13")
 					(unit 1)
@@ -6091,7 +6473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 47.9552 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6131,7 +6513,7 @@
 			(uuid "463f7537-7ed6-4f6f-ba2d-144ec55c9c05")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C6")
 					(unit 1)
@@ -6170,7 +6552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 173.482 90)
 			(hide yes)
 			(show_name no)
@@ -6210,7 +6592,7 @@
 			(uuid "823ce10f-54a5-49b5-8463-34bb76f2d22a")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R6")
 					(unit 1)
@@ -6288,7 +6670,7 @@
 			(uuid "df8c490e-60f4-4951-8187-c1e779b8e992")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR05")
 					(unit 1)
@@ -6366,7 +6748,7 @@
 			(uuid "2ff1262f-f433-4a67-bfb4-5fcc27948301")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR031")
 					(unit 1)
@@ -6444,7 +6826,7 @@
 			(uuid "fcbcc96c-647f-47c1-9668-95d7063cdac1")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR01")
 					(unit 1)
@@ -6484,7 +6866,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0415_2x02_P3.00mm_Vertical"
 			(at 209.55 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6530,7 +6912,7 @@
 			(uuid "a2a710b7-7692-4384-81b8-5bea553f56ab")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J6")
 					(unit 1)
@@ -6607,7 +6989,7 @@
 			(uuid "4f8ba6bc-f2c1-4d89-bb50-1a804c6607be")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR013")
 					(unit 1)
@@ -6685,7 +7067,7 @@
 			(uuid "15f68801-4e4f-4221-925a-126e9722dfbf")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR025")
 					(unit 1)
@@ -6715,7 +7097,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF 35 V"
+		(property "Value" "10 µF 50 V"
 			(at 200.152 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6726,7 +7108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 200.3552 127 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +7148,7 @@
 			(uuid "02c26453-6eb8-4f2e-83db-2083255c5674")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C12")
 					(unit 1)
@@ -6806,7 +7188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0415_2x02_P3.00mm_Vertical"
 			(at 262.89 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6852,7 +7234,7 @@
 			(uuid "46bcab6b-23b4-4606-b9d3-3f465cb8532b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J4")
 					(unit 1)
@@ -6930,9 +7312,90 @@
 			(uuid "c9a59533-6290-4e14-b2f5-f1c53d15d463")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5385dadc-afe6-4044-9a0f-eb74ad7405f9")
+		(property "Reference" "R25"
+			(at 145.796 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 kΩ"
+			(at 142.24 153.416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 149.352 152.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "280e7af6-ac3e-421c-a687-ae8c67cc21c9")
+		)
+		(pin "2"
+			(uuid "edfb4efc-8f3c-490a-8e43-1d9ed6bd1d9c")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -7008,7 +7471,7 @@
 			(uuid "a32786c9-45bb-4e84-b693-827eeb2e008c")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR021")
 					(unit 1)
@@ -7050,7 +7513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 49.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7093,7 +7556,7 @@
 			(uuid "9e7ed2ac-76e0-4251-a8c5-dd1c53e8ecb0")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "Q1")
 					(unit 1)
@@ -7133,7 +7596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 39.37 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7173,7 +7636,7 @@
 			(uuid "13a131c6-66a7-489c-a8dd-b442223063f5")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "D1")
 					(unit 1)
@@ -7251,9 +7714,90 @@
 			(uuid "36b96544-f09d-4d13-b7c0-e02e429afdfe")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 128.27 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f1e24b7-6716-4e4f-9b7a-cb0b608d5fb4")
+		(property "Reference" "J8"
+			(at 123.444 142.24 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "BUZZER_HARNESS"
+			(at 121.666 138.938 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0215_2x01_P3.00mm_Vertical"
+			(at 128.27 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 128.27 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f904bb2b-2890-42a6-92a5-bec181731593")
+		)
+		(pin "2"
+			(uuid "60fee7c6-bc5e-4c00-bc57-e228246a249b")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7293,7 +7837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 210.312 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -7333,7 +7877,7 @@
 			(uuid "a48f2ea4-7e54-4671-a3e1-b8e3e5f4ab14")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R21")
 					(unit 1)
@@ -7374,7 +7918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.032 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -7414,7 +7958,7 @@
 			(uuid "5b9d6aae-bf71-41d2-8b27-4d8caffe27fa")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R3")
 					(unit 1)
@@ -7502,7 +8046,7 @@
 			(uuid "f2d061c4-483a-4639-b07e-6c5d8d5ba081")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "Q3")
 					(unit 1)
@@ -7543,7 +8087,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 93.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -7586,7 +8130,7 @@
 			(uuid "ddfbc2a1-c7fb-4429-a9c5-22e018a2a789")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J2")
 					(unit 1)
@@ -7625,7 +8169,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 170.942 90)
 			(hide yes)
 			(show_name no)
@@ -7665,9 +8209,88 @@
 			(uuid "11c98406-8222-48b7-98e9-94eb5a280588")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b2445b0-4dfd-4d00-9a54-b99ed012d273")
+		(property "Reference" "#FLG01"
+			(at 48.895 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 50.8 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb88af2c-3541-4d05-9348-36403bbba05b")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7743,7 +8366,7 @@
 			(uuid "81eddf8b-cc8f-4b1d-bf52-cbe399736092")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR018")
 					(unit 1)
@@ -7821,7 +8444,7 @@
 			(uuid "8667d449-d6c7-4693-917a-926f7f3bafdc")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR08")
 					(unit 1)
@@ -7860,7 +8483,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.57 67.0052 0)
 			(hide yes)
 			(show_name no)
@@ -7900,7 +8523,7 @@
 			(uuid "a2247281-e673-4275-9d10-056f1021d193")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C5")
 					(unit 1)
@@ -7939,7 +8562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -7979,7 +8602,7 @@
 			(uuid "f9ec00c9-9a87-40d8-87a1-e6ce726742d4")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R16")
 					(unit 1)
@@ -8018,7 +8641,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -8058,7 +8681,7 @@
 			(uuid "49df7871-ca1c-4635-b576-c74d6bf38d44")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R2")
 					(unit 1)
@@ -8097,7 +8720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 182.118 90)
 			(hide yes)
 			(show_name no)
@@ -8137,7 +8760,7 @@
 			(uuid "c1bef9bb-83be-4986-a8b4-e38848c2e192")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R14")
 					(unit 1)
@@ -8179,7 +8802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0215_2x01_P3.00mm_Vertical"
 			(at 102.87 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8219,7 +8842,7 @@
 			(uuid "06771832-c45c-4dce-bbb7-68ff1b48fd3e")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J7")
 					(unit 1)
@@ -8297,7 +8920,7 @@
 			(uuid "0d4081a1-0a31-40c6-9339-1fae62fa5dea")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR029")
 					(unit 1)
@@ -8375,7 +8998,7 @@
 			(uuid "8f530c54-8fbf-48d1-952d-0416e8f6ce47")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR02")
 					(unit 1)
@@ -8414,7 +9037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 58.42 99.3648 0)
 			(hide yes)
 			(show_name no)
@@ -8454,7 +9077,7 @@
 			(uuid "136fd3db-65e8-4283-bac7-23dc147bc66c")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C2")
 					(unit 1)
@@ -8591,7 +9214,7 @@
 			(uuid "a3554fa4-e5b6-4b14-9dea-f71ff2c256f6")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "U2")
 					(unit 1)
@@ -8632,7 +9255,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0215_2x01_P3.00mm_Vertical"
 			(at 46.99 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -8672,7 +9295,7 @@
 			(uuid "a6ef4cde-d913-4d77-a207-8684ef648190")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J1")
 					(unit 1)
@@ -8714,7 +9337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 263.652 142.24 90)
 			(hide yes)
 			(show_name no)
@@ -8754,7 +9377,7 @@
 			(uuid "3ffafa49-df4d-4bf5-b677-f7d631fcf03f")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R5")
 					(unit 1)
@@ -8793,7 +9416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 176.022 90)
 			(hide yes)
 			(show_name no)
@@ -8833,7 +9456,7 @@
 			(uuid "c072ecae-ba0e-493f-873a-b26b41c279a8")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R9")
 					(unit 1)
@@ -8874,7 +9497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 203.962 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -8914,7 +9537,7 @@
 			(uuid "6e8c7865-8053-461b-a1df-8f008656d8a6")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R19")
 					(unit 1)
@@ -8953,7 +9576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 173.482 90)
 			(hide yes)
 			(show_name no)
@@ -8993,7 +9616,7 @@
 			(uuid "200b9073-d68c-4c69-8109-38448d659fae")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R7")
 					(unit 1)
@@ -9032,7 +9655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 184.658 90)
 			(hide yes)
 			(show_name no)
@@ -9072,7 +9695,7 @@
 			(uuid "4de65de3-9dd2-414f-b397-7fe06111e920")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R15")
 					(unit 1)
@@ -9150,7 +9773,7 @@
 			(uuid "bbc65dcd-7629-4d51-bfd2-4c5b028bf97d")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR020")
 					(unit 1)
@@ -9191,7 +9814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 195.2752 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9231,7 +9854,7 @@
 			(uuid "072994c8-e43a-4a3c-a63d-d0c0ace7393b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C11")
 					(unit 1)
@@ -9319,7 +9942,7 @@
 			(uuid "9f350087-05a4-4a90-8bba-7e72750f914b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "Q2")
 					(unit 1)
@@ -9360,7 +9983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 147.0152 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9400,7 +10023,7 @@
 			(uuid "ca4a9ee1-fc74-4cd5-b7e2-f87c6fa49dad")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C3")
 					(unit 1)
@@ -9478,9 +10101,90 @@
 			(uuid "5f11e8b7-d276-4906-bb1e-3ca5ff5f4b72")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96df9f99-b97d-4b21-b353-67a4c2e57647")
+		(property "Reference" "R24"
+			(at 145.796 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 Ω"
+			(at 143.51 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 149.352 134.62 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e1b98ce2-c544-4d88-99b5-7810f7395768")
+		)
+		(pin "1"
+			(uuid "e9804b61-ea1f-41d4-9833-a1dd42f6a531")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9517,7 +10221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 35.56 79.248 90)
 			(hide yes)
 			(show_name no)
@@ -9557,7 +10261,7 @@
 			(uuid "e56d863d-3ccd-4152-8cf6-4cc9e919de33")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R1")
 					(unit 1)
@@ -9635,7 +10339,7 @@
 			(uuid "0da21721-c071-4c86-8daf-2e619ddfdfad")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR017")
 					(unit 1)
@@ -9675,7 +10379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 57.15 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9715,7 +10419,7 @@
 			(uuid "6cd795dd-2fa7-410f-a222-c4ec432beb3f")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "D2")
 					(unit 1)
@@ -9757,7 +10461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 167.3352 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -9797,9 +10501,87 @@
 			(uuid "d1333ad0-417b-44b0-8b13-731bfb2d472a")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1df407c-cb8f-4c1e-bcaa-fce9e1d94ba0")
+		(property "Reference" "#PWR035"
+			(at 158.75 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e06ad47-ee5c-4ddc-966d-fde7d2d713cf")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9838,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.1952 127 0)
 			(hide yes)
 			(show_name no)
@@ -9878,7 +10660,7 @@
 			(uuid "4309f75d-75d8-4993-8508-c6e2b3d82bcc")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C10")
 					(unit 1)
@@ -9956,7 +10738,7 @@
 			(uuid "a82068b6-8526-4fb1-a118-a25a67629221")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR016")
 					(unit 1)
@@ -9997,7 +10779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 256.032 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -10037,7 +10819,7 @@
 			(uuid "b6b9fa0f-9a8b-43c0-9a29-6c9419623dd0")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R4")
 					(unit 1)
@@ -10116,7 +10898,7 @@
 			(uuid "6842a098-f0f0-4974-b124-a61653836280")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR015")
 					(unit 1)
@@ -10126,7 +10908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 54.61 86.36 90)
+		(at 54.61 90.17 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10136,7 +10918,7 @@
 		(dnp no)
 		(uuid "b7c4c166-074b-4434-8716-e6a5a74f9a89")
 		(property "Reference" "C1"
-			(at 55.88 90.17 90)
+			(at 55.88 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10147,7 +10929,7 @@
 			)
 		)
 		(property "Value" "100uF 35V"
-			(at 59.182 92.456 90)
+			(at 59.182 96.266 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10157,8 +10939,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 85.3948 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 58.42 89.2048 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10169,7 +10951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 86.36 0)
+			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10180,7 +10962,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 54.61 86.36 0)
+			(at 54.61 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10197,7 +10979,7 @@
 			(uuid "b8f7d01e-50cf-4f49-a9af-3b466588024a")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C1")
 					(unit 1)
@@ -10236,7 +11018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 128.27 90)
 			(hide yes)
 			(show_name no)
@@ -10276,7 +11058,7 @@
 			(uuid "b1cf5e23-34be-41d8-8c1a-5298f75355e7")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R22")
 					(unit 1)
@@ -10354,7 +11136,7 @@
 			(uuid "d55a8759-8100-48d7-a6ec-92b8c973c57b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR024")
 					(unit 1)
@@ -10432,7 +11214,7 @@
 			(uuid "fc18d1fa-6019-4ed9-a89a-2fe77b176e0c")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR012")
 					(unit 1)
@@ -10471,7 +11253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 174.498 90)
 			(hide yes)
 			(show_name no)
@@ -10511,7 +11293,7 @@
 			(uuid "d37ba27a-7529-4d11-bacc-2ed0b76959c6")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R11")
 					(unit 1)
@@ -10553,7 +11335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0215_2x01_P3.00mm_Vertical"
 			(at 63.5 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +11375,7 @@
 			(uuid "6380b3ad-371a-49ff-80cd-e0ea7642c869")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "J3")
 					(unit 1)
@@ -10671,7 +11453,7 @@
 			(uuid "170cb04c-803b-4a22-8eda-ddc4231e6bba")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR034")
 					(unit 1)
@@ -10749,7 +11531,7 @@
 			(uuid "1db4e006-a148-41e7-a50f-1108bce348d7")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR026")
 					(unit 1)
@@ -10790,7 +11572,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 243.5352 127 0)
 			(hide yes)
 			(show_name no)
@@ -10830,7 +11612,7 @@
 			(uuid "0a95f18a-74ee-41c9-a379-a5f59dfedba3")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "C9")
 					(unit 1)
@@ -10908,7 +11690,7 @@
 			(uuid "288c7503-9c6e-44ce-9693-8a57548a8f1b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR011")
 					(unit 1)
@@ -10985,7 +11767,7 @@
 			(uuid "a00a6ae9-1fbd-4c0a-93d2-a31021434e0b")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR03")
 					(unit 1)
@@ -11026,7 +11808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 45.212 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -11066,7 +11848,7 @@
 			(uuid "b69d59a9-464b-463b-a0bf-74106d4b45b5")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R13")
 					(unit 1)
@@ -11145,9 +11927,88 @@
 			(uuid "63e4f7ae-555c-45c0-a62c-2299ad5ab207")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 35.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9e966da-30db-4ffe-8534-39e892bd502f")
+		(property "Reference" "#FLG02"
+			(at 51.435 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 53.34 35.5599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4599dc7-54a8-4e34-846e-a9f9dc2c0643")
+		)
+		(instances
+			(project "2 Fan 2 Th"
+				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -11184,7 +12045,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 140.208 90)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +12085,7 @@
 			(uuid "86fb8d37-950f-4957-aaee-700576855f12")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R12")
 					(unit 1)
@@ -11263,7 +12124,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.77 176.022 90)
 			(hide yes)
 			(show_name no)
@@ -11303,7 +12164,7 @@
 			(uuid "f37b25f0-c5c6-4682-86d7-d5726046e4e1")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R8")
 					(unit 1)
@@ -11342,7 +12203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 184.658 90)
 			(hide yes)
 			(show_name no)
@@ -11382,7 +12243,7 @@
 			(uuid "25838eb2-d93d-4464-a580-b045f0d92691")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R17")
 					(unit 1)
@@ -11459,7 +12320,7 @@
 			(uuid "f1dcbe5e-2014-4ccb-b878-ab2ee73f7718")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR014")
 					(unit 1)
@@ -11537,7 +12398,7 @@
 			(uuid "f5014ed4-c31b-4888-95cd-f379801c7905")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "#PWR010")
 					(unit 1)
@@ -11578,7 +12439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 84.582 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -11618,7 +12479,7 @@
 			(uuid "c69afa36-f341-4d1c-85ef-a0ddc5a37802")
 		)
 		(instances
-			(project "1 Fan 1 TH"
+			(project "2 Fan 2 Th"
 				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
 					(reference "R23")
 					(unit 1)
