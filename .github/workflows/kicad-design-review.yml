@@ -1,0 +1,44 @@
+name: KiCad Design Review
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - codex/kicad-design-review-20260904
+
+permissions:
+  contents: read
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out design
+        uses: actions/checkout@v4
+
+      - name: Run KiCad Design Review
+        id: kicad_review
+        uses: aklofas/kicad-happy@d5fd7da585fce7e59329b68fd065384216d4ff0a
+        with:
+          schematic: v1.0/2 Fan 2 Th/2 Fan 2 Th.kicad_sch
+          pcb: v1.0/2 Fan 2 Th/2 Fan 2 Th.kicad_pcb
+          severity: all
+          derating-profile: commercial
+          spice: true
+
+      - name: Publish review outputs
+        if: always()
+        run: |
+          echo "Findings: ${{ steps.kicad_review.outputs.findings-count }}"
+          echo "Has critical: ${{ steps.kicad_review.outputs.has-critical }}"
+
+      - name: Upload design-review reports
+        if: always() && steps.kicad_review.outputs.report-path != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-design-review-reports
+          path: |
+            ${{ steps.kicad_review.outputs.report-path }}
+            ${{ steps.kicad_review.outputs.schematic-json }}
+            ${{ steps.kicad_review.outputs.pcb-json }}
+          if-no-files-found: warn
