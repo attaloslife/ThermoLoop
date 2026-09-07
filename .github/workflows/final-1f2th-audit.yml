@@ -1,0 +1,51 @@
+name: Final 1F2TH manufacturing audit
+on:
+  push:
+    branches: [codex/final-1f2th-audit-20260907]
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install simulator
+        run: sudo apt-get update -qq && sudo apt-get install -y ngspice
+      - name: Marketplace design review
+        id: review
+        uses: aklofas/kicad-happy@3cf837b2d6577d1369a45a36d5e9bac0e06ff5b6
+        with:
+          schematic: v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_sch
+          pcb: v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_pcb
+          severity: all
+          spice: 'true'
+      - uses: actions/checkout@v4
+        with:
+          repository: aklofas/kicad-happy
+          ref: 3cf837b2d6577d1369a45a36d5e9bac0e06ff5b6
+          path: audit-tools
+      - name: Extended analysis
+        shell: bash
+        run: |
+          mkdir -p final-analysis
+          python audit-tools/skills/kicad/scripts/analyze_schematic.py 'v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_sch' -o final-analysis/schematic.json
+          python audit-tools/skills/kicad/scripts/analyze_pcb.py 'v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_pcb' --full -o final-analysis/pcb.json
+          python audit-tools/skills/kicad/scripts/cross_analysis.py -s final-analysis/schematic.json -p final-analysis/pcb.json -o final-analysis/cross.json || true
+          python audit-tools/skills/emc/scripts/analyze_emc.py --schematic final-analysis/schematic.json --pcb final-analysis/pcb.json --output final-analysis/emc.json || true
+          python audit-tools/skills/kicad/scripts/analyze_thermal.py -s final-analysis/schematic.json -p final-analysis/pcb.json -o final-analysis/thermal.json || true
+          python audit-tools/skills/kicad/scripts/analyze_gerbers.py 'v1.0/1 Fan 2 Th/Gerbers' -o final-analysis/gerber.json || true
+          python audit-tools/skills/spice/scripts/simulate_subcircuits.py final-analysis/schematic.json -o final-analysis/spice.json || true
+          sha256sum 'v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_sch' 'v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_pcb' 'v1.0/1 Fan 2 Th/1 Fan 2 Th.kicad_pro' > final-analysis/source-sha256.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: final-1f2th-audit
+          include-hidden-files: true
+          path: |
+            final-analysis/
+            .kicad-review/
+            .kicad-happy/
+            ${{ steps.review.outputs.report-path }}
+            ${{ steps.review.outputs.schematic-json }}
+            ${{ steps.review.outputs.pcb-json }}
