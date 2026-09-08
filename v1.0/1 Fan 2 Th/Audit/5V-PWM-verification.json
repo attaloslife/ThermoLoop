@@ -1,0 +1,59 @@
+{
+  "electrical_components": 50,
+  "bom_components": 50,
+  "cpl_components": 50,
+  "issues": [],
+  "unchanged_original_footprints": 47,
+  "critical_pin_map": {
+    "U3": {
+      "1": "/VIN_PROTECTED",
+      "2": "unconnected-(U3-NC-Pad2)",
+      "3": "GND",
+      "4": "GND",
+      "5": "/+5V_PWM"
+    },
+    "U4": {
+      "1": "unconnected-(U4-NC-Pad1)",
+      "2": "/FAN1_PWM_IN",
+      "3": "GND",
+      "4": "/FAN1_PWM_DRIVE",
+      "5": "/+5V_PWM"
+    },
+    "R26": {
+      "1": "/FAN1_PWM_DRIVE",
+      "2": "/FAN1_PWM"
+    },
+    "R27": {
+      "1": "/+5V_PWM",
+      "2": "GND"
+    },
+    "C14": {
+      "1": "/VIN_PROTECTED",
+      "2": "GND"
+    },
+    "C15": {
+      "1": "/+5V_PWM",
+      "2": "GND"
+    },
+    "C16": {
+      "1": "/+5V_PWM",
+      "2": "GND"
+    }
+  },
+  "two_fan_rail_design": {
+    "regulator_Vout_range": [
+      4.85,
+      5.15
+    ],
+    "bleed_ohms": 330,
+    "minimum_bleed_mA": 14.55145514551455,
+    "two_fan_max_pullup_mA": 10,
+    "worst_bleed_power_W": 0.08118304254667892,
+    "estimated_ldo_loss_at_13_2V_and_20mA_W": 0.16399999999999998,
+    "scope": "Two PWM signal channels only; fan motors remain on the 12 V rail"
+  },
+  "sha256": {
+    "1 Fan 2 Th.kicad_sch": "3ebab7ed2db197ca3b026f179448b11afe59f138039a05f13c3566899ad14fdc",
+    "1 Fan 2 Th.kicad_pcb": "88e46ae43af193e5f3c06a5d505da7a9eb33d777239cdc1930d4d2c74cb25ef1"
+  }
+}
