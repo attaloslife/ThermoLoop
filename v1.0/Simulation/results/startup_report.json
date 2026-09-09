@@ -1,0 +1,167 @@
+{
+  "status": "18 exploratory cases solved; model sanity checks passed; NO hardware pass/fail",
+  "published_max_fan_input_A": 0.55,
+  "startup_current_measured": false,
+  "assumptions": {
+    "supply_V": 12,
+    "peak_duration_s": 0.5,
+    "effective_bus_capacitance_uF": 100,
+    "auxiliary_load_A": 0.05,
+    "current_limit": "none",
+    "rail_startup": "supply already established before fan load steps"
+  },
+  "limits": [
+    "No real PSU selected",
+    "No measured fan inrush waveform",
+    "No fuse/PTC dynamics or MOSFET switching",
+    "No rail ramp, brownout or firmware boot simulation",
+    "Stagger is scheduled stimulus, not implemented controller scheduler",
+    "Peaks above 0.55A are hypothetical stress assumptions, not manufacturer ratings"
+  ],
+  "cases": [
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 0,
+      "peak_source_A": 1.1501258075893617,
+      "minimum_bus_V": 11.884987419241064,
+      "final_bus_V": 11.885
+    },
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 5,
+      "peak_source_A": 1.1501223108940337,
+      "minimum_bus_V": 11.884987768910596,
+      "final_bus_V": 11.885000000000002
+    },
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 0,
+      "peak_source_A": 1.150021843786245,
+      "minimum_bus_V": 11.424989078106877,
+      "final_bus_V": 11.424999999999999
+    },
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 5,
+      "peak_source_A": 1.1500214283652959,
+      "minimum_bus_V": 11.424989285817352,
+      "final_bus_V": 11.425
+    },
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 0,
+      "peak_source_A": 1.150009245026249,
+      "minimum_bus_V": 10.849990754973751,
+      "final_bus_V": 10.850000000000001
+    },
+    {
+      "assumed_peak_A_per_fan": 0.55,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 5,
+      "peak_source_A": 1.1500103729582278,
+      "minimum_bus_V": 10.849989627041772,
+      "final_bus_V": 10.85
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 0,
+      "peak_source_A": 2.250110796631688,
+      "minimum_bus_V": 11.774988920336831,
+      "final_bus_V": 11.885
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 5,
+      "peak_source_A": 1.700125277343517,
+      "minimum_bus_V": 11.829987472265648,
+      "final_bus_V": 11.885000000000002
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 0,
+      "peak_source_A": 2.250020420782697,
+      "minimum_bus_V": 10.874989789608652,
+      "final_bus_V": 11.425
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 5,
+      "peak_source_A": 1.7000200107383492,
+      "minimum_bus_V": 11.149989994630825,
+      "final_bus_V": 11.425
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 0,
+      "peak_source_A": 2.250009114451375,
+      "minimum_bus_V": 9.749990885548625,
+      "final_bus_V": 10.849999999999998
+    },
+    {
+      "assumed_peak_A_per_fan": 1.1,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 5,
+      "peak_source_A": 1.7000092691679,
+      "minimum_bus_V": 10.2999907308321,
+      "final_bus_V": 10.85
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 0,
+      "peak_source_A": 3.350108192542905,
+      "minimum_bus_V": 11.66498918074571,
+      "final_bus_V": 11.885000000000002
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 0.1,
+      "stagger_s": 5,
+      "peak_source_A": 2.2501180287389104,
+      "minimum_bus_V": 11.77498819712611,
+      "final_bus_V": 11.885
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 0,
+      "peak_source_A": 3.3500192678109784,
+      "minimum_bus_V": 10.32499036609451,
+      "final_bus_V": 11.424999999999999
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 0.5,
+      "stagger_s": 5,
+      "peak_source_A": 2.250020804956524,
+      "minimum_bus_V": 10.874989597521738,
+      "final_bus_V": 11.425000000000002
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 0,
+      "peak_source_A": 3.350008266579252,
+      "minimum_bus_V": 8.649991733420748,
+      "final_bus_V": 10.85
+    },
+    {
+      "assumed_peak_A_per_fan": 1.65,
+      "assumed_path_ohm": 1.0,
+      "stagger_s": 5,
+      "peak_source_A": 2.250009154688838,
+      "minimum_bus_V": 9.749990845311162,
+      "final_bus_V": 10.850000000000001
+    }
+  ]
+}

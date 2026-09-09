@@ -1,5 +1,7 @@
 # 5 V PWM revision — 1 fan / 2 thermistors
 
+> Superseded layout: both variants now use the common 90 x 75 mm board and relocated 5 V section. See [the published family revision](../../FAMILY-90x75-PWM-REVISION.md). This earlier note describes the initial single-fan layout; its coordinates, source hashes and statement that the two-fan board is unchanged are no longer current.
+
 Date: 8 September 2026. Status: implemented and digitally checked; engineering first-article validation still required. This is not unconditional production approval.
 
 ## Implemented circuit
@@ -51,4 +53,3 @@ The second fan's power-path current, fuse derating and connector loading still r
 - [TI TPS7B69-Q1 datasheet](https://www.ti.com/lit/ds/symlink/tps7b69-q1.pdf)
 - [TI SN74AHCT1G04 datasheet](https://www.ti.com/lit/ds/symlink/sn74ahct1g04.pdf)
 - [Noctua PWM specification](https://cdn.noctua.at/media/Noctua_PWM_specifications_white_paper.pdf)
-

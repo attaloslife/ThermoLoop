@@ -1,0 +1,8 @@
+(kicad_sch (version 20250114) (generator "eeschema")
+(uuid "88650633-b9ca-53ab-b6b7-d4e029f5ab5c") (paper "A4") (lib_symbols)
+(text "ThermoLoop simulation only - Thermistors" (at 25 25 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3ea90ac7-57a8-5aa8-aa7a-8d72b2f74430"))
+(text "Eaton NRMF104F3435B2J: 10k at 25 C, beta 3435 K (nominal approximation).\nTH1 sweeps 0 to 90 C; TH2 stays at 45 C. Open and short channels included.\nPlot V(th1_adc), V(th2_adc), V(open_adc), V(short_adc)." (at 25 40 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6ba0b790-b85a-5c90-ba00-849002dfaee4"))
+(text ".include \"spice/thermistors.inc\"" (at 25 75 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "50d1cf10-b93e-53fb-93be-c92e4fd4b75c"))
+(text ".dc Vtemperature 0 90 1" (at 25 85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "acde8c89-c71a-5747-bfea-8f28b383323c"))
+(text "Open Inspect > Simulator. Run the analysis and select node voltages.\nModels live in spice/. See README.md for assumptions.\nThis is a reduced behavioral bench, not the production schematic." (at 25 105 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e107e722-82c9-5c3a-90c1-93085147f9a8"))
+(sheet_instances (path "/" (page "1"))))

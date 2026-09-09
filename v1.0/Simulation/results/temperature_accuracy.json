@@ -1,0 +1,116 @@
+{
+  "method": "51 temperatures x 16 corners; analytical beta-model sensitivity",
+  "R25_tolerance_percent": 1,
+  "beta_tolerance_percent": 5,
+  "pullup_tolerance_percent": 1,
+  "ADC_error_assumption_LSB": 2,
+  "additional_quantization_allowance_LSB": 0.5,
+  "ADC_2LSB_is_typical_not_guaranteed_maximum": true,
+  "threshold_crossings_without_self_heating_or_lag": {
+    "33": {
+      "earliest_true_bead_C": 31.833898513618095,
+      "latest_true_bead_C": 34.2997001885187
+    },
+    "35": {
+      "earliest_true_bead_C": 33.72040058697294,
+      "latest_true_bead_C": 36.427323014118514
+    },
+    "65": {
+      "earliest_true_bead_C": 61.76153755288371,
+      "latest_true_bead_C": 68.65781748358384
+    }
+  },
+  "key_points": [
+    {
+      "true_bead_C": 25,
+      "modeled_error_min_C": -0.7686138532935161,
+      "modeled_error_max_C": 0.7725972775466516,
+      "half_LSB_error_max_C": 0.05060239693636959,
+      "self_heating_estimate_C": 0.34031249999999996,
+      "source_impedance_ohm": 6000.0,
+      "filter_tau_ms": 0.6,
+      "filter_settle_half_LSB_ms": 4.5741851679069425,
+      "R25_positive_parameter_error_C": -0.2572796783703666,
+      "beta_positive_parameter_error_C": 0.0,
+      "pullup_positive_parameter_error_C": 0.25772446970808005,
+      "ADC_2LSB_positive_parameter_error_C": -0.20223893290693695
+    },
+    {
+      "true_bead_C": 35,
+      "modeled_error_min_C": -1.3414535911753092,
+      "modeled_error_max_C": 1.357801954758429,
+      "half_LSB_error_max_C": 0.05597596284479778,
+      "self_heating_estimate_C": 0.32869156234767133,
+      "source_impedance_ohm": 5076.043257173977,
+      "filter_tau_ms": 0.5076043257173977,
+      "filter_settle_half_LSB_ms": 3.869793629769875,
+      "R25_positive_parameter_error_C": -0.27481955467663965,
+      "beta_positive_parameter_error_C": 0.5176381656307285,
+      "pullup_positive_parameter_error_C": 0.27531061903954424,
+      "ADC_2LSB_positive_parameter_error_C": -0.2234929372787633
+    },
+    {
+      "true_bead_C": 50,
+      "modeled_error_min_C": -2.296528923033179,
+      "modeled_error_max_C": 2.3512187227533445,
+      "half_LSB_error_max_C": 0.07209248319986727,
+      "self_heating_estimate_C": 0.28076065664866895,
+      "source_impedance_ohm": 3908.399879647484,
+      "filter_tau_ms": 0.39083998796474834,
+      "filter_settle_half_LSB_ms": 2.979624126622133,
+      "R25_positive_parameter_error_C": -0.30221273035664353,
+      "beta_positive_parameter_error_C": 1.3605170090939964,
+      "pullup_positive_parameter_error_C": 0.30277905363993796,
+      "ADC_2LSB_positive_parameter_error_C": -0.28733882146451606
+    },
+    {
+      "true_bead_C": 65,
+      "modeled_error_min_C": -3.3746625977478857,
+      "modeled_error_max_C": 3.501532314224278,
+      "half_LSB_error_max_C": 0.10039410827471329,
+      "self_heating_estimate_C": 0.22086811436099407,
+      "source_impedance_ohm": 3037.803093097601,
+      "filter_tau_ms": 0.3037803093097601,
+      "filter_settle_half_LSB_ms": 2.3159123085781466,
+      "R25_positive_parameter_error_C": -0.3309057890140821,
+      "beta_positive_parameter_error_C": 2.283640047273366,
+      "pullup_positive_parameter_error_C": 0.33155469256064407,
+      "ADC_2LSB_positive_parameter_error_C": -0.39920516008362483
+    }
+  ],
+  "pin_leakage_separate_sensitivity": [
+    {
+      "temperature_C": 35,
+      "assumed_leakage_A": 5e-08,
+      "worst_magnitude_C": 0.008805489702410796
+    },
+    {
+      "temperature_C": 35,
+      "assumed_leakage_A": 1e-06,
+      "worst_magnitude_C": 0.1763046987377379
+    },
+    {
+      "temperature_C": 65,
+      "assumed_leakage_A": 5e-08,
+      "worst_magnitude_C": 0.009444114052712393
+    },
+    {
+      "temperature_C": 65,
+      "assumed_leakage_A": 1e-06,
+      "worst_magnitude_C": 0.18928547356392755
+    }
+  ],
+  "thermal_lag_example": {
+    "assumed_tau_s": 10,
+    "ramp_C_per_s": 0.1,
+    "asymptotic_lag_C": 1
+  },
+  "limits": [
+    "Nominal manufacturer table not incorporated: merged heading requires verification",
+    "Beta tolerance represented as constant-beta variation; not full curve envelope",
+    "ADC allowance is illustrative and may overlap quantization in typical EABS spec",
+    "No resistor temperature coefficient, cable resistance or contact/ground errors in combined bound",
+    "Self-heating and thermal lag reported separately; mounting affects both",
+    "RC settling is input-filter estimate, not complete ADC acquisition validation"
+  ]
+}

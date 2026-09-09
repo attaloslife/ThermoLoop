@@ -1,0 +1,89 @@
+{
+  "1 Fan 2 Th": {
+    "electrical_components": 50,
+    "bom_and_cpl_coverage": "exact",
+    "issues": [],
+    "moved_existing_footprints": [
+      "C14",
+      "C15",
+      "C16",
+      "MH2",
+      "MH3",
+      "R26",
+      "R27",
+      "U3",
+      "U4"
+    ],
+    "dimensions_mm": [
+      90.0,
+      75.0
+    ],
+    "mounting_holes_mm": {
+      "MH1": [
+        39.9,
+        38.5
+      ],
+      "MH2": [
+        117.9,
+        38.5
+      ],
+      "MH3": [
+        117.9,
+        101.5
+      ],
+      "MH4": [
+        39.9,
+        101.5
+      ]
+    },
+    "sha256": {
+      "1 Fan 2 Th.kicad_sch": "3ebab7ed2db197ca3b026f179448b11afe59f138039a05f13c3566899ad14fdc",
+      "1 Fan 2 Th.kicad_pcb": "778466431f7e7402aee5d0fc3524d89d9751228dbeec656ede4871a387ad2ec9"
+    }
+  },
+  "2 Fan 2 Th": {
+    "electrical_components": 63,
+    "bom_and_cpl_coverage": "exact",
+    "issues": [],
+    "moved_existing_footprints": [
+      "MH2",
+      "MH3"
+    ],
+    "dimensions_mm": [
+      90.0,
+      75.0
+    ],
+    "mounting_holes_mm": {
+      "MH1": [
+        39.9,
+        38.5
+      ],
+      "MH2": [
+        117.9,
+        38.5
+      ],
+      "MH3": [
+        117.9,
+        101.5
+      ],
+      "MH4": [
+        39.9,
+        101.5
+      ]
+    },
+    "sha256": {
+      "2 Fan 2 Th.kicad_sch": "6c2da17a841f7763683c824df9f9a9b40267a48b3be178d2efad6968d0bbe145",
+      "2 Fan 2 Th.kicad_pcb": "bdd5552b863dfe9abf699fce8c48997e78fc94e2e0f68607ee95a76b59198a14"
+    }
+  },
+  "family": {
+    "common_footprints": 54,
+    "position_orientation_value_footprint_mismatches": [],
+    "mounting_holes_identical": true,
+    "hole_pitch_mm": [
+      78,
+      63
+    ],
+    "future_1F1TH": "Use same mechanical layout and common reference positions; no third variant created"
+  }
+}

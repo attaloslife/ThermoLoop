@@ -1,0 +1,43 @@
+{
+  "1 Fan 2 Th": {
+    "source": "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\1 Fan 2 Th.kicad_pcb",
+    "sha256": "2f293b2dfc1c368b98acf0faf18cd5b7fa53894ace0e072b920ae07157c4d358",
+    "dimensions_mm": [
+      90.0,
+      75.0
+    ],
+    "moved_parts": [
+      "R27",
+      "C14",
+      "U3",
+      "C15"
+    ],
+    "pad_net_changes": 0,
+    "outer_12V_trunk_width_mm": 2,
+    "five_volt_track_length_mm": {
+      "before": 62.367,
+      "after": 44.532
+    }
+  },
+  "2 Fan 2 Th": {
+    "source": "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\2 Fan 2 Th.kicad_pcb",
+    "sha256": "f34e7587e2d135d304584b3e44d32f3f6c28a484239a87a947fe9f3db6a95fb7",
+    "dimensions_mm": [
+      90.0,
+      75.0
+    ],
+    "moved_parts": [
+      "C15",
+      "C14",
+      "U3",
+      "R27"
+    ],
+    "pad_net_changes": 0,
+    "outer_12V_trunk_width_mm": 2,
+    "five_volt_track_length_mm": {
+      "before": 116.373,
+      "after": 83.967
+    }
+  },
+  "common_footprints_identical": 54
+}

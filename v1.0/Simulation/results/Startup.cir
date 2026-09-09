@@ -1,0 +1,4 @@
+.title ThermoLoop Startup
+.include "spice/startup.inc"
+.tran 1m 7 0 1m
+.end

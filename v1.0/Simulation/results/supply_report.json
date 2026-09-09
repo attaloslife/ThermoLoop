@@ -1,0 +1,71 @@
+{
+  "method": "1440 analytical envelope cases; 18 unlimited cases cross-checked against ngspice",
+  "hardware_qualified": false,
+  "voltage_floor_is_design_target_not_vendor_limit": 10.8,
+  "auxiliary_current_is_assumed_A": 0.1,
+  "peak_duration_assumed_s": 0.5,
+  "candidate_3A_2x_start": {
+    "source_V": 11.4,
+    "lumped_path_ohm": 0.25,
+    "assumed_limit_A": 3,
+    "assumed_fan_start_A": 1.1,
+    "assumed_aux_A": 0.1,
+    "fans": 2,
+    "stagger_s": 0,
+    "peak_demand_A": 2.3000000000000003,
+    "running_A": 1.2000000000000002,
+    "peak_bus_V_if_not_limited": 10.825000000000001,
+    "steady_bus_V": 11.1,
+    "optimistic_100uF_hold_up_to_10_8V_s": null,
+    "classification": "within_provisional_envelope"
+  },
+  "hypothetical_3x_start_3A": {
+    "source_V": 11.4,
+    "lumped_path_ohm": 0.25,
+    "assumed_limit_A": 3,
+    "assumed_fan_start_A": 1.65,
+    "assumed_aux_A": 0.1,
+    "fans": 2,
+    "stagger_s": 0,
+    "peak_demand_A": 3.4,
+    "running_A": 1.2000000000000002,
+    "peak_bus_V_if_not_limited": null,
+    "steady_bus_V": 11.1,
+    "optimistic_100uF_hold_up_to_10_8V_s": 0.00014999999999999996,
+    "classification": "current_capacity_exceeded"
+  },
+  "hypothetical_3x_start_4A": {
+    "source_V": 11.4,
+    "lumped_path_ohm": 0.25,
+    "assumed_limit_A": 4,
+    "assumed_fan_start_A": 1.65,
+    "assumed_aux_A": 0.1,
+    "fans": 2,
+    "stagger_s": 0,
+    "peak_demand_A": 3.4,
+    "running_A": 1.2000000000000002,
+    "peak_bus_V_if_not_limited": 10.55,
+    "steady_bus_V": 11.1,
+    "optimistic_100uF_hold_up_to_10_8V_s": null,
+    "classification": "below_provisional_10.8V_target"
+  },
+  "maximum_path_ohm_at_11_4V": {
+    "2x_start": 0.2608695652173912,
+    "3x_start": 0.17647058823529402
+  },
+  "classification_counts": {
+    "below_provisional_10.8V_target": 130,
+    "current_capacity_exceeded": 128,
+    "overvoltage": 254,
+    "overvoltage;below_provisional_10.8V_target": 2,
+    "overvoltage;current_capacity_exceeded": 32,
+    "within_provisional_envelope": 894
+  },
+  "limits": [
+    "Current-limit threshold is assumed, not inferred from adapter nameplate",
+    "No dynamic constant-current, foldback or hiccup waveform simulated",
+    "No fan startup waveform known; 2x/3x peaks are hypothetical",
+    "No PSU regulation/overshoot model or real PCB protection/thermal model",
+    "10.8V target does not guarantee rated fan rpm or MCU/regulator stability"
+  ]
+}

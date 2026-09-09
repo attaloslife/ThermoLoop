@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "70fc5203-ff69-4e9b-b309-3a914fb06dc3")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
@@ -3575,7 +3575,17 @@
 			)
 			(embedded_fonts no)
 		)
-	)
+	(symbol "ThermoLoop_PWM:TPS7B6950QDBVRQ1" (pin_names (offset 0.508)) (in_bom yes) (on_board yes)
+ (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.0 1.0)))) (property "Value" "TPS7B6950QDBVRQ1" (at 0 -10.16 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0) (effects (font (size 1.0 1.0)) (hide yes))) (property "Description" "5 V 150 mA LDO, 40 V input, DBV SOT-23-5" (at 0 0 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (symbol "TPS7B6950QDBVRQ1_0_1" (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+ (symbol "TPS7B6950QDBVRQ1_1_1" (pin power_in line (at -7.62 0 0) (length 2.54) (name "IN" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))(pin power_out line (at 7.62 0 180) (length 2.54) (name "OUT" (effects (font (size 1.0 1.0)))) (number "5" (effects (font (size 1.0 1.0)))))(pin power_in line (at 0 -7.62 90) (length 2.54) (name "GND" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))(pin power_in line (at 2.54 -7.62 90) (length 2.54) (name "GND" (effects (font (size 1.0 1.0)))) (number "4" (effects (font (size 1.0 1.0)))))(pin no_connect line (at -2.54 -7.62 90) (length 2.54) (name "NC" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))))
+(symbol "ThermoLoop_PWM:SN74AHCT1G04DBVR" (pin_names (offset 0.508)) (in_bom yes) (on_board yes)
+ (property "Reference" "U" (at 0 6.35 0) (effects (font (size 1.0 1.0)))) (property "Value" "SN74AHCT1G04DBVR" (at 0 -10.16 0) (effects (font (size 1.0 1.0))))
+ (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0) (effects (font (size 1.0 1.0)) (hide yes))) (property "Description" "5 V push-pull inverter, TTL input" (at 0 0 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (symbol "SN74AHCT1G04DBVR_0_1" (rectangle (start -5.08 5.08) (end 5.08 -5.08) (stroke (width 0.254) (type default)) (fill (type background))))
+ (symbol "SN74AHCT1G04DBVR_1_1" (pin input line (at -7.62 0 0) (length 2.54) (name "A" (effects (font (size 1.0 1.0)))) (number "2" (effects (font (size 1.0 1.0)))))(pin output line (at 7.62 0 180) (length 2.54) (name "~{Y}" (effects (font (size 1.0 1.0)))) (number "4" (effects (font (size 1.0 1.0)))))(pin power_in line (at 0 7.62 270) (length 2.54) (name "VCC" (effects (font (size 1.0 1.0)))) (number "5" (effects (font (size 1.0 1.0)))))(pin power_in line (at 0 -7.62 90) (length 2.54) (name "GND" (effects (font (size 1.0 1.0)))) (number "3" (effects (font (size 1.0 1.0)))))(pin no_connect line (at -2.54 -7.62 90) (length 2.54) (name "NC" (effects (font (size 1.0 1.0)))) (number "1" (effects (font (size 1.0 1.0)))))))
+)
 	(text "PANEL POWER SWITCH\nSW1: EAO 82-4151.2000 - use COM + one throw"
 		(exclude_from_sim no)
 		(at 91.948 17.78 0)
@@ -3626,12 +3636,7 @@
 		(color 0 0 0 0)
 		(uuid "38e93d08-0a8a-421f-a2d8-1eac8e003603")
 	)
-	(junction
-		(at 205.74 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ec0ce28-891d-4fb3-86ba-1b1508b6ebc6")
-	)
+
 	(junction
 		(at 49.53 35.56)
 		(diameter 0)
@@ -3710,12 +3715,7 @@
 		(color 0 0 0 0)
 		(uuid "ce93ea22-5973-4b46-9813-afac276ef3c0")
 	)
-	(junction
-		(at 257.81 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77ec849-eeb7-4c70-92f5-f16f412465b3")
-	)
+
 	(junction
 		(at 265.43 138.43)
 		(diameter 0)
@@ -3968,16 +3968,7 @@
 		)
 		(uuid "59eb5480-28d9-404d-b21b-eceb0a4ecd42")
 	)
-	(wire
-		(pts
-			(xy 205.74 55.88) (xy 205.74 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60dcc0cd-57f0-415b-a53c-637b31be5528")
-	)
+
 	(wire
 		(pts
 			(xy 46.99 83.82) (xy 46.99 90.17)
@@ -4188,16 +4179,7 @@
 		)
 		(uuid "a4ef1835-13a6-4ef8-9fa5-4c12b1b58e79")
 	)
-	(wire
-		(pts
-			(xy 213.36 52.07) (xy 213.36 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae0d6df5-3cfc-4acf-8a18-d35fdd9f2c28")
-	)
+
 	(wire
 		(pts
 			(xy 88.9 172.72) (xy 68.58 172.72)
@@ -4218,16 +4200,7 @@
 		)
 		(uuid "b1e490df-aa8c-42ff-852c-8dd3deb10429")
 	)
-	(wire
-		(pts
-			(xy 257.81 55.88) (xy 257.81 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbdd090c-3eb8-4a25-a53f-0e041f546bb2")
-	)
+
 	(wire
 		(pts
 			(xy 242.57 119.38) (xy 252.73 119.38)
@@ -4308,36 +4281,9 @@
 		)
 		(uuid "d4ddc85f-050a-4f3d-b412-8c77af8990ab")
 	)
-	(wire
-		(pts
-			(xy 265.43 52.07) (xy 265.43 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94d1c7c-ae1c-4dc1-bdb5-92b1395bbf89")
-	)
-	(wire
-		(pts
-			(xy 213.36 67.31) (xy 213.36 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab0eac7-474c-4a4e-bb5a-35d3a4cc3934")
-	)
-	(wire
-		(pts
-			(xy 265.43 67.31) (xy 265.43 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dece5953-69b4-427f-b82b-e5de1fa2e9fd")
-	)
+
+
+
 	(wire
 		(pts
 			(xy 68.58 180.34) (xy 88.9 180.34)
@@ -4698,16 +4644,7 @@
 		)
 		(uuid "81b2ae53-dc9c-4c63-abdf-e90c08468a35")
 	)
-	(label "FAN2_PWM_CTRL"
-		(at 205.74 48.26 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "822faba7-96ee-4257-a3b7-aa005ef4946d")
-	)
+
 	(label "VIN_PROTECTED"
 		(at 130.81 29.21 0)
 		(effects
@@ -4718,16 +4655,7 @@
 		)
 		(uuid "87b70006-7a65-48c7-9884-2131090cac17")
 	)
-	(label "FAN1_PWM_CTRL"
-		(at 257.81 48.26 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d5333d8-59dc-4e25-b761-ed0265bf83ea")
-	)
+
 	(label "VIN_PROTECTED"
 		(at 262.89 104.14 270)
 		(effects
@@ -4838,16 +4766,7 @@
 		)
 		(uuid "b60747f0-765a-4762-8ad5-8a03b4dc36b8")
 	)
-	(label "FAN2_PWM"
-		(at 213.36 52.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb909fc9-a059-468c-9303-6728ab55a757")
-	)
+
 	(label "FAN1_LED_B_CTRL"
 		(at 60.96 180.34 180)
 		(effects
@@ -4978,16 +4897,7 @@
 		)
 		(uuid "e8c409a2-63b2-479b-86f8-d59d57d5dfc3")
 	)
-	(label "FAN1_PWM"
-		(at 265.43 52.07 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "eb816e0f-0992-4a3c-87cb-60eca329281f")
-	)
+
 	(label "FAN1_PWM_CTRL"
 		(at 142.24 99.06 0)
 		(effects
@@ -5424,131 +5334,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "076d7ac2-8eef-4202-bc0d-9ef7d1d26f28")
-		(property "Reference" "R18"
-			(at 200.406 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 Ω"
-			(at 197.866 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.962 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100Ω ±1%, 100mW Thick Film Resistor, 0603"
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)"
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C22775"
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 205.74 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9fc95c74-f9e4-45d1-be9a-0d3cd7ec5d40")
-		)
-		(pin "1"
-			(uuid "6d012f35-02b6-434d-bc18-09524f152b15")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:GND")
 		(at 194.31 146.05 0)
@@ -7033,7 +6819,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7065,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -7087,7 +6873,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -7098,7 +6884,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -7565,84 +7351,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "443e9ce1-cdef-4cba-86e7-a1d3b49e64aa")
-		(property "Reference" "#PWR025"
-			(at 205.74 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15f68801-4e4f-4221-925a-126e9722dfbf")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 199.39 123.19 0)
@@ -8610,252 +8319,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 257.81 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6429695b-4cfa-4bd7-a8d3-69cc3c86cdda")
-		(property "Reference" "R3"
-			(at 253.492 61.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 kΩ"
-			(at 248.92 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.032 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ ±1%, 100mW Thick Film Resistor, 0603"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1003T5E"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C25803"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 257.81 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2e401b2c-b464-42fe-b062-18dba574113f")
-		)
-		(pin "1"
-			(uuid "5b9d6aae-bf71-41d2-8b27-4d8caffe27fa")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 210.82 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "675f0a61-0480-4b3f-a23e-61d5d7197d32")
-		(property "Reference" "Q3"
-			(at 217.17 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 217.17 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 215.9 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 215.9 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V N-Channel MOSFET, 48mΩ @ 2.5V, 32mΩ @ 4.5V, SOT-23"
-			(at 210.82 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Alpha & Omega Semiconductor"
-			(at 210.82 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AO3400A"
-			(at 210.82 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C20917"
-			(at 210.82 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4b814922-a9de-4204-b9a8-5c15b41d056f")
-		)
-		(pin "3"
-			(uuid "2d5cb091-519d-4387-9045-f7258ea53e38")
-		)
-		(pin "1"
-			(uuid "f2d061c4-483a-4639-b07e-6c5d8d5ba081")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
+
+
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 93.98 29.21 90)
@@ -9027,7 +8492,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -9081,7 +8546,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -9092,7 +8557,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -9519,7 +8984,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9551,7 +9016,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9573,7 +9038,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -9584,7 +9049,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -9765,7 +9230,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9797,7 +9262,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -9819,7 +9284,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -9830,7 +9295,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -10780,7 +10245,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 176.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10812,7 +10277,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10834,7 +10299,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -10845,7 +10310,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -10882,131 +10347,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8af82b7f-c0eb-4f82-9fe3-94fc3e556c46")
-		(property "Reference" "R19"
-			(at 200.406 61.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 kΩ"
-			(at 196.85 64.008 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.962 63.5 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100kΩ ±1%, 100mW Thick Film Resistor, 0603"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1003T5E"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C25803"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 205.74 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6d157a27-7502-4fce-9331-4a05d0f6cf93")
-		)
-		(pin "1"
-			(uuid "6e8c7865-8053-461b-a1df-8f008656d8a6")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R")
 		(at 127 175.26 270)
@@ -11028,7 +10369,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11060,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11082,7 +10423,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -11093,7 +10434,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -11151,7 +10492,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11183,7 +10524,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11205,7 +10546,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +10557,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -11253,84 +10594,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 257.81 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e562a70-d8e1-4654-abb8-5f19a93aa305")
-		(property "Reference" "#PWR020"
-			(at 257.81 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 257.81 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 257.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bbc65dcd-7629-4d51-bfd2-4c5b028bf97d")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 194.31 142.24 0)
@@ -11467,127 +10731,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 262.89 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f1b9b2e-b379-4c50-b3fe-057a89b59e57")
-		(property "Reference" "Q2"
-			(at 269.24 58.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 269.24 60.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 267.97 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 267.97 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "30V N-Channel MOSFET, 48mΩ @ 2.5V, 32mΩ @ 4.5V, SOT-23"
-			(at 262.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Alpha & Omega Semiconductor"
-			(at 262.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "AO3400A"
-			(at 262.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C20917"
-			(at 262.89 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "66ce06a3-1fa5-453c-92c3-e7ebbc5d863d")
-		)
-		(pin "3"
-			(uuid "a9f5eb6f-194f-4806-854d-496b8a111611")
-		)
-		(pin "1"
-			(uuid "9f350087-05a4-4a90-8bba-7e72750f914b")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 146.05 33.02 0)
@@ -11724,84 +10868,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 265.43 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94e52ab4-c6f2-4492-b3c2-da7729e57f02")
-		(property "Reference" "#PWR019"
-			(at 265.43 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 265.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f11e8b7-d276-4906-bb1e-3ca5ff5f4b72")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:R")
 		(at 151.13 134.62 0)
@@ -12670,131 +11737,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 257.81 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5b9a6e4-9f9f-457d-9126-375328023db0")
-		(property "Reference" "R4"
-			(at 253.492 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100 Ω"
-			(at 249.936 53.086 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 256.032 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100Ω ±1%, 100mW Thick Film Resistor, 0603"
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)"
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1000T5E"
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB" "C22775"
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±1%"
-			(at 257.81 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "253cc9cf-9565-4f52-ad83-03f2938a636e")
-		)
-		(pin "1"
-			(uuid "b6b9fa0f-9a8b-43c0-9a29-6c9419623dd0")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "power:+3V3")
 		(at 46.99 124.46 0)
@@ -13288,7 +12231,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13320,7 +12263,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13342,7 +12285,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -13353,7 +12296,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -13583,84 +12526,7 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 213.36 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c751e5fd-0661-4dc1-936d-d4fa47e4a4cd")
-		(property "Reference" "#PWR026"
-			(at 213.36 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1db4e006-a148-41e7-a50f-1108bce348d7")
-		)
-		(instances
-			(project "2 Fan 2 Th"
-				(path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
+
 	(symbol
 		(lib_id "Device:C")
 		(at 242.57 123.19 0)
@@ -14506,7 +13372,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 176.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14538,7 +13404,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -14560,7 +13426,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -14571,7 +13437,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -14629,7 +13495,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14661,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14683,7 +13549,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -14694,7 +13560,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -15017,4 +13883,95 @@
 		)
 	)
 	(embedded_fonts no)
+
+(symbol (lib_id "ThermoLoop_PWM:TPS7B6950QDBVRQ1") (at 331.47 38.1 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8aae5202-5efd-51ab-89d1-dd90813e393c") (property "Reference" "U3" (at 331.47 28.16 0) (effects (font (size 1.0 1.0))))(property "Value" "TPS7B6950QDBVRQ1" (at 331.47 30.66 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b69-q1.pdf" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C132202" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "TPS7B6950QDBVRQ1" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Texas Instruments" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "5 V 150 mA LDO, 40 V input, SOT-23-5" (at 331.47 38.1 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "U3") (unit 1)))))
+(symbol (lib_id "Device:C") (at 313.69 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cc66fa0c-881d-5370-8d4e-2213f39fb78d") (property "Reference" "C14" (at 317.69 44.22 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 320.69 47.22 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBVZNWE" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C5596896" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 313.69 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C14") (unit 1)))))
+(symbol (lib_id "Device:C") (at 351.79 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7d13ce77-bdff-562c-9dfe-50c3b184deab") (property "Reference" "C15" (at 355.79 44.22 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 358.79 47.22 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBVZNWE" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C5596896" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 351.79 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C15") (unit 1)))))
+(symbol (lib_id "Device:R") (at 375.92 45.72 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cafa82ee-5270-5450-b300-ed8e1db0b5fc") (property "Reference" "R27" (at 379.92 44.22 0) (effects (font (size 1.0 1.0))))(property "Value" "330 Ω" (at 382.92 47.22 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "330 ohm 1% 125mW 0805; shared 1/2 fan 5V minimum load / pull-up bleed" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0805W8F3300T5E" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C17630" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 375.92 45.72 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R27") (unit 1)))))
+(wire (pts (xy 306.07 38.1) (xy 313.69 38.1)) (stroke (width 0) (type default)) (uuid "9638c3ed-3dff-5ad0-80a2-2012174ad54b"))
+(wire (pts (xy 313.69 38.1) (xy 323.85 38.1)) (stroke (width 0) (type default)) (uuid "1df35068-eef5-583b-b512-42f83bd4ba46"))
+(wire (pts (xy 313.69 38.1) (xy 313.69 41.91)) (stroke (width 0) (type default)) (uuid "da99cf69-26de-554c-9036-0f6d40d8c04a"))
+(junction (at 313.69 38.1) (diameter 0) (color 0 0 0 0) (uuid "43c17527-9ece-5324-9ccf-e8db991db1c7"))
+(label "VIN_PROTECTED" (at 306.07 38.1 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "b8d28dfb-7d6e-5855-89c9-b0b8f2c7d96f"))
+(wire (pts (xy 339.09 38.1) (xy 351.79 38.1)) (stroke (width 0) (type default)) (uuid "00028bfe-a034-58db-ba8c-ee62b9150cdc"))
+(wire (pts (xy 351.79 38.1) (xy 375.92 38.1)) (stroke (width 0) (type default)) (uuid "de49dce5-3785-5306-9d56-19c0f9a5ce9d"))
+(wire (pts (xy 351.79 38.1) (xy 351.79 41.91)) (stroke (width 0) (type default)) (uuid "a68a8993-32e8-5c2d-90a6-911a5cea8451"))
+(wire (pts (xy 375.92 38.1) (xy 375.92 41.91)) (stroke (width 0) (type default)) (uuid "bc93af25-8776-5840-9933-1c1d023ba6e5"))
+(junction (at 351.79 38.1) (diameter 0) (color 0 0 0 0) (uuid "45b72cf3-da32-50ee-808f-c812933166cf"))
+(label "+5V_PWM" (at 363.22 38.1 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "a704aed0-3f5a-53ab-becc-4868076a7f4b"))
+(symbol (lib_id "power:GND") (at 313.69 49.53 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "1bfc3df4-8583-5007-a0cf-277b8433c73b") (property "Reference" "#PWR040" (at 313.69 49.53 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 313.69 52.53 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR040") (unit 1)))))
+(symbol (lib_id "power:GND") (at 351.79 49.53 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "2c0b1163-3113-5fb6-89eb-30702a8c10be") (property "Reference" "#PWR041" (at 351.79 49.53 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 351.79 52.53 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR041") (unit 1)))))
+(symbol (lib_id "power:GND") (at 375.92 49.53 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "6c39f9e7-d07f-5188-a302-09c382992074") (property "Reference" "#PWR042" (at 375.92 49.53 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 375.92 52.53 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR042") (unit 1)))))
+(wire (pts (xy 331.47 45.72) (xy 334.01 45.72)) (stroke (width 0) (type default)) (uuid "1fe6f66d-9100-5c03-ba53-22320a01213c"))
+(wire (pts (xy 334.01 45.72) (xy 334.01 50.8)) (stroke (width 0) (type default)) (uuid "e623cace-c5d2-58bb-a10b-db2c2ee48ffb"))
+(symbol (lib_id "power:GND") (at 334.01 50.8 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "013c219e-06d3-5e3c-80d4-edebc5ca8205") (property "Reference" "#PWR043" (at 334.01 50.8 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 334.01 53.8 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR043") (unit 1)))))
+(no_connect (at 328.93 45.72) (uuid "74a678ac-e632-583a-96a7-547ec31b7aff"))
+(symbol (lib_id "ThermoLoop_PWM:SN74AHCT1G04DBVR") (at 351.79 83.82 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1e7e0518-4ac3-526d-bf54-f7c5e9d601f3") (property "Reference" "U4" (at 361.49 72.16 0) (effects (font (size 1.0 1.0))))(property "Value" "SN74AHCT1G04DBVR" (at 361.49 74.66 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct1g04.pdf" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C30326" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "SN74AHCT1G04DBVR" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Texas Instruments" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "5 V push-pull inverter, 3.3 V TTL compatible input, SOT-23-5" (at 351.79 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "U4") (unit 1)))))
+(symbol (lib_id "Device:R") (at 328.93 71.12 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0ea4ef8f-f317-5d4b-9c60-ff66e38646d2") (property "Reference" "R4" (at 332.93 69.62 0) (effects (font (size 1.0 1.0))))(property "Value" "100 Ω" (at 335.93 72.62 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100Ω ±1%, 100mW Thick Film Resistor, 0603" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF1000T5E" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C22775" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 328.93 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R4") (unit 1)))))
+(symbol (lib_id "Device:R") (at 328.93 91.44 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "34f72523-65c1-574a-90fe-4ff225b627e7") (property "Reference" "R3" (at 332.93 89.94 0) (effects (font (size 1.0 1.0))))(property "Value" "100 kΩ" (at 335.93 92.94 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100kΩ ±1%, 100mW Thick Film Resistor, 0603" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF1003T5E" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C25803" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 328.93 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R3") (unit 1)))))
+(wire (pts (xy 328.93 74.93) (xy 328.93 83.82)) (stroke (width 0) (type default)) (uuid "f872cf73-453c-552b-a608-c893be414094"))
+(wire (pts (xy 328.93 83.82) (xy 328.93 87.63)) (stroke (width 0) (type default)) (uuid "8ed0af27-adea-5b7e-a8bb-ad6125a0b6b4"))
+(wire (pts (xy 328.93 83.82) (xy 344.17 83.82)) (stroke (width 0) (type default)) (uuid "df89d527-2b38-5f75-bddf-229e067e1dbd"))
+(junction (at 328.93 83.82) (diameter 0) (color 0 0 0 0) (uuid "e6eed9b9-ad2b-5eb1-a322-c8cd16a90d71"))
+(label "FAN1_PWM_CTRL" (at 328.93 67.31 90) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "357efcda-fc34-5376-a99f-ba48e9d2a19f"))
+(label "FAN1_PWM_IN" (at 336.55 83.82 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "365955ba-0e8d-55d1-9a26-11400e80800b"))
+(symbol (lib_id "power:GND") (at 328.93 95.25 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "8447ae81-fbfb-5d26-90dc-c8052e171325") (property "Reference" "#PWR044" (at 328.93 95.25 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 328.93 98.25 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR044") (unit 1)))))
+(symbol (lib_id "Device:R") (at 370.84 83.82 90) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f864dd9e-80bb-5bc8-8c09-64c182843f8b") (property "Reference" "R26" (at 370.84 80.82 90) (effects (font (size 1.0 1.0))))(property "Value" "33 Ω" (at 370.84 86.82 90) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "33 ohm 1% 100mW 0603 PWM output damping" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF330JT5E" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C23140" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 370.84 83.82 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R26") (unit 1)))))
+(wire (pts (xy 359.41 83.82) (xy 367.03 83.82)) (stroke (width 0) (type default)) (uuid "26cfb896-b7f9-5e87-a2e3-0b2321a4b68e"))
+(wire (pts (xy 374.65 83.82) (xy 378.46 83.82)) (stroke (width 0) (type default)) (uuid "4dbea6ea-885c-58f5-a455-7d8a3233563e"))
+(label "FAN1_PWM_DRIVE" (at 359.41 83.82 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "1ca22210-7df9-5e71-9a26-b376cd90dc9a"))
+(label "FAN1_PWM" (at 378.46 83.82 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "ae8d62ee-7987-5f66-848e-0680336d3460"))
+(label "+5V_PWM" (at 351.79 76.2 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "0dbb2b44-d896-59b3-88c7-0a2dfc4dd690"))
+(symbol (lib_id "power:GND") (at 351.79 91.44 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "6f83eb39-efa5-5308-b999-f348a9fd0065") (property "Reference" "#PWR045" (at 351.79 91.44 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 351.79 94.44 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR045") (unit 1)))))
+(no_connect (at 349.25 91.44) (uuid "47e92909-3d8e-5479-8e5a-5937cba7dbec"))
+(symbol (lib_id "Device:C") (at 375.92 67.31 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1bdfcaa5-52f1-5d9e-9271-d2315a7f07a4") (property "Reference" "C16" (at 379.92 65.81 0) (effects (font (size 1.0 1.0))))(property "Value" "100 nF 50 V" (at 382.92 68.81 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100nF ±10%, 50V X7R MLCC, 0805" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "YAGEO" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CC0805KRX7R9BB104" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C49678" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±10%" (at 375.92 67.31 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C16") (unit 1)))))
+(label "+5V_PWM" (at 375.92 63.5 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "25bcf546-4dcf-5aa1-bfac-7c409efaf4d7"))
+(symbol (lib_id "power:GND") (at 375.92 71.12 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "369bedb3-8a1a-5c71-a1d6-ba7a0e1e5150") (property "Reference" "#PWR046" (at 375.92 71.12 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 375.92 74.12 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR046") (unit 1)))))
+(text "5 V PWM DRIVER ONLY - FAN POWER REMAINS 12 V" (at 346.71 25.4 0) (effects (font (size 1.0 1.0))) (uuid "629bbdea-f910-5fb6-abdf-c061a2304699"))
+(text "Input low / MCU reset = full-speed command\n25 kHz, inverted drive; R27 absorbs fan pull-up current" (at 349.25 104.14 0) (effects (font (size 1.0 1.0))) (uuid "3be73fb3-7425-5d59-8bd8-291de48a2d9f"))
+(symbol (lib_id "ThermoLoop_PWM:SN74AHCT1G04DBVR") (at 351.79 149.86 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "96d37998-db4f-5356-b388-ba0c94f001f4") (property "Reference" "U5" (at 361.49 138.2 0) (effects (font (size 1.0 1.0))))(property "Value" "SN74AHCT1G04DBVR" (at 361.49 140.7 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74ahct1g04.pdf" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C30326" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "SN74AHCT1G04DBVR" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Texas Instruments" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "5 V push-pull inverter, 3.3 V TTL compatible input, SOT-23-5" (at 351.79 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "U5") (unit 1)))))
+(symbol (lib_id "Device:R") (at 328.93 137.16 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8f633e41-3ae3-5a5a-87b3-f9302222a739") (property "Reference" "R18" (at 332.93 135.66 0) (effects (font (size 1.0 1.0))))(property "Value" "100 Ω" (at 335.93 138.66 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100Ω ±1%, 100mW Thick Film Resistor, 0603" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF1000T5E" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C22775" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 328.93 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R18") (unit 1)))))
+(symbol (lib_id "Device:R") (at 328.93 157.48 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "4ad062b9-7520-5c37-acee-8364d23c6050") (property "Reference" "R19" (at 332.93 155.98 0) (effects (font (size 1.0 1.0))))(property "Value" "100 kΩ" (at 335.93 158.98 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100kΩ ±1%, 100mW Thick Film Resistor, 0603" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF1003T5E" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C25803" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 328.93 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R19") (unit 1)))))
+(wire (pts (xy 328.93 140.97) (xy 328.93 149.86)) (stroke (width 0) (type default)) (uuid "7a3faf9d-a233-5937-9d07-3467c480168f"))
+(wire (pts (xy 328.93 149.86) (xy 328.93 153.67)) (stroke (width 0) (type default)) (uuid "4e1236d2-7f04-5eef-a445-9bc3b2fe5928"))
+(wire (pts (xy 328.93 149.86) (xy 344.17 149.86)) (stroke (width 0) (type default)) (uuid "7ffbd045-1763-542f-a7f1-4319c7de4dec"))
+(junction (at 328.93 149.86) (diameter 0) (color 0 0 0 0) (uuid "e9bd3624-ee78-5ac7-b12c-e0dd473fbb56"))
+(label "FAN2_PWM_CTRL" (at 328.93 133.35 90) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "46501d5f-60d4-5a2b-8028-faae4ac707e4"))
+(label "FAN2_PWM_IN" (at 336.55 149.86 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "a610a75f-5fe9-50bc-9dcf-38d3a699622b"))
+(symbol (lib_id "power:GND") (at 328.93 161.29 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "ca42ff0b-3bc6-52e7-b1f9-ee1de6339a99") (property "Reference" "#PWR047" (at 328.93 161.29 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 328.93 164.29 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR047") (unit 1)))))
+(symbol (lib_id "Device:R") (at 370.84 149.86 90) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "c878be10-4426-5d1c-83a8-06227adae1ce") (property "Reference" "R28" (at 370.84 146.86 90) (effects (font (size 1.0 1.0))))(property "Value" "33 Ω" (at 370.84 152.86 90) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "33 ohm 1% 100mW 0603 PWM output damping" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0603WAF330JT5E" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C23140" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 370.84 149.86 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R28") (unit 1)))))
+(wire (pts (xy 359.41 149.86) (xy 367.03 149.86)) (stroke (width 0) (type default)) (uuid "0dc5d0e7-c4ef-5ee6-8568-c8bc00eedfdb"))
+(wire (pts (xy 374.65 149.86) (xy 378.46 149.86)) (stroke (width 0) (type default)) (uuid "d139fcd5-843c-59ee-a594-096d6466855c"))
+(label "FAN2_PWM_DRIVE" (at 359.41 149.86 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "76c33b58-0b27-5ea3-83e1-5818dbed43ba"))
+(label "FAN2_PWM" (at 378.46 149.86 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "6cf80e76-187f-53cd-af91-f554ca512be0"))
+(label "+5V_PWM" (at 351.79 142.24 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "e8b1d671-4df7-5b6b-b1cf-5fdc51ac4134"))
+(symbol (lib_id "power:GND") (at 351.79 157.48 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "23d9f35e-b80a-5038-8474-a94f85fab025") (property "Reference" "#PWR048" (at 351.79 157.48 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 351.79 160.48 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR048") (unit 1)))))
+(no_connect (at 349.25 157.48) (uuid "95c157fc-0ff4-50ba-aa1d-87e73e6b713c"))
+(symbol (lib_id "Device:C") (at 375.92 133.35 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "da3d4ecd-efa6-598d-9d7a-95640c45395a") (property "Reference" "C17" (at 379.92 131.85 0) (effects (font (size 1.0 1.0))))(property "Value" "100 nF 50 V" (at 382.92 134.85 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "100nF ±10%, 50V X7R MLCC, 0805" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "YAGEO" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CC0805KRX7R9BB104" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C49678" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±10%" (at 375.92 133.35 0) (effects (font (size 1.0 1.0)) (hide yes)))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C17") (unit 1)))))
+(label "+5V_PWM" (at 375.92 129.54 0) (effects (font (size 1.0 1.0)) (justify left bottom)) (uuid "e1d7732e-c07d-551f-a3c7-7f8880ca15af"))
+(symbol (lib_id "power:GND") (at 375.92 137.16 0) (unit 1) (in_bom no) (on_board yes) (dnp no) (uuid "85916bbb-7cbc-5bbb-b724-f69e61635a8b") (property "Reference" "#PWR049" (at 375.92 137.16 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Value" "GND" (at 375.92 140.16 0) (effects (font (size 1.0 1.0))))
+ (instances (project "2 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "#PWR049") (unit 1)))))
 )

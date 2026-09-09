@@ -1,0 +1,4 @@
+.title ThermoLoop Thermistors
+.include "spice/thermistors.inc"
+.dc Vtemperature 0 90 1
+.end

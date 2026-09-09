@@ -19,7 +19,7 @@
 "R1,R2,R5,R22","4","10 kΩ","Resistor_SMD:R_0603_1608Metric","C25804","0603WAF1002T5E","UNI-ROYAL (Uniroyal Elec)","10kΩ ±1%, 100mW Thick Film Resistor, 0603"
 "R3,R25","2","100 kΩ","Resistor_SMD:R_0603_1608Metric","C25803","0603WAF1003T5E","UNI-ROYAL (Uniroyal Elec)","100kΩ ±1%, 100mW Thick Film Resistor, 0603"
 "R4,R24","2","100 Ω","Resistor_SMD:R_0603_1608Metric","C22775","0603WAF1000T5E","UNI-ROYAL (Uniroyal Elec)","100Ω ±1%, 100mW Thick Film Resistor, 0603"
-"R6,R8,R9,R10,R11,R14,R16,R17","8","220 Ω","Resistor_SMD:R_0603_1608Metric","C22962","0603WAF2200T5E","UNI-ROYAL (Uniroyal Elec)","220Ω ±1%, 100mW Thick Film Resistor, 0603"
+"R6,R8,R9,R10,R11,R14,R16,R17","8","150 Ω","Resistor_SMD:R_0603_1608Metric","C22808","0603WAF1500T5E","UNI-ROYAL (Uniroyal Elec)","150Ω ±1%, 100mW Thick Film Resistor, 0603"
 "R12,R13,R23","3","1 kΩ","Resistor_SMD:R_0603_1608Metric","C21190","0603WAF1001T5E","UNI-ROYAL (Uniroyal Elec)","1kΩ ±1%, 100mW Thick Film Resistor, 0603"
 "R26","1","33 Ω","Resistor_SMD:R_0603_1608Metric","C23140","0603WAF330JT5E","UNI-ROYAL (Uniroyal Elec)","33 ohm 1% 100mW 0603 PWM output damping"
 "R27","1","330 Ω","Resistor_SMD:R_0805_2012Metric","C17630","0805W8F3300T5E","UNI-ROYAL (Uniroyal Elec)","330 ohm 1% 125mW 0805; shared 1/2 fan 5V minimum load / pull-up bleed"

@@ -6241,7 +6241,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 174.244 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6273,7 +6273,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6295,7 +6295,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -6306,7 +6306,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 175.26 90)
 			(hide yes)
 			(show_name no)
@@ -7453,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7485,7 +7485,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7507,7 +7507,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -7518,7 +7518,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -7945,7 +7945,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7977,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7999,7 +7999,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8010,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -8191,7 +8191,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8223,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -8245,7 +8245,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -8256,7 +8256,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 180.34 90)
 			(hide yes)
 			(show_name no)
@@ -9128,7 +9128,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 176.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +9160,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -9182,7 +9182,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -9193,7 +9193,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -10595,7 +10595,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 171.704 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10627,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -10649,7 +10649,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -10660,7 +10660,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 172.72 90)
 			(hide yes)
 			(show_name no)
@@ -11735,7 +11735,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 71.374 176.784 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11767,7 +11767,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 64.77 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11789,7 +11789,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 64.77 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -11800,7 +11800,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 64.77 177.8 90)
 			(hide yes)
 			(show_name no)
@@ -11858,7 +11858,7 @@
 				)
 			)
 		)
-		(property "Value" "220 Ω"
+		(property "Value" "150 Ω"
 			(at 121.158 181.864 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11890,7 +11890,7 @@
 				)
 			)
 		)
-		(property "Description" "220Ω ±1%, 100mW Thick Film Resistor, 0603"
+		(property "Description" "150Ω ±1%, 100mW Thick Film Resistor, 0603"
 			(at 127 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11912,7 +11912,7 @@
 				)
 			)
 		)
-		(property "MPN" "0603WAF2200T5E"
+		(property "MPN" "0603WAF1500T5E"
 			(at 127 182.88 90)
 			(hide yes)
 			(show_name no)
@@ -11923,7 +11923,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C22962"
+		(property "JLCPCB" "C22808"
 			(at 127 182.88 90)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,253 @@
+stderr Warning: can't find the initialization file spinit.
+stdout ******
+stdout ** ngspice-46 shared library
+stdout ** Creation Date: Apr 14 2026   05:15:29
+stdout ******
+stdout Note: No compatibility mode selected!
+stdout Circuit: ThermoLoop Thermistors
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout No. of Data Rows : 91
+stdout Note: No compatibility mode selected!
+stdout Circuit: ThermoLoop Fan_PWM
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout rail5                                        5
+stdout gpio                                         0
+stdout input1                                       0
+stdout drive                                        5
+stdout output1                                      5
+stdout fan_pwm                                      5
+stdout reset_gpio                                   0
+stdout reset_drive                                  5
+stdout reset_out                                    5
+stdout reset_pwm                                    5
+stdout breset#branch                      3.88578e-16
+stdout bdrive#branch                      3.88578e-16
+stdout vreset#branch                                0
+stdout vgpio#branch                                 0
+stdout v5#branch                           -0.0151515
+stdout No. of Data Rows : 4113
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+ Reference value :  0.00000e+00
+stdout No. of Data Rows : 7040
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7064
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7062
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7098
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7077
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7125
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7065
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+ Reference value :  0.00000e+00
+stdout No. of Data Rows : 7104
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7113
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7184
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7153
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7242
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+ Reference value :  3.01306e+00
+stdout No. of Data Rows : 7072
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.995
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7118
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7131
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                              11.975
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7211
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7179
+stdout Note: No compatibility mode selected!
+stdout Circuit: Startup assumed load envelope
+stdout Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+stdout Using SPARSE 1.3 as Direct Linear Solver
+stdout Initial Transient Solution
+stdout --------------------------
+stdout Node                                   Voltage
+stdout ----                                   -------
+stdout source                                      12
+stdout fan_supply                               11.95
+stdout vsource#branch                           -0.05
+stdout No. of Data Rows : 7281

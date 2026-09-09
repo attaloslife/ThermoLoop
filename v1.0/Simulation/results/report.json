@@ -1,0 +1,58 @@
+{
+  "status": "PASS - limited model checks only",
+  "thermistor_R25_ohm": 10000,
+  "thermistor_beta_K": 3435,
+  "primary_variant": "2F/2TH",
+  "normal_mapping": "TH1 -> FAN1; TH2 -> FAN2",
+  "startup_load_envelope": "18 exploratory cases solved; model sanity checks passed; NO hardware pass/fail",
+  "supply_requirements_study": "1440 analytical envelope cases; 18 unlimited cases cross-checked against ngspice",
+  "temperature_accuracy_study": "51 temperatures x 16 corners; analytical beta-model sensitivity",
+  "fault_supervisor_tests": {
+    "status": "PASS: provisional supervisor assertions only",
+    "checks": 28
+  },
+  "provisional_fault_policy": "Any sensor fault commands all fans full speed plus alarm",
+  "adc_voltage_at_C": {
+    "25": 1.65,
+    "35": 1.3450942748674117,
+    "50": 0.9597719602836704,
+    "65": 0.6724750207222092
+  },
+  "pwm_min_V": 0.27410207939508613,
+  "pwm_max_V": 4.999999999999557,
+  "pwm_period_s": 3.9999999999999996e-05,
+  "reset_pwm_min_V": 4.999999999999549,
+  "control_checks": [
+    "2F/2TH: off, boost, ramp, full, hysteresis, open, short, independent mapping",
+    "1F/2TH: off, boost, ramp, full, hysteresis, open, short, hotter sensor (provisional)",
+    "1F/1TH: off, boost, ramp, full, hysteresis, open, short",
+    "2F/2TH: asymmetric temperatures, separate boost timers and hysteresis, faults on either sensor"
+  ],
+  "manufacturing_file_hashes": {
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\1 Fan 2 Th.csv": "2d11bb84a72268692cbd33a79bbf8b96fb452a39f62154f196e5747e0a46dfc7",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\1 Fan 2 Th.kicad_pcb": "a9db4d974eb4c387134d219bea4e620a30a95c3ac04488c822a0521cf73621fe",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\1 Fan 2 Th.kicad_sch": "f465de423ad463fdd50da84313405ec68badc5d6bfd035d8283f12bd3d6897bc",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\1 Fan 2 Th.zip": "f42147da94f39629cc3836e6e8afe6d5031f43af4d975abae8ff7aee56a56b84",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\.history\\1 Fan 2 Th.kicad_pcb": "e28a66d2e21853d66a04fc21e299be28cd266daafa941052094c8e982c1ddc4d",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\.history\\1 Fan 2 Th.kicad_sch": "e459d2326a2de436ce48feb1897fdac32a14005b95c0ed5d096f4e51cc878a6a",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\Assembly\\1 Fan 2 Th-all-pos.csv": "60ba1bce7931692f40d365bf934db0e1296fb9222cbaf8441b3c4e0cb8169594",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\Assembly\\1_Fan_2_Th_JLCPCB_CPL.csv": "01f25d1b7bdec7c69919d6aa7aab5d43e4edcc28b4446f1c6f3db37e90def154",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\1 Fan 2 Th\\Gerbers\\1 Fan 2 Th.zip": "0ecfd179189903ad2c17672571582cf5c59d423598f1cc5aee6f9e9c6d8d9904",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\2 Fan 2 Th.csv": "336ad3507f01795d6a34855b50a44e5262e2926371972ecf94a1ba249d9cc312",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\2 Fan 2 Th.kicad_pcb": "8139ee14db851deccae37c6243b20c3f7e39f5a74aa2c80ec6f34dcfb64c93aa",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\2 Fan 2 Th.kicad_sch": "7dd65ddab2fdd5137bb88fa7893c6a8856bfddd743ed08dedfafa781a6cfbb71",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\2 Fan 2 Th.zip": "74a60a1be3d7309414f46af3e958dc3d04deec83a41212b01ac67ce76805d3e9",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\.history\\2 Fan 2 Th.kicad_pcb": "b331c467ddcb43ea92c2b1a3f6fbcbf5f1b38a298b51caf593bf4a498d39790d",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\.history\\2 Fan 2 Th.kicad_sch": "e7c8969245e3ecac132c37b179603c09435762a0a44b7f810aca9a4afec6535b",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\Assembly\\2 Fan 2 Th-all-pos.csv": "c697916a8286ecfd60686d760aa5c6d240e08b96069def36255a2ca321f8f872",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\Assembly\\2_Fan_2_Th_JLCPCB_CPL.csv": "cb8c2c5d6a5c30c8fdee28e180c5c36427cf6c860c8b45e031def99c247a8516",
+    "C:\\Users\\ersinaytac\\Documents\\GitHub\\ThermoLoop\\v1.0\\2 Fan 2 Th\\Gerbers\\2 Fan 2 Th.zip": "6b8b529cb71c79927504021ef9a8a1ab92853385892489338279d0d1e1238155"
+  },
+  "limits": [
+    "Not compiled ATtiny firmware",
+    "Not validated vendor inverter or fan model",
+    "Ideal supplies; no enclosure thermal model",
+    "Beta approximation; ADC acquisition/leakage omitted",
+    "Tach supervisor uses injected counts; no watchdog, brownout, LED or buzzer hardware simulation"
+  ]
+}

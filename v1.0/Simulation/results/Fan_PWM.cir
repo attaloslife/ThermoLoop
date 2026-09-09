@@ -1,0 +1,4 @@
+.title ThermoLoop Fan_PWM
+.include "spice/pwm.inc"
+.tran 50n 200u
+.end

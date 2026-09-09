@@ -1,0 +1,8 @@
+(kicad_sch (version 20250114) (generator "eeschema")
+(uuid "4b9a9e41-7eed-568d-8c90-15534a479349") (paper "A4") (lib_symbols)
+(text "ThermoLoop simulation only - Fan_PWM" (at 25 25 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "988cb43c-746c-50ba-8d72-4a9c891ba506"))
+(text "25 kHz GPIO stimulus -> behavioral inverter -> 33 ohm -> fan input.\nAssumed 25 ohm driver resistance, 1nF cable, 1k fan pull-up.\nPlot V(gpio), V(fan_pwm), V(reset_pwm). Ideal 5V supply." (at 25 40 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "73356cf2-2cbe-5d4b-a065-19cb58b96931"))
+(text ".include \"spice/pwm.inc\"" (at 25 75 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "397311b3-558c-53da-95a9-0d30a008fec8"))
+(text ".tran 50n 200u" (at 25 85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6ac04565-1a2a-5255-a726-79d0bfcf0983"))
+(text "Open Inspect > Simulator. Run the analysis and select node voltages.\nModels live in spice/. See README.md for assumptions.\nThis is a reduced behavioral bench, not the production schematic." (at 25 105 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "62021435-149d-582d-a53e-de0c4a8c52b7"))
+(sheet_instances (path "/" (page "1"))))

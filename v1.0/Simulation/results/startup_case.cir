@@ -1,0 +1,5 @@
+.title Startup assumed load envelope
+.include "spice/startup.inc"
+.param peak_a=1.65 path_r=1.0 stagger_s=5
+.tran 1m 7 0 1m
+.end

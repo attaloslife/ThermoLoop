@@ -1,0 +1,8 @@
+(kicad_sch (version 20250114) (generator "eeschema")
+(uuid "7aea7bad-c8d0-5b4c-b902-b80b6b138a7b") (paper "A4") (lib_symbols)
+(text "ThermoLoop simulation only - Startup" (at 25 25 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "85c97e46-e92d-5260-bfff-ddefae034ac3"))
+(text "Simultaneous fan startup load-envelope experiment, NOT vendor model.\nDefault: assumed 1.1A/fan for 0.5s, then 0.55A/fan.\nAssumed 12V source, 0.5 ohm path, 100uF bus, 50mA auxiliary load.\nPlot V(fan_supply) and -I(Vsource). See startup_report.json." (at 25 40 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "747886bb-c81a-5021-bc2a-fbc61ad042ea"))
+(text ".include \"spice/startup.inc\"" (at 25 75 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4322e96f-8361-56a7-ac65-2f8fa38ad028"))
+(text ".tran 1m 7 0 1m" (at 25 85 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d95ec4fb-96bf-53ee-85ae-74809a5158e7"))
+(text "Open Inspect > Simulator. Run the analysis and select node voltages.\nModels live in spice/. See README.md for assumptions.\nThis is a reduced behavioral bench, not the production schematic." (at 25 105 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4fada11c-33b6-5804-a4cc-208646ab1b41"))
+(sheet_instances (path "/" (page "1"))))
