@@ -3760,7 +3760,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B106KBVZNWE"
+		(property "MPN" "CL32B106KBJNNNE"
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -3772,7 +3772,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5596896"
+		(property "JLCPCB" "C138687"
 			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -6228,7 +6228,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B106KBVZNWE"
+		(property "MPN" "CL32B106KBJNNNE"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6241,7 +6241,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5596896"
+		(property "JLCPCB" "C138687"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9190,7 +9190,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B106KBVZNWE"
+		(property "MPN" "CL32B106KBJNNNE"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -9202,7 +9202,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5596896"
+		(property "JLCPCB" "C138687"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -14038,7 +14038,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14051,7 +14051,7 @@
 				)
 			)
 		)
-		(property "MPN" "AC0805KPX7R9BB102"
+		(property "MPN" "CL21B102KBCNNNC"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14064,7 +14064,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5576121"
+		(property "JLCPCB" "C46653"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")

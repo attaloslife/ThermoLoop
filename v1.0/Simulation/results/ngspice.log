@@ -116,6 +116,7 @@ stdout ----                                   -------
 stdout source                                      12
 stdout fan_supply                              11.995
 stdout vsource#branch                           -0.05
+ Reference value :  1.35045e+00
 stdout No. of Data Rows : 7065
 stdout Note: No compatibility mode selected!
 stdout Circuit: Startup assumed load envelope
@@ -128,7 +129,6 @@ stdout ----                                   -------
 stdout source                                      12
 stdout fan_supply                              11.995
 stdout vsource#branch                           -0.05
- Reference value :  0.00000e+00
 stdout No. of Data Rows : 7104
 stdout Note: No compatibility mode selected!
 stdout Circuit: Startup assumed load envelope
@@ -177,6 +177,7 @@ stdout ----                                   -------
 stdout source                                      12
 stdout fan_supply                               11.95
 stdout vsource#branch                           -0.05
+ Reference value :  0.00000e+00
 stdout No. of Data Rows : 7242
 stdout Note: No compatibility mode selected!
 stdout Circuit: Startup assumed load envelope
@@ -189,7 +190,6 @@ stdout ----                                   -------
 stdout source                                      12
 stdout fan_supply                              11.995
 stdout vsource#branch                           -0.05
- Reference value :  3.01306e+00
 stdout No. of Data Rows : 7072
 stdout Note: No compatibility mode selected!
 stdout Circuit: Startup assumed load envelope
@@ -250,4 +250,5 @@ stdout ----                                   -------
 stdout source                                      12
 stdout fan_supply                               11.95
 stdout vsource#branch                           -0.05
+ Reference value :  1.70803e+00
 stdout No. of Data Rows : 7281

@@ -5560,7 +5560,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL32B106KBVZNWE"
+		(property "MPN" "CL32B106KBJNNNE"
 			(at 252.73 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5571,7 +5571,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5596896"
+		(property "JLCPCB" "C138687"
 			(at 252.73 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5878,7 +5878,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 247.65 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5889,7 +5889,7 @@
 				)
 			)
 		)
-		(property "MPN" "AC0805KPX7R9BB102"
+		(property "MPN" "CL21B102KBCNNNC"
 			(at 247.65 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5900,7 +5900,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C5576121"
+		(property "JLCPCB" "C46653"
 			(at 247.65 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12249,9 +12249,9 @@
 
 (symbol (lib_id "ThermoLoop_PWM:TPS7B6950QDBVRQ1") (at 220.98 27.94 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8aae5202-5efd-51ab-89d1-dd90813e393c") (property "Reference" "U3" (at 220.98 18 0) (effects (font (size 1.0 1.0))))(property "Value" "TPS7B6950QDBVRQ1" (at 220.98 20.5 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7b69-q1.pdf" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C132202" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "TPS7B6950QDBVRQ1" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Texas Instruments" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "5 V 150 mA LDO, 40 V input, SOT-23-5" (at 220.98 27.94 0) (effects (font (size 1.0 1.0)) (hide yes)))
  (instances (project "1 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "U3") (unit 1)))))
-(symbol (lib_id "Device:C") (at 203.2 35.56 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cc66fa0c-881d-5370-8d4e-2213f39fb78d") (property "Reference" "C14" (at 207.2 34.06 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 210.2 37.06 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBVZNWE" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C5596896" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))
+(symbol (lib_id "Device:C") (at 203.2 35.56 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cc66fa0c-881d-5370-8d4e-2213f39fb78d") (property "Reference" "C14" (at 207.2 34.06 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 210.2 37.06 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBJNNNE" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C138687" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 203.2 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))
  (instances (project "1 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C14") (unit 1)))))
-(symbol (lib_id "Device:C") (at 241.3 35.56 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7d13ce77-bdff-562c-9dfe-50c3b184deab") (property "Reference" "C15" (at 245.3 34.06 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 248.3 37.06 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBVZNWE" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C5596896" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))
+(symbol (lib_id "Device:C") (at 241.3 35.56 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7d13ce77-bdff-562c-9dfe-50c3b184deab") (property "Reference" "C15" (at 245.3 34.06 0) (effects (font (size 1.0 1.0))))(property "Value" "10 µF 50 V" (at 248.3 37.06 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "10uF ±10%, 50V X7R MLCC, 1210" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "Samsung Electro-Mechanics" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "CL32B106KBJNNNE" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C138687" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Dielectric" "X7R" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Operating temp" "-55°C to +125°C" (at 241.3 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))
  (instances (project "1 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "C15") (unit 1)))))
 (symbol (lib_id "Device:R") (at 265.43 35.56 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "cafa82ee-5270-5450-b300-ed8e1db0b5fc") (property "Reference" "R27" (at 269.43 34.06 0) (effects (font (size 1.0 1.0))))(property "Value" "330 Ω" (at 272.43 37.06 0) (effects (font (size 1.0 1.0))))(property "Footprint" "Resistor_SMD:R_0805_2012Metric" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Datasheet" "" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Description" "330 ohm 1% 125mW 0805; shared 1/2 fan 5V minimum load / pull-up bleed" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Manufacturer" "UNI-ROYAL (Uniroyal Elec)" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "MPN" "0805W8F3300T5E" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "JLCPCB" "C17630" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))(property "Tolerance" "±1%" (at 265.43 35.56 0) (effects (font (size 1.0 1.0)) (hide yes)))
  (instances (project "1 Fan 2 Th" (path "/70fc5203-ff69-4e9b-b309-3a914fb06dc3" (reference "R27") (unit 1)))))
